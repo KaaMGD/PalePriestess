@@ -1,0 +1,1524 @@
+{
+    "name": "Loretta",
+    "IDname": "Loretta",
+    "species": "Vampire",
+    "gender": "female",
+    "description": "A tall 'human' woman clad in sensually transparent lacy robes.",
+    "encyclopedia": "",
+    "tags": "none",
+    "generic": "False",
+    "requires": [ ""],
+    "requiresEvent": [
+                        {
+                          "NameOfEvent": "",
+                          "Progress": "-99",
+                          "ChoiceNumber": "-1",
+                          "Choice": ""
+                        }
+                      ],
+    "skillList": [
+            "Suffocating Foot Sex",
+            "Lethargic Anal",
+
+            "Ensorcelled Gaze",
+              "Stocking Blindfold",
+              "Reach-around Footjob",
+              "Insidious Whispers", "Insidious Whispers",
+
+            "Vampire's Night Terrors",
+              "Dream of Vampire Pussy","Dream of Vampire Pussy","Dream of Vampire Pussy","Dream of Vampire Pussy",
+                "Nightmare Riding",
+              "Dream of Priestess Panties","Dream of Priestess Panties","Dream of Priestess Panties","Dream of Priestess Panties",
+                "Nightmare Suffocation",
+
+            "Priestess Needles",
+              "Stiffening Caress",
+              "Silky Handjob","Silky Handjob","Silky Handjob","Silky Handjob","Silky Handjob","Silky Handjob","Silky Handjob","Silky Handjob","Silky Handjob",
+              "Silky Handjob","Silky Handjob","Silky Handjob","Silky Handjob","Silky Handjob","Silky Handjob","Silky Handjob","Silky Handjob","Silky Handjob"
+
+
+          ],
+    "perks": [ "Kissing Adverse","Undeniable Pleasure","Honey Trap","Aphrodisiac Resistant","Domineering","Quick Witted"],
+    "stats": { "lvl": "35",
+              "Exp": "550",
+              "max_hp": "500",
+              "max_ep": "100",
+              "max_sp": "1",
+              "Power": "15",
+              "Technique": "25",
+              "Intelligence": "30",
+              "Allure": "30",
+              "Willpower": "25",
+              "Luck": "-10"
+    },
+    "Fetishes": [ ""],
+    "BodySensitivity": { "Sex": "100",
+              "Ass": "40",
+              "Breasts": "90",
+              "Mouth": "150",
+              "Seduction": "105",
+              "Magic": "90",
+              "Pain": "130",
+              "Holy": "200",
+              "Unholy": "50"
+    },
+    "resistancesStatusEffects": {
+              "Stun": "25",
+              "Charm": "10",
+              "Aphrodisiac": "50",
+              "Restraints": "0",
+              "Sleep": "999",
+              "Trance": "0",
+              "Paralysis": "0",
+              "Debuff": "10"
+    },
+    "moneyDropped": "1000",
+    "ItemDropList": [
+                      {
+                        "name": "Blessed Rosary",
+                        "dropChance": "5"
+                      },
+                      {
+                         "name": "Soothing Potion",
+                         "dropChance": "15"
+                       },
+                       {
+                         "name": "Mini Elixir",
+                         "dropChance": "10"
+                       }
+                    ],
+    "lossScenes": [
+                    {
+                        "NameOfScene": "Glovejob",
+                        "move": "Silky Handjob",
+                        "stance": "",
+                        "includes": ["Loretta"],
+                        "theScene": [
+                                    "With the last bit of white splooge helplessly leaking from your cock onto your stomach, Loretta lets go of your cock. The respite is both welcome and unpleasant, as your still erect cock needily throbs for more pleasure.",
+                                    "ChangeImageLayer", "Expression", "1", "SmugSmile",
+                                    "Speaks", "Huhuh...♥",
+                                    "ChangeImageLayer", "Base", "1", "BaseNoGlove",
+                                    "Looking you in the eye smugly, Loretta pulls off the cum-stained silky glove from her hand. With now bare hand, she firmly grips your balls and brings her lips to you ear.",
+                                    "Speaks", "You know... Those needles made your blood taste bad for a while...",
+                                    "ChangeImageLayer", "Expression", "1", "SmugGrin",
+                                    "Speaks", "So I'll be playing with {i}these{/i} for a while.",
+                                    "She squeezes your testicles firmly with her cool hand. Still unable to lift a finger from paralysis, and so completely in her grasp, you feel extremely vulnerable. But your predicament only serves to excite you, your cock growing shamefully hard and leaking precum on the cold stone floor.",
+                                    "ChangeImageLayer", "Expression", "1", "BashfulGrin",
+                                    "Speaks", "I see you don't mind, huhu...♥",
+                                    "Loretta shifts and steps behind you, putting her hands under your arms and pulling you back. Still paralyzed stiff, you start helplessly falling down into her embrace, quite worried that she will drop you...",
+                                    "Surprisingly enough, Loretta lays you to the ground with gentle care, proceeding to cuddle up to your side before putting her glove on your stomach. The stone floor is quite cold, and so is her body, but the needy heat in your loins keeps you quite warm.",
+                                    "ChangeImageLayer", "Expression", "1", "SmugSmile",
+                                    "Loretta pokes at the cum-stained glove and looks up to you with a smug smile, her fangs digging into her soft lower lip.",
+                                    "Speaks", "Since you came all over it... let's have you fill the insides next.",
+                                    "ChangeImageLayer", "Expression", "1", "SmugGrin",
+                                    "With a wide grin, Loretta pulls the cum-smeared glove over your cock. The silky cloth fits snugly around your engorged erection, slightly warm and damp with her sweat, and your cum. Your dick throbs needily in response, enjoying its tight confinement.",
+                                    "ChangeImageLayer", "Expression", "1", "SmugSmile",
+                                    "Speaks", "Huhu... it looks ridiculous. And such a look fits you best, loser 'Hero'.♥",
+                                    "She grips your balls again, drawing a low, pleasured whine from you as your cock starts throbbing from her touch, trapped in the silky prison of her glove. She coos and massages your jewels insistently, the firm grasp of her dainty fingers feeling divine on your already aching nuts.",
+                                    "ChangeImageLayer", "Expression", "1", "SmugGrin",
+                                    "Speaks", "That was a nice moan. One more!",
+                                    "ChangeImageLayer", "Expression", "1", "SmugSmile",
+                                    "Her hand squeezes down harder, a pleasurable but worrisome pressure attacking your vulnerable testicles. You can't manage to hold back another moan, clearly pleasing the haughty vampire who starts giggling softly in response.",
+                                    "Speaks", "Men belong to their dicks, but with your precious, fragile balls, you are even easier to control.",
+                                    "ChangeImageLayer", "Expression", "1", "SmugGrin",
+                                    "Speaks", "Now let's make you cum.",
+                                    "ChangeImageLayer", "Expression", "1", "SmugSmile",
+                                    "She starts to methodically squeeze, pull and bounce your heavy, rapidly-filling testes in her soft hand. Your dick throbs and bounces wildly, drooling sticky precum into the silky glove, neglected and eager for more stimulation, your arousal already unbearable.",
+                                    "Moaning loudly, you actually manage to thrust your hips upward, the paralytic effects of her needle seemingly going away. Loretta emotes in surprise, cackling at your efforts.",
+                                    "ChangeImageLayer", "Expression", "1", "SmugGrin",
+                                    "Speaks", "Huhu, you can move already? Is your desire to have sex with my glove {i}that{/i} strong?♥",
+                                    "ChangeImageLayer", "Expression", "1", "SmugSmile",
+                                    "Speaks", "Go ahead then, do your best.♥ Swing those hips and fuck my glove as I bully your precious balls.♥",
+                                    "You groan from her abuse, but can't deny your ever-growing excitement from the harsh words, and the silky smooth insides of her glove do feel quite amazing. Eager for release, you howl and thrust upwards like a lust-mad animal, but in the end remain in complete control of her squeezing hand.",
+                                    "ChangeImageLayer", "Expression", "1", "BashfulGrin",
+                                    "Speaks", "Quite the animal, aren't we? That desperate, you look so lame.♥ Do that again.♥",
+                                    "Not in control of yourself, you can't really deny her demand, pathetically humping the air with her glove stuck to your erection. The fingers flap around wildly, wet slapping noises filling the cavern as the cum-soaked piece of cloth flaps around your needily thrusting cock.",
+                                    "ChangeImageLayer", "Expression", "1", "CrimsonGaze",
+                                    "Speaks", "Good, good! Now let's see you cum! Shake those hips and impregnate my glove, you dumb animal!",
+                                    "PlayerOrgasm",
+                                    "PlaySoundEffect", "sfx/Erotic/Ejaculation/Ejaculation sound go out (long) 1.wav",
+                                    "ChangeImageLayer", "Expression", "1", "SmugSmile",
+                                    "Arching your back you groan and finally manage to cum, powerfully and wildly, spraying a huge serving of scaldingly hot seed into the luxuriously soft glove. Loretta's previously firm grasp on your balls loosens up, as she softly massages your unloading testes, guiding you through your animalistic orgasm.",
+                                    "As your orgasm subsides, you collapse on the floor in exhaustion, her sperm-soaked glove falling dirtily on your stomach with a loud splat. As your consciousness dims, you watch Loretta's rosy lips whisper to you...",
+                                    "ChangeImageLayer", "Expression", "1", "EnchantingGaze",
+                                    "Speaks", "You will come visit me again... And tell no one else of me...",
+                                    "ChangeSensitivity", "Pain", "3",
+                                    "ChangeSensitivity", "Sex", "3"
+                        ],
+                        "picture": ""
+                    },
+                    {
+                        "NameOfScene": "AmazonLoss",
+                        "move": "",
+                        "stance": "Amazon Position",
+                        "includes": ["Loretta"],
+                        "theScene": [
+                                    "As the last of your resistance spurts weakly into her hellishly tight pussy, Loretta lifts her hips, as if already sensing your utter defeat. Your cock slips out of her over-filled pussy and falls down, flaccid and defeated.",
+                                    "ChangeImageLayer", "Expression", "1", "SmugSmile",
+                                    "Speaks", "Hmph, no stamina at all.",
+                                    "Putting two fingers over her pussy, Loretta spreads its lips wide open, showing off how much you filled it with your thick splooge. A stream of sticky ivory leaks outside, splattering down unto your thoroughly drained cock.",
+                                    "Speaks", "Lookie here, 'Hero'. Is this the extent of your resolve? Is surrendering your pitiful seed to monsters your real goal?",
+                                    "You clench your teeth and look away in shame, drawing an amused cackle from the evil vampiress. The erotic sight, added to her verbal assault and the cum dripping on your cock, is enough to start getting you hard again.",
+                                    "Speaks", "Huhu, feeling shamed? Frustrated? That's all because you're a pervert. A pervert in denial.",
+                                    "ChangeImageLayer", "Expression", "1", "SmugGrin",
+                                    "Speaks", "Oh, but look at this thing down here. Getting a stiffy again? At least your sorry thing is honest, unlike you...",
+                                    "Loretta drops her hips again, this time trapping your cock between her thighs, pressing your shaft against her soft pussy. You moan weakly in protest, involuntary thrusting your hips and trying to rub yourself over her wet slit, but the dominant priestess doesn't reciprocate.",
+                                    "ChangeImageLayer", "Expression", "1", "EvilSmile",
+                                    "Speaks", "Your weak, losing cock doesn't deserve my pussy. I will squeeze it dry with my thighs. I am sure you agree, that it's good enough for a loser 'Hero' like yourself.",
+                                    "She starts moving her legs in alternating fashion, her soft, meaty thighs squeezing your already hard prick from all directions. You moan from the sudden onset of pleasure on your sensitive, post-orgasmic cock, which already starts leaking more precum.",
+                                    "ChangeImageLayer", "Expression", "1", "CrimsonGaze",
+                                    "Speaks", "See? It's already begging to shoot more. Loose, weak, pathetic cock! Even my thighs are too good for you!",
+                                    "Loretta suddenly leans over, as she keeps attacking your cock with her legs, bringing her unhinged, terrifying visage next to your face.",
+                                    "ChangeImageLayer", "Expression", "1", "DangerousGlint",
+                                    "Speaks", "But you see... I may be persuaded to let you use my wet, tight pussy... Unload all your lustful desires into my waiting womb... Now how would you like that, mm?♥",
+                                    "ChangeImageLayer", "Expression", "1", "EvilSmile",
+                                    "Speaks", "If you let me bite you... You get to creampie my pure, priestessly pussy all you want. It will feel amazing. I know you're already hooked on my pussy.♥ And you will get to cum inside it as much as you want...♥",
+                                    "Loretta shifts her hips upwards, now rubbing the tip of your cock against her moist entrance... You can't help but gulp down nervously, the deal she offers is so tempting...",
+                                    "ChangeImageLayer", "Expression", "1", "CrimsonGaze",
+                                    "Speaks", "What do you say?",
+                                    "Menu",
+                                      "Agree to get bitten.",
+                                      "Turn down the offer",
+                                    "EndLoop"
+                                  ],
+                        "picture": ""
+                    },
+                    {
+                        "NameOfScene": "Agree to get bitten.",
+                        "move": "",
+                        "stance": "Unavalible",
+                        "includes": ["Loretta"],
+                        "theScene": [
+                                    "ChangeImageLayer", "Expression", "1", "EnchantingGaze",
+                                    "Speaks", "Hahyaaa...♥",
+                                    "PlayVisualEffect", "ScreenPulse", "../Mods/Pale Priestess/Images/FangedKissy.png",
+                                    "Loretta wastes no time sinking her fangs into your neck, just as your cock sinks into the moist depths of her delightful pussy, knocking softly against her womb.",
+                                    "PlayerOrgasm",
+                                    "PlaySoundEffect", "sfx/Erotic/Ejaculation/Ejaculation sound go out (long) 1.wav",
+                                    "PlayVisualEffect", "ScreenPulse", "../Mods/Pale Priestess/Images/FangedKissy.png",
+                                    "You don't feel much pain from bite, only the heat of your blood rushing out and getting absorbed by the deathly cold emanating from her hungry maw. You don't mind this uncanny chill of death, because your engorged cock feels like it's on fire, already spurting a massive load of hot seed into Loretta's waiting womb.",
+                                    "PlayVisualEffect", "ScreenPulse", "../Mods/Pale Priestess/Images/FangedKissy.png",
+                                    "Speaks", "Mmhph...♥ Tashty blood...♥",
+                                    "PlayerOrgasm",
+                                    "PlaySoundEffect", "sfx/Erotic/Ejaculation/Ejaculation sound go out (long) 1.wav",
+                                    "Loretta bounces her womanly hips in your lap, each movement drawing another pleasurable spurt from your cock, flooding and overfilling her welcoming womb with seed. Ropes of thick seed keep erupting from your dick, endlessly and abudantly, as if she didn't wring you dry during the fight just now.",
+                                    "Your eyes start rolling back from the amazing orgasms, your cock continiously climaxing inside the undead pussy and seemingly unable to stop. A large pool of cum forms over your mashing crotches, adding loud squelching noises to your animalistic copulation.",
+                                    "But you don't hear that anymore, your consciousness already slipping as your mind starts shutting down from the intense pleasure. What you hear are Loretta's loud gulps, moans and euphoric giggling as she drinks up your blood...",
+                                    "PlayBlackOut",
+                                    "Everything grows dark... And finally, one last sentence slips into your rapidly shutting down mind...",
+                                    "Speaks", "You will come visit me again... And tell no one else of me...",
+                                    "ChangeSensitivity", "Pain", "5",
+                                    "ChangeSensitivity", "Sex", "3"
+                                  ],
+                        "picture": ""
+                    },
+                    {
+                        "NameOfScene": "Turn down the offer",
+                        "move": "",
+                        "stance": "Unavalible",
+                        "includes": ["Loretta"],
+                        "theScene": [
+                                    "ChangeImageLayer", "Expression", "1", "Amused",
+                                    "Speaks", "Huhu... Is that so?",
+                                    "ChangeImageLayer", "Expression", "1", "SmugSmile",
+                                    "Speaks", "Are you that afraid of the scary vampire...? Or maybe my taunts stung a little too much, mm? Decided to be a real Hero for once? Almost commendable.",
+                                    "ChangeImageLayer", "Expression", "1", "Disdain",
+                                    "Speaks", "Unless it's just your pride talking.",
+                                    "ChangeImageLayer", "Expression", "1", "EnchantingGaze",
+                                    "Speaks", "Now cum.",
+                                    "ChangeImageLayer", "Expression", "1", "CrimsonGaze",
+                                    "PlayerOrgasm",
+                                    "PlaySoundEffect", "sfx/Erotic/Ejaculation/Ejaculation sound go out (long) 1.wav",
+                                    "Your cock erupts at her command, splattering her stomach, the underside of her tits and raining hot, white seed all over her soft thighs in one go. But it doesn't end there, more and more sticky white stuff rushing out from your defeated dick, pooling up in the soft, creamy valley between her supple thighs.",
+                                    "Loretta cackles manically as she leans back, quickly bouncing her hips and sliding her smooth, cum-smeared thighs up and down your helplessly orgasming shaft, drawing more and more ejaculations from you. Already losing consciousness, you still can't look away from her pale legs as they're mercilessly attacking your cock...",
+                                    "PlayBlackOut",
+                                    "And as you finally pass out, one last sentence slips into your rapidly shutting down mind...",
+                                    "Speaks", "You will come visit me again... And tell no one else of me...",
+                                    "ChangeSensitivity", "Sex", "5"
+                                  ],
+                        "picture": ""
+                    },
+                    {
+                        "NameOfScene": "FaceSitLoss",
+                        "move": "",
+                        "stance": "Face Sit",
+                        "includes": ["Loretta"],
+                        "theScene": [
+                                    "ChangeImageLayer", "Face", "1", "",
+                                    "With your cock raising its final white flag, sputtering hot seed all over the floor, you slump to the ground in defeat. You couldn't remove Loretta's wonderful ass from your face, and now you don't want to.",
+                                    "Loretta's addictive floral fragrance dominates your senses completely, and with her wonderful, soft ass resting on your face, you couldn't wish for anything more. Greedily, you start huffing and panting beneath her, your cock shamelessly growing hard again, as if it could still resist.",
+                                    "ChangeImageLayer", "Expression", "1", "Boredom",
+                                    "Speaks", "All out of fighting spirit already? Hmph...",
+                                    "Loretta raises her ass from your face, causing you to protest weakly. You raise your hands needily, even though her divine rump is already too far above, even though it's completely out of your reach, you need it... But in the end, you can only slump down with a weak moan.",
+                                    "ChangeImageLayer", "Expression", "1", "AngerSubdued",
+                                    "Speaks", "Oh do be quiet, or I'll just leave you here.",
+                                    "ChangeImageLayer", "Expression", "1", "Boredom",
+                                    "ChangeImageLayer", "Base", "1", "BaseBottomless",
+                                    "You promptly shut up, your fuzzy and confused mind mildly terrified at the idea of being removed from the wonderfully-smelling vampiress. In silent awe, you watch as Loretta pulls off her lacy panties before sitting on your face again, presenting her bare pussy to your already lapping tongue.",
+                                    "The direct smell of her bare pussy is different. More intense, erotic... intoxicating. You huff needily, eager for more of the wondorous fragrance... As her wonderful juices finally grace your tongue, your lust flares up, cock almost leaking more seed on the spot.",
+                                    "Speaks", "I don't want this to take too long, so here, help yourself.",
+                                    "Something soft and silky falls over your throbbing manhood. Quickly, you realize that she tossed her panties at it, and even more needy excitement starts building inside of you.",
+                                    "ChangeImageLayer", "Expression", "1", "SmugGrin",
+                                    "Speaks", "Start masturbating. My panties should be all you need, seeing how you managed to lose to my smell alone.",
+                                    "PlayLoopingSoundEffect", "sfx/Erotic/Hand/Handjob (high speed).wav",
+                                    "Not feeling even a little conflicted, you instantly grip your dick with shaking hands, reveling at the silky soft touch of her underwear. Lapping up her sweet juices desperately, you start furiously beating yourself off with her panties, the fetishistic lust surging and flooding your mind.",
+                                    "Her soft pussy is slowly drooling sweet juice, but only a little, indicating how the priestess is absolutely composed and in control of her lusts. Your head begins to spin from her delightful scent and taste, and your intense masturbation, leaving you panting and grunting like a needy animal, your hand a white blur around your cock.",
+                                    "ChangeImageLayer", "Expression", "1", "Boredom",
+                                    "Speaks", "Hmph... You're like a monkey. Do I have to teach you how to masturbate properly now? Slow down.",
+                                    "PlayLoopingSoundEffect", "sfx/Erotic/Hand/Handjob (medium speed).wav",
+                                    "She grinds her pussy into your face to insist on her demand. You whine weakly and somehow manage to stroke slower, waiting for further commands despite all-consuming lust raging in your prone form.",
+                                    "ChangeImageLayer", "Expression", "1", "Smile",
+                                    "Speaks", "Good. Now spread your legs a little wider. Long, smooth strokes, from base to the tip. One-two, one-two...",
+                                    "You start masturbating following her instructions, settling on a slow pace with long strokes. Being slower, it shouldn't feel better than before, but it does, so much that you already feel like cumming right now. You feel extremely excited to follow her commands, even for something quite embarrassing like this...",
+                                    "Speaks", "See? Isn't this much, much better? I know you feel like cumming already, but try to endure. We've only just started.",
+                                    "You grit your teeth, trying to please your vampiric 'instructor', stroking your cock slowly and licking up her juices, trying not to think about cumming, focusing entirely on her demands.",
+                                    "ChangeImageLayer", "Face", "1", "Flush",
+                                    "Speaks", "Up and down, up and down... Fap-fap-fap... Now speed up, and I want you to focus on your glans. Play with your tip for me.",
+                                    "You follow her command, switching to teasing your sensitive tip with the silky-smooth lingerie, fighting off the intense desire to orgasm, unable to even grit your teeth as you're focused on servicing her pale pussy. Loretta coos and rewards your effort with an affectionate caress, running her hand over your abdomen.",
+                                    "Speaks", "Delightful. Doesn't it feel good to stroke in tact to my voice? Each and every word I utter a stroke on your cock? To show off your shameful masturbation to your Mistress?",
+                                    "It does. It feels amazing to stroke and tease yourself, knowing that she's watching, that she is pleased by your obedience. But it is too much, the desire to cum causes you to whine and howl beneath her, stuck on the verge of an incredibly powerful orgasm, unable to hold back anymore but also incapable of disobeying her orders.",
+                                    "ChangeImageLayer", "Expression", "1", "LewdGrin",
+                                    "Speaks", "Are you about to cum? Can't take it anymore? Ah, you did a good job enduring so far, so go ahead. Loretta is watching. Show me your ejaculation.",
+                                    "PlayerOrgasm",
+                                    "StopSoundEffectLoop",
+                                    "PlaySoundEffect", "sfx/Erotic/Ejaculation/Ejaculation sound go out (long) 1.wav",
+                                    "The moment you are allowed release, you erupt into the silky underwear, flooding the lacy apparel, thoroughly staining them with sticky hot seed. Your cum just keeps rushing out, dripping down on your crotch as it couldn't get absorbed by the tiny piece of her clothes.",
+                                    "Speaks", "Good, good... Soil my pure, pristine panties thoroughly, mark them with your dirty seed... You lustful, perverted animal.",
+                                    "Rope after rope of cum shoots out of your stiff manhood, some caught in the cloth, the rest drooling down unto your crotch, creating a wet, sticky mess. Your mind can't take any more stimulation, quickly shutting down from Loretta's overbearing fragrance and the intense orgasm...",
+                                    "PlayBlackOut",
+                                    "As the world grows dim... One last instruction leaks into your defeated mind...",
+                                    "Speaks", "You will come visit me again... And tell no one else of me...",
+                                    "ChangeSensitivity", "Sex", "5"
+                                  ],
+                        "picture": ""
+                    },
+                    {
+                        "NameOfScene": "AnalIntro",
+                        "move": "",
+                        "stance": "Anal",
+                        "includes": ["Loretta"],
+                        "theScene": [
+                                    "ChangeImageLayer", "Face", "1", "",
+                                    "ChangeImageLayer", "Expression", "1", "Boredom",
+                                    "Spurting the last of your cum into Loretta's inhumanly tight asshole, you moan weakly and tumble forward, desperately wrapping your arms around Loretta's waist to remain standing. The vampire priestess glances behind and only sighs softly.",
+                                    "Speaks", "All done? Stop clinging to me so much then, it's gross.",
+                                    "She pushes you with her soft butt, the weak impact enough to send you falling down on your ass. Your defeated, flaccid cock drools cum on the ground weakly as you try to catch your breath.",
+                                    "ChangeImageLayer", "Expression", "1", "Disdain",
+                                    "Loretta doesn't seem to plan on giving you any respite however, gracefully walking up to you again. Your cum drips to the ground from between her asscheeks but you don't see that, unable to look away from her disdainful face as she sneers down on your prone form.",
+                                    "JumpToScene", "FeedingFootjob"
+                                  ],
+                        "picture": ""
+                    },
+                    {
+                        "NameOfScene": "SmotheringSexIntro",
+                        "move": "",
+                        "stance": "Feet Smothering",
+                        "includes": ["Loretta"],
+                        "theScene": [
+                                    "ChangeImageLayer", "Face", "1", "Flush",
+                                    "ChangeImageLayer", "Expression", "1", "LewdGrin",
+                                    "As you're spurting the last of your cum into Loretta's inhumanly tight pussy, your defeated moan is muffled by her feet. They keep assaulting your face, the dangerous smell they exude as arousing as ever, even with you being completely spent.",
+                                    "Loretta grins and pushes you away with her feet, meeting no resistance from your limp body. You fall back, cock slipping out of her hungry pussy as you fall on your ass. Exhausted and spent, you try to catch your breath, your head still spinning from her smell.",
+                                    "Loretta doesn't seem to plan on giving you any respite however, gracefully walking up to you again. Your cum drips to the ground from her thoroughly creampied pussy but you don't see that, unable to look away from her disdainful face as she sneers down on your prone form.",
+                                    "JumpToScene", "FeedingFootjob"
+                                  ],
+                        "picture": ""
+                    },
+                    {
+                        "NameOfScene": "SexIntro",
+                        "move": "",
+                        "stance": "Sex",
+                        "includes": ["Loretta"],
+                        "theScene": [
+                                    "ChangeImageLayer", "Face", "1", "Flush",
+                                    "ChangeImageLayer", "Expression", "1", "EvilSmile",
+                                    "Having spurted another load inside Loretta, you realize that you failed to defeat her vampire pussy even in a fair fight. You fall forward helplessly, diving facefirst into her soft tits. She smiles dangerously, putting her soft hands on your shoulders.",
+                                    "Suddenly she sits up and pushes you away, making you fall on your ass, cock still spurting in defeat as it slips out of her creampied pussy. It keeps drooling cum on the ground weakly as you pant heavily, trying to catch your breath.",
+                                    "Loretta doesn't seem to plan on giving you any respite however, gracefully walking up to you again. Your cum drips to the ground from her thoroughly creampied pussy but you don't see that, unable to look away from her disdainful face as she sneers down on your prone form.",
+                                    "JumpToScene", "FeedingFootjob"
+                                  ],
+                        "picture": ""
+                    },
+                    {
+                        "NameOfScene": "NoStanceIntro",
+                        "move": "",
+                        "stance": "",
+                        "includes": ["Loretta"],
+                        "theScene": [
+                                    "NoStanceIntro, this loss scene shouldn't trigger, report to Kaa with game's message history if you see this. Jumping to default footjob scene...",
+                                    "JumpToScene", "FeedingFootjob"
+                                  ],
+                        "picture": ""
+                    },
+                    {
+                        "NameOfScene": "FeedingFootjob",
+                        "move": "",
+                        "stance": "Footjob",
+                        "includes": ["Loretta"],
+                        "theScene": [
+                                    "With another mind-bending orgasm your cock erupts with the last of your energy, raining white all around. Loretta nibbles at your ear softly, causing you to moan weakly, and the last of your resistance crumbles.",
+                                    "Speaks", "It only gets better from now...",
+                                    "You whine a little as her feet leave your cock. You feel her bare leg rest on your thigh for a moment, but not the other. You do hear ruffling of cloth, however, and dimly realize she must be taking off her other stocking...",
+                                    "Next moment you know that she did, as the stocking slips over your mouth like a makeshift gag. You gasp and moan as more of her stuffy foot-scent invades your senses, but the gag muffles your helpless pants.",
+                                    "Speaks", "Shh... Breathe deeper and enjoy yourself, thrall. I know my smell is irresistable.",
+                                    "Not having a choice or the strength to resist, you have to do as she says. Gasping for more air, you only get more and more of her overbearing fragrance instead, the bittersweet scent threatening to make you spurt another shameful load for her amusement.",
+                                    "Speaks", "You also get to have bareback sex with my priestessly feet... Aren't you glad?♥",
+                                    "PlayLoopingSoundEffect", "sfx/Erotic/Feet/kuchaLong03.wav",
+                                    "You can't deny your desire as her soft and slightly damp feet grip your cock. You whine and thrust your hips upwards, your sensitive, defeated cock seeking even more pleasure. Loretta coos in your ear and starts to jack off your cock with her feet slowly.",
+                                    "As your cock grows ever stiffer, the rest of your body seems to lose more and more strength, weakly relaxing in Loretta's cradling embrace. You lean back against her soft tits, deprived of vision, your helpless moans muffled by her silky stocking. Your senses seem to focus completely on her almost suffocating smell, and the sublime touch of her feet on your cock.",
+                                    "Speaks", "All comfortable? You should start cumming then, my little thrall.",
+                                    "PlayLoopingSoundEffect", "sfx/Erotic/Feet/kucha03.wav",
+                                    "PlayerOrgasm",
+                                    "PlaySoundEffect", "sfx/Erotic/Ejaculation/Ejaculation sound go out (long) 1.wav",
+                                    "You obey without a second thought, your cock erupting as soon as you hear the command. You gasp into the stocking as your cock seems to erupt far more than usual, launching a huge load into the air that rains back on your crotch, and likely at her stroking feet.",
+                                    "Her feet are sliding effortlessly over your engorged cock, her soft toes greedily gripping at the underside of your cock. Each time her big toes brush against the underside of your glans, a rope of thick spunk comes rushing out into the air, as if your wild ejaculation is entirely controlled by her footjob.",
+                                    "Speaks", "Huhuhu, you're making a mess... Now, do it again. You need to cum even more to feel better.",
+                                    "PlayerOrgasm",
+                                    "PlaySoundEffect2", "sfx/Erotic/Ejaculation/Ejaculation sound go out (long) 1.wav",
+                                    "Not expecting it yourself, you do cum again, your cock seemingly under her complete control. Your loud moan makes it through the gag, as you shudder and shiver in her grasp. Loretta catches your over-sensitive glans between her big and index toes, while expertly stroking your shaft with her other foot.",
+                                    "You babble in incoherent pleasure as your cock seems to become completely loose, dribbling a constant stream of cum as her divine feet tease at your overly-stimulated length. Loretta cackles quietly as she keeps squeezing this abnormal ejaculation out of your cock, never easing up on the stimulation, just as you deeply desired.",
+                                    "StopSoundEffectLoop",
+                                    "Unable to stand more pleasure, your cock finally goes limp, still grasped by her bare feet. You'd expect your recall stone to activate by now, but instead you feel more and more needy desire towards your vampiric mistress. You shiver with pleasure as her hands wrap around your chest, propping you upright against her as she leans to whisper in your ear again, her tone dripping with obscene arousal.",
+                                    "Speaks", "My little thrall... Your Mistress Loretta is so, so {color=#DC143C}hungry{/color}...♥ I promise it will feel even {i}better{/i}... So could you offer some blood for me, mm?♥",
+                                    "You only manage a muffled groan in response, your confused, overwhelmed mind still trying to process her offer.",
+                                    "Speaks", "You don't have to say anything... Only how you feel matters.",
+                                    "You feel her breath on your neck... it is cold, unnatural, scary. A vision of her demonic fangs flashes in your mind, undoubtedly they are mere inches away from your neck. You...",
+                                    "Menu",
+                                      "Don't let her bite.",
+                                      "Let her bite you...",
+                                    "EndLoop"
+                                  ],
+                        "picture": ""
+                    },
+                    {
+                        "NameOfScene": "Don't let her bite.",
+                        "move": "Unavalible",
+                        "stance": "",
+                        "includes": ["Loretta"],
+                        "theScene": [
+                                    "Speaks", "I see. So greedy.",
+                                    "Her tone is cold, disappointed. It rends your heart as you are still enamored with your vampiric mistress, but the choice is made. Her feet leave your cock, leaving you feeling cold without her touch.",
+                                    "Speaks", "Then I have nothing else for you either. Spew out the remains by yourself, {i}thrall{/i}.",
+                                    "PlayerOrgasm",
+                                    "PlaySoundEffect", "sfx/Erotic/Ejaculation/Ejaculation sound go out (long) 1.wav",
+                                    "You whine in protest, but cannot disobey. Your cock starts spurting weakly unto the ground, even while flaccid. The sensation is quite strange and unsatisfying, but takes the last bit of your energy as you feel the recall stone activating.",
+                                    "As your consciousness grows dim, you hear Loretta sighing languidly. How miserable she sounds...",
+                                    "PlayBlackOut",
+                                    "Everything goes black. One last sentence slips into your rapidly shutting down mind...",
+                                    "Speaks", "You will come visit me again... And tell no one else of me...",
+                                    "ChangeSensitivity", "Sex", "7",
+                                    "ChangeFetish", "Feet", "10"
+                                  ],
+                        "picture": ""
+                    },
+                    {
+                        "NameOfScene": "Let her bite you...",
+                        "move": "Unavalible",
+                        "stance": "",
+                        "includes": ["Loretta"],
+                        "theScene": [
+                                    "PlayVisualEffect", "ScreenPulse", "../Mods/Pale Priestess/Images/FangedKissy.png",
+                                    "You feel her teeth touch your neck, a gentle pinprick at first quickly turning into a deeper bite. It doesn't hurt much, likely from the barrier's effects, but it feels cold, so cold, as if death itself just dug its teeth into your neck. You feel your blood rushing out, its heat warming up the bite spot ever so slightly.",
+                                    "Speaks", "Mmmh...♥",
+                                    "PlayVisualEffect", "ScreenPulse", "../Mods/Pale Priestess/Images/FangedKissy.png",
+                                    "Loretta moans happily as she gulps down your blood. You feel her hands shiver on your shoulders, something very different from her normal death-like stillness.",
+                                    "Her elated voice fills your heart with joy. She doesn't sound this genuine or happy about anything else. It feels right to feed her, to be her thrall. Despite the fact that you are losing blood, your cock springs to attention again, twice as excited as it was before.",
+                                    "PlayLoopingSoundEffect", "sfx/Erotic/Feet/kuchaLong03.wav",
+                                    "Despite being lost in the 'feeding', Loretta starts moving her feet over your shaft. It does feel like she is a little distracted, but you don't mind, every touch of your vampiric mistress bringing you great joy. Your manhood feels even more sensitive than before, but not in an overwhelming way.",
+                                    "Loretta is very affectionate with her touch now. Her feet glide gently over your cock, as if caressing you appreciatively. It no longer feels like a one-sided assault anymore, her gentle touch more akin to a lover's, making your heart flutter even as you're bleeding out.",
+                                    "PlayerOrgasm",
+                                    "PlaySoundEffect2", "sfx/Erotic/Ejaculation/Ejaculation sound go out (long) 1.wav",
+                                    "StopSoundEffectLoop",
+                                    "Finally, your cock erupts in a blissful orgasm, splattering her pale feet with your warm cum. Loretta stops drinking, softly pulling her fangs from your neck with a quiet sigh. The deathly cold you felt is replaced by her hot, passionate panting.",
+                                    "Speaks", "T-thank you...",
+                                    "You don't manage to respond, completely spent and feeling the recall stone activating, but feel just as appreciative of her. Loretta remains unusually tender to the end, her hands caressing your limp body softly as you slowly disappear...",
+                                    "PlayBlackOut",
+                                    "One last sentence slips into your rapidly shutting down mind...",
+                                    "Speaks", "You will come visit me again... And tell no one else of me...",
+                                    "ChangeSensitivity", "Pain", "7",
+                                    "ChangeSensitivity", "Sex", "5",
+                                    "ChangeFetish", "Feet", "10"
+                                  ],
+                        "picture": ""
+                    }
+                  ],
+    "combatDialogue": [
+                        {
+                            "lineTrigger": "StartOfCombat",
+                            "move": "",
+                            "theText": [ "|f|CallCombatEventAndScene|/|LorettaCombatEvents|/|Init|n|" ]
+                        },
+                        {
+                            "lineTrigger": "EndOfRound",
+                            "move": "",
+                            "theText": [ "|f|CallCombatEventAndScene|/|LorettaCombatEvents|/|EOR|n|" ]
+                        },
+                        {
+                            "lineTrigger": "SetMusicTo",
+                            "move": "",
+                            "theText": [ "../Mods/Pale Priestess/Music/Purple Planet Music - Possession (2 17) (L) 120bpm.mp3"]
+                        },
+                        {
+                            "lineTrigger": "HitWith",
+                            "move": "Spank",
+                            "theText": [
+                                        "|f|ChangeImageLayer|/|Face|/|Blush|n||f|ChangeImageLayer|/|Expression|/|EmbarrassedAngry|n|'You...'",
+                                        "|f|ChangeImageLayer|/|Face|/|Blush|n||f|ChangeImageLayer|/|Expression|/|Embarrassed|n|'Kuh...! S-stop that at once!'",
+                                        "|f|ChangeImageLayer|/|Face|/|Blush|n||f|ChangeImageLayer|/|Expression|/|EmbarrassedAngry|n|'Y-yoou! Impudent upstart!'"]
+                        },
+                        {
+                          "lineTrigger": "HitWith",
+                          "move": "Whip",
+                          "theText": [
+                                      "|f|ChangeImageLayer|/|Face|/|Blush|n||f|ChangeImageLayer|/|Expression|/|EmbarrassedAngry|n|'Y-yoou...!'",
+                                      "|f|ChangeImageLayer|/|Face|/|Blush|n||f|ChangeImageLayer|/|Expression|/|Embarrassed|n|'Haahn...!♥ S-stop that at once!'",
+                                      "|f|ChangeImageLayer|/|Face|/|Blush|n||f|ChangeImageLayer|/|Expression|/|EmbarrassedAngry|n|'Kyah...! H-how dare you?!'"]
+                        },
+                        {
+                            "lineTrigger": "HitWith",
+                            "move": "Electrify",
+                            "theText": [
+                                        "|f|ChangeImageLayer|/|Face|/|Flush|n||f|ChangeImageLayer|/|Expression|/|EvilSmile|n|'N-not good enough.'",
+                                        "|f|ChangeImageLayer|/|Face|/|Flush|n||f|ChangeImageLayer|/|Expression|/|Frown|n|'I hate painful things.'",
+                                        "|f|ChangeImageLayer|/|Face|/|Flush|n||f|ChangeImageLayer|/|Expression|/|EmbarrassedAngry|n|'T-that won't work. I am already dead, you know?'"]
+                        },
+                        {
+                          "lineTrigger": "HitWith",
+                          "move": "Demon Layer",
+                          "theText": [
+                                      "|f|ChangeImageLayer|/|Face|/|Blush|n||f|ChangeImageLayer|/|Expression|/|Pained|n|'Hyanh!♥ H-how do you...?!'",
+                                      "|f|ChangeImageLayer|/|Face|/|Blush|n||f|ChangeImageLayer|/|Expression|/|Pained|n|'Eeeek!♥ Why do you have that?!'",
+                                      "|f|ChangeImageLayer|/|Face|/|Blush|n||f|ChangeImageLayer|/|Expression|/|Pained|n|'N-noo...!♥ H-how come you have a relic?!'"]
+                        },
+                        {
+                          "lineTrigger": "HitWith",
+                          "move": "Holy Headpat",
+                          "theText": [
+                                      "|f|ChangeImageLayer|/|Face|/|\n|n||f|ChangeImageLayer|/|Expression|/|Confus|n|'... Are you trying to calm me down?'",
+                                      "|f|ChangeImageLayer|/|Face|/|\n|n||f|ChangeImageLayer|/|Expression|/|Confus|n|'... I am honestly puzzled. Are you well?'",
+                                      "|f|ChangeImageLayer|/|Face|/|\n|n||f|ChangeImageLayer|/|Expression|/|Confus|n|'... What is this?'"]
+                        },
+                        {
+                          "lineTrigger": "HitWith",
+                          "move": "Caress",
+                          "theText": [
+                                      "|f|ChangeImageLayer|/|Face|/|Flush|n||f|ChangeImageLayer|/|Expression|/|SmugGrin|n|'Too late for a 'lighter touch' now.",
+                                      "|f|ChangeImageLayer|/|Face|/|Flush|n||f|ChangeImageLayer|/|Expression|/|Languid|n|'Are you a gentle brute now?'",
+                                      "|f|ChangeImageLayer|/|Face|/|Flush|n||f|ChangeImageLayer|/|Expression|/|Surprise|n|'Hmm... Are you trying to apologize or something?'"]
+                        },
+                        {
+                          "lineTrigger": "HitWith",
+                          "move": ["Bondage Net", "Magical Binding"],
+                          "theText": [
+                                      "|f|ChangeImageLayer|/|Face|/|\n|n||f|ChangeImageLayer|/|Expression|/|EmbarrassedAngry|n|'Kuh... These are tight...'",
+                                      "|f|ChangeImageLayer|/|Face|/|\n|n||f|ChangeImageLayer|/|Expression|/|EmbarrassedAngry|n|'You better not try anything funny now...'",
+                                      "|f|ChangeImageLayer|/|Face|/|\n|n||f|ChangeImageLayer|/|Expression|/|EmbarrassedAngry|n|'H-how dare you...'"]
+                        },
+                        {
+                          "lineTrigger": "HitWith",
+                          "move": "Pin",
+                          "theText": [
+                                      "|f|ChangeImageLayer|/|Face|/|\n|n||f|ChangeImageLayer|/|Expression|/|EmbarrassedAngry|n|'Now listen here...'",
+                                      "|f|ChangeImageLayer|/|Face|/|\n|n||f|ChangeImageLayer|/|Expression|/|EmbarrassedAngry|n|'T-this isn't how you treat a woman of cloth...'",
+                                      "|f|ChangeImageLayer|/|Face|/|\n|n||f|ChangeImageLayer|/|Expression|/|Embarrassed|n|'So you pinned me down... What now, brute?'"]
+                        },
+                        {
+                          "lineTrigger": "HitWith",
+                          "move": ["Finger", "Dildo"],
+                          "theText": [
+                                      "|f|ChangeImageLayer|/|Face|/|\n|n||f|ChangeImageLayer|/|Expression|/|SmugSmile|n|'Too shy to use the real thing?'",
+                                      "|f|ChangeImageLayer|/|Face|/|\n|n||f|ChangeImageLayer|/|Expression|/|LewdGrin|n|'Nnh...♥ Coward.'",
+                                      "|f|ChangeImageLayer|/|Face|/|\n|n||f|ChangeImageLayer|/|Expression|/|PleasuredGrin|n|'I wo- hnn...♥ won't lose to that."]
+                        },
+                        {
+                          "lineTrigger": "HitWith",
+                          "move": ["Arouse", "Arousara", "Arousero"],
+                          "theText": [
+                                      "|f|ChangeImageLayer|/|Face|/|\n|n||f|ChangeImageLayer|/|Expression|/|Amused|n|'Sure... See how well this works for you.'",
+                                      "|f|ChangeImageLayer|/|Face|/|\n|n||f|ChangeImageLayer|/|Expression|/|SmugSmile|n|'Keep going... see what happens with mages.'",
+                                      "|f|ChangeImageLayer|/|Face|/|\n|n||f|ChangeImageLayer|/|Expression|/|SmugSmile|n|'A mage...? Surprising. Here I thought you were a degenerate.'"]
+                        },
+                        {
+                          "lineTrigger": "HitWith",
+                          "move": ["Grope Ass", "Squeeze Ass", "Massage Ass", "Fondle Ass"],
+                          "theText": [
+                                      "|f|ChangeImageLayer|/|Face|/|\n|n||f|ChangeImageLayer|/|Expression|/|Amused|n|'Shamelessly groping a woman of cloth... What a pig you are.'",
+                                      "|f|ChangeImageLayer|/|Face|/|\n|n||f|ChangeImageLayer|/|Expression|/|SmugSmile|n|'My, my... how shameless.'",
+                                      "|f|ChangeImageLayer|/|Face|/|\n|n||f|ChangeImageLayer|/|Expression|/|Boredom|n|'I'll tell you right now, this is boring to me.'"]
+                        },
+                        {
+                          "lineTrigger": "HitWith",
+                          "move": ["Breast Caress", "Breast Knead", "Breast Massage", "Breast Fondle"],
+                          "theText": [
+                                      "|f|ChangeImageLayer|/|Face|/|Flush|n||f|ChangeImageLayer|/|Expression|/|Amused|n|'Nnh...♥ Have you no shame? Groping a woman of cloth.'",
+                                      "|f|ChangeImageLayer|/|Face|/|Flush|n||f|ChangeImageLayer|/|Expression|/|Pleading|n|'Haa...♥ What next...? Gonna stick your dick in there?'",
+                                      "|f|ChangeImageLayer|/|Face|/|Flush|n||f|ChangeImageLayer|/|Expression|/|EvilSmile|n|'...♥ Breast-obsessed babies like you are easy.'"]
+                        },
+                        {
+                          "lineTrigger": "HitWith",
+                          "move": "Suckle",
+                          "theText": [
+                                      "|f|ChangeImageLayer|/|Face|/|\n|n||f|ChangeImageLayer|/|Expression|/|Embarrassed|n|'Nnh...♥ Just what are you appealing to...?'",
+                                      "|f|ChangeImageLayer|/|Face|/|\n|n||f|ChangeImageLayer|/|Expression|/|Embarrassed|n|'...♥ I hate that I don't hate this.♥'",
+                                      "|f|ChangeImageLayer|/|Face|/|\n|n||f|ChangeImageLayer|/|Expression|/|Embarrassed|n|'Haa...♥ Y-you're just a big baby, how pitiful...♥'"]
+                        },
+                        {
+                          "lineTrigger": "HitWith",
+                          "move": "Pinch Nipples",
+                          "theText": [
+                                      "|f|ChangeImageLayer|/|Face|/|\n|n||f|ChangeImageLayer|/|Expression|/|Pained|n|'Kuh...!♥ H-how dare you...'",
+                                      "|f|ChangeImageLayer|/|Face|/|\n|n||f|ChangeImageLayer|/|Expression|/|Pained|n|'Hyan...!♥ S-stop!'",
+                                      "|f|ChangeImageLayer|/|Face|/|\n|n||f|ChangeImageLayer|/|Expression|/|Pained|n|'Ahn!♥ D-don't get ahead of yourself now...'"]
+                        },
+                        {
+                          "lineTrigger": "HitWith",
+                          "move": "Penetrate",
+                          "theText": [ "|f|CallCombatEventAndScene|/|LorettaCombatEvents|/|PenetrationCounter|n|" ]
+                        },
+                        {
+                            "lineTrigger": "HitWith",
+                            "move": "Anal Penetration",
+                            "theText": [ "|f|CallCombatEventAndScene|/|LorettaCombatEvents|/|AnalCounter|n|" ]
+                        },
+                        {
+                          "lineTrigger": "HitWith",
+                          "move": ["Thrust", "Channeling Thrust"],
+                          "theText": ["|f|CallCombatEventAndScene|/|LorettaCombatEvents|/|ThrustCounter|n|" ]
+                        },
+                        {
+                          "lineTrigger": "HitWith",
+                          "move": ["Pound", "Multi Thrust", "Empowered Thrust", "Carrying Fuck"],
+                          "theText": ["|f|CallCombatEventAndScene|/|LorettaCombatEvents|/|StrongThrustCounter|n|" ]
+                        },
+                        {
+                          "lineTrigger": "HitWith",
+                          "move": ["Tantric Thrust", "Passionate Lovemaking"],
+                          "theText": ["|f|CallCombatEventAndScene|/|LorettaCombatEvents|/|LoveyThrustCounter|n|" ]
+                        },
+                        {
+                          "lineTrigger": "HitWithA",
+                          "move": ["Thrust", "Channeling Thrust"],
+                          "theText": ["|f|CallCombatEventAndScene|/|LorettaCombatEvents|/|AnalThrustCounter|n|" ]
+                        },
+                        {
+                          "lineTrigger": "HitWithA",
+                          "move": ["Pound", "Multi Thrust", "Empowered Thrust", "Anal Piston", "Carrying Fuck"],
+                          "theText": ["|f|CallCombatEventAndScene|/|LorettaCombatEvents|/|AnalStrongThrustCounter|n|" ]
+                        },
+                        {
+                          "lineTrigger": "HitWithA",
+                          "move": ["Tantric Thrust", "Passionate Lovemaking"],
+                          "theText": ["|f|CallCombatEventAndScene|/|LorettaCombatEvents|/|AnalLoveyThrustCounter|n|" ]
+                        },
+                        {
+                          "lineTrigger": "HitWith",
+                          "move": ["Lewd Bottle", "Cloying Mist", "Placebo Pheromone"],
+                          "theText": [
+                                      "|f|ChangeImageLayer|/|Face|/|\n|n||f|ChangeImageLayer|/|Expression|/|Amused|n|'...My body is quite dead, you know? These things don't work well.'",
+                                      "|f|ChangeImageLayer|/|Face|/|\n|n||f|ChangeImageLayer|/|Expression|/|SmugSmile|n|'Oh no, aphrodisiacs...!|n|Just kidding.♥'",
+                                      "|f|ChangeImageLayer|/|Face|/|\n|n||f|ChangeImageLayer|/|Expression|/|SmugGrin|n|'You could've tried many things... But aphrodisiacs? Foolish.'"]
+                        },
+                        {
+                          "lineTrigger": "HitWith",
+                          "move": ["Charm", "Charm Wave"],
+                          "theText": [
+                                      "|f|ChangeImageLayer|/|Face|/|Flush|n||f|ChangeImageLayer|/|Expression|/|CrimsonGaze|n|'Oh you might regret this...♥'",
+                                      "|f|ChangeImageLayer|/|Face|/|Flush|n||f|ChangeImageLayer|/|Expression|/|CrimsonGaze|n|'I hate charmers the most.♥'",
+                                      "|f|ChangeImageLayer|/|Face|/|Flush|n||f|ChangeImageLayer|/|Expression|/|CrimsonGaze|n|'... Die.♥'"]
+                        },
+                        {
+                          "lineTrigger": "HitWith",
+                          "move": ["Enfeeble", "Sensitize"],
+                          "theText": [
+                                      "|f|ChangeImageLayer|/|Face|/|Flush|n||f|ChangeImageLayer|/|Expression|/|Languid|n|'... Trying to soften me up?'",
+                                      "|f|ChangeImageLayer|/|Face|/|Flush|n||f|ChangeImageLayer|/|Expression|/|Amused|n|'...'",
+                                      "|f|ChangeImageLayer|/|Face|/|Flush|n||f|ChangeImageLayer|/|Expression|/|Languid|n|'Well, you can try...'"]
+                        },
+                        {
+                          "lineTrigger": "HitWith",
+                          "move": ["Disarming Appeal"],
+                          "theText": [
+                                      "|f|ChangeImageLayer|/|Face|/|Shade|n||f|ChangeImageLayer|/|Expression|/|EvilSmile|n|'...'",
+                                      "|f|ChangeImageLayer|/|Face|/|Shade|n||f|ChangeImageLayer|/|Expression|/|HappyGrin|n|'No way.'",
+                                      "|f|ChangeImageLayer|/|Face|/|Shade|n||f|ChangeImageLayer|/|Expression|/|CrimsonGaze|n|'I love it when they beg.'"]
+                        },
+                        {
+                          "lineTrigger": "HitWith",
+                          "move": ["Seduce", "Enamor", "Smoldering Seduction", "Smoldering Flaunt", "Massaging Seduction", "Mass Seduction"],
+                          "theText": [
+                                      "|f|ChangeImageLayer|/|Face|/|\n|n||f|ChangeImageLayer|/|Expression|/|Embarrassed|n|'...Don't listen to him, Loretta...'",
+                                      "|f|ChangeImageLayer|/|Face|/|\n|n||f|ChangeImageLayer|/|Expression|/|EmbarrassedAngry|n|'Don't talk such rot.'",
+                                      "|f|ChangeImageLayer|/|Face|/|\n|n||f|ChangeImageLayer|/|Expression|/|EmbarrassedAngry|n|'I should sew your mouth shut...'"]
+                        },
+                        {
+                            "lineTrigger": "HitWith",
+                            "move": "Ear Tease",
+                            "theText": [
+                                        "|f|ChangeImageLayer|/|Face|/|Blush|n||f|ChangeImageLayer|/|Expression|/|Surprise|n|'...!'",
+                                        "|f|ChangeImageLayer|/|Face|/|\n|n||f|ChangeImageLayer|/|Expression|/|Embarrassed|n|'...D-don't do that.'",
+                                        "|f|ChangeImageLayer|/|Face|/|\n|n||f|ChangeImageLayer|/|Expression|/|EmbarrassedAngry|n|'S-stop touching me there!'"]
+                        },
+                        {
+                            "lineTrigger": "AutoCounter",
+                            "move": ["Make Out", "Kiss"],
+                            "theText": [ "|f|CallCombatEventAndScene|/|LorettaCombatEvents|/|MakeoutCounter|n|" ]
+                        },
+                        {
+                            "lineTrigger": "HitWith",
+                            "move": ["Deep Kiss","Lovingly Rough Kiss","Misty Kiss","Sensually Seductive Kiss","Skillfully Passionate Kiss"],
+                            "theText": [
+                                        "|f|ChangeImageLayer|/|Face|/|\n|n||f|ChangeImageLayer|/|Expression|/|AngerKissy|n|'Mwah...♥ I hate you even more now...♥'",
+                                        "|f|ChangeImageLayer|/|Face|/|\n|n||f|ChangeImageLayer|/|Expression|/|AngerKissy|n|'Chu...♥ You brute...'",
+                                        "|f|ChangeImageLayer|/|Face|/|\n|n||f|ChangeImageLayer|/|Expression|/|AngerKissy|n|'Mwaah, mmh...♥ How dare you do this to me...'"]
+                        },
+                        {
+                          "lineTrigger": "HitWith",
+                          "move": "Analyze",
+                          "theText": [
+                                      "|f|ChangeImageLayer|/|Face|/|Flush|n||f|ChangeImageLayer|/|Expression|/|SmugSmile|n|'Hoping for some insight? Let me spell it out for you: you lose.'"]
+                        },
+                        {
+                          "lineTrigger": "AutoCounter",
+                          "move": "Distract",
+                          "theText": [ "|f|CallCombatEventAndScene|/|LorettaCombatEvents|/|DistractLogic|n|"]
+                        },
+                        {
+                            "lineTrigger": "Escape",
+                            "move": [""],
+                            "theText":[ "|f|CallCombatEventAndScene|/|LorettaCombatEvents|/|EscapeLogic|n|" ]
+                        },
+                        {
+                          "lineTrigger": "AutoCounter",
+                          "move": "Ugli Herb",
+                          "theText": ["|f|CallCombatEventAndScene|/|LorettaCombatEvents|/|UgliCounter|n|" ]
+                        },
+                        {
+                          "lineTrigger": "HitWith",
+                          "move": "Ugli Herb",
+                          "theText": ["As the crimson haze clears from your mind, Loretta's deathly cold presence right behind you becomes more horrifying than captivating..."]
+                        },
+
+
+                        {
+                            "lineTrigger": "UsesMove",
+                            "move": "Suffocating Foot Sex",
+                            "theText": [
+                                        "|f|ChangeImageLayer|/|Face|/|Flush|n||f|ChangeImageLayer|/|Expression|/|SmugGrin|n|'Breathe in.'",
+                                        "|f|ChangeImageLayer|/|Face|/|Flush|n||f|ChangeImageLayer|/|Expression|/|LewdGrin|n|She grins lewdly as she watches your reactions to her feet with great interest.",
+                                        "|f|ChangeImageLayer|/|Face|/|Flush|n||f|ChangeImageLayer|/|Expression|/|EvilSmile|n|'Huhu, don't be shy. Take a whiff.♥'"]
+                        },
+                        {
+                            "lineTrigger": "UsesMove",
+                            "move": "Disinterested Anal",
+                            "theText": [
+                                        "|f|ChangeImageLayer|/|Face|/|\n|n||f|ChangeImageLayer|/|Expression|/|Boredom|n|'How long until you're spurting pitifully...?'",
+                                        "|f|ChangeImageLayer|/|Face|/|\n|n||f|ChangeImageLayer|/|Expression|/|Boredom|n|'Tired of humping me yet?'",
+                                        "|f|ChangeImageLayer|/|Face|/|\n|n||f|ChangeImageLayer|/|Expression|/|Boredom|n|'You won't beat me with anal. Feel like giving up?'"]
+                        },
+                        {
+                            "lineTrigger": "UsesMove",
+                            "move": "Reach-around Footjob",
+                            "theText": [
+                                        "|f|ChangeImageLayer|/|Face|/|\n|n||f|ChangeImageLayer|/|Expression|/|SmugGrin|n|'Don't hold back... Spurt everything for Loretta's perfect feet...'",
+                                        "|f|ChangeImageLayer|/|Face|/|\n|n||f|ChangeImageLayer|/|Expression|/|LewdGrin|n|'Cum.♥ Cum, my little {i}thrall{/i}.♥'",
+                                        "|f|ChangeImageLayer|/|Face|/|\n|n||f|ChangeImageLayer|/|Expression|/|EvilSmile|n|'Your cock is throbbing so much, my little thrall... It is surrendering to my toes...'"]
+                        },
+                        {
+                            "lineTrigger": "UsesMove",
+                            "move": "Insidious Whispers",
+                            "theText": [
+                                        "|f|ChangeImageLayer|/|Face|/|Flush|n||f|ChangeImageLayer|/|Expression|/|LewdGrin|n|'Shh... My little {i}thrall{/i}.♥'",
+                                        "|f|ChangeImageLayer|/|Face|/|Flush|n||f|ChangeImageLayer|/|Expression|/|LewdGrin|n|'Don't you want to leave everything to your Mistress?'",
+                                        "|f|ChangeImageLayer|/|Face|/|Flush|n||f|ChangeImageLayer|/|Expression|/|LewdGrin|n|'Shh, don't struggle... surrender your cock to my soft, tender feet...♥'"]
+                        },
+                        {
+                            "lineTrigger": "UsesMove",
+                            "move": "Nightmare Riding",
+                            "theText": [
+                                        "|f|ChangeImageLayer|/|Face|/|Flush|n||f|ChangeImageLayer|/|Expression|/|SmugGrin|n|'Huhuhu, look at you... spreading your legs shamefully like that.'",
+                                        "|f|ChangeImageLayer|/|Face|/|Flush|n||f|ChangeImageLayer|/|Expression|/|LewdGrin|n|'Huhuh, you look ridiculous! Pathetic, pitiful!'",
+                                        "|f|ChangeImageLayer|/|Face|/|Flush|n||f|ChangeImageLayer|/|Expression|/|EvilSmile|n|'Surrender your pitiful seed, you sorry 'Hero'!♥'"]
+                        },
+                        {
+                            "lineTrigger": "UsesMove",
+                            "move": "Nightmare Suffocation",
+                            "theText": [
+                                        "|f|ChangeImageLayer|/|Face|/|Flush|n||f|ChangeImageLayer|/|Expression|/|SmugGrin|n|'Shh... Deep breaths, deep breaths.♥'",
+                                        "|f|ChangeImageLayer|/|Face|/|\n|n||f|ChangeImageLayer|/|Expression|/|LewdGrin|n|'Your cock is throbbing like crazy... Are you loving my smell so much?'",
+                                        "|f|ChangeImageLayer|/|Face|/|Flush|n||f|ChangeImageLayer|/|Expression|/|EvilSmile|n|'Give up and ruin yourself with my smell, you pitiful 'Hero'!♥'"]
+                        },
+                        {
+                            "lineTrigger": "UsesMove",
+                            "move": "Priestess Needles",
+                            "theText": [
+                                        "|f|ChangeImageLayer|/|Face|/|\n|n||f|ChangeImageLayer|/|Expression|/|SmugGrin|n|'Now begins your punishment.'",
+                                        "|f|ChangeImageLayer|/|Face|/|\n|n||f|ChangeImageLayer|/|Expression|/|LewdGrin|n|'Don't worry... you'll be able to moan, at least.'",
+                                        "|f|ChangeImageLayer|/|Face|/|\n|n||f|ChangeImageLayer|/|Expression|/|EvilSmile|n|'Prepare to relinquish your ability to move.♥'"]
+                        },
+                        {
+                            "lineTrigger": "UsesMove",
+                            "move": "Stiffening Caress",
+                            "theText": [
+                                        "|f|ChangeImageLayer|/|Face|/|\n|n||f|ChangeImageLayer|/|Expression|/|SmugGrin|n|'Huhuhu...♥ Don't be so nervous.♥'",
+                                        "|f|ChangeImageLayer|/|Face|/|\n|n||f|ChangeImageLayer|/|Expression|/|LewdGrin|n|'Go ahead, get as stiff as your stiffy down there.♥'",
+                                        "|f|ChangeImageLayer|/|Face|/|\n|n||f|ChangeImageLayer|/|Expression|/|EvilSmile|n|'Aww, is movement becoming painful?♥'"]
+                        },
+                        {
+                            "lineTrigger": "UsesMove",
+                            "move": "Silky Handjob",
+                            "theText": [
+                                        "|f|ChangeImageLayer|/|Face|/|Flush|n||f|ChangeImageLayer|/|Expression|/|SmugGrin|n|'Huhu...♥ So twitchy.♥'",
+                                        "|f|ChangeImageLayer|/|Face|/|Flush|n||f|ChangeImageLayer|/|Expression|/|SmugSmile|n|'My...♥ Look how hard you are.'",
+                                        "|f|ChangeImageLayer|/|Face|/|Flush|n||f|ChangeImageLayer|/|Expression|/|EvilSmile|n|'Huhu, you look so pained...♥ Maybe cumming will make it easier, mm?♥ Why don't you try.'"]
+                        },
+
+
+
+                        {
+                            "lineTrigger": "LowHealth",
+                            "move": "",
+                            "theText": [ "|f|ChangeImageLayer|/|Face|/|Flush|n||f|ChangeImageLayer|/|Expression|/|Base|n|She takes a step back. 'Kuh... You're quite skilled.'"]
+                        },
+                        {
+                            "lineTrigger": "PlayerLowHealth",
+                            "move": "",
+                            "theText": [
+                                        "|f|ChangeImageLayer|/|Face|/|Flush|n||f|ChangeImageLayer|/|Expression|/|SmugGrin|n|'You're lost. Give in.♥'",
+                                        "|f|ChangeImageLayer|/|Face|/|Flush|n||f|ChangeImageLayer|/|Expression|/|SmugSmile|n|'Aww, the hero about to soil himself?♥'",
+                                        "|f|ChangeImageLayer|/|Face|/|Flush|n||f|ChangeImageLayer|/|Expression|/|SmugGrin|n|'You're just about there I'd say...♥'"]
+                        },
+
+                        {
+                            "lineTrigger":"OnPlayerOrgasm",
+                            "move": "Dream of Vampire Pussy",
+                            "theText":[ "|f|CallCombatEventAndScene|/|LorettaCombatEvents|/|SleepFinisherSex|n|" ]
+                        },
+                        {
+                            "lineTrigger":"OnPlayerOrgasm",
+                            "move": "Dream of Priestess Panties",
+                            "theText":[ "|f|CallCombatEventAndScene|/|LorettaCombatEvents|/|SleepFinisherFaceSit|n|" ]
+                        },
+
+                        {
+                            "lineTrigger": "OnPlayerOrgasm",
+                            "move": "Footjob",
+                            "theText": [
+                                        "|f|ChangeImageLayer|/|Face|/|Flush|n||f|ChangeImageLayer|/|Expression|/|SmugGrin|n|Repeatedly assaulted by your Mistress's soft feet, your cock is on the verge of cumming and throbs like crazy. You pant and heave for breath, the foot-scented stocking wrapped around your face denying you clear air.|n|Loretta's feet stroke faster and faster, and you dimly realize that you've actually been cumming for a while, the pleasure of your orgasm blurring into the sensations of her sublime footjob.",
+                                        "|f|ChangeImageLayer|/|Face|/|Flush|n||f|ChangeImageLayer|/|Expression|/|LewdGrin|n|'We still have a long way to go... cum now.♥' You erupt on her command, your inflamed imagination vividly picturing the sight of your pearly white seed raining all over Loretta's wonderful feet, the obscene fantasy enhancing the already mind-searing pleasure manyfold.",
+                                        "|f|ChangeImageLayer|/|Face|/|Flush|n||f|ChangeImageLayer|/|Expression|/|SmugGrin|n|'Your cock is drooling so much.♥ My feet are completely smeared in your precum.♥' You don't know if that is true or not, but the vivid image she implants into your mind sends you over the edge, your cock erupting with a powerful stream of jizz that undoubtedly rains all over her stroking feet."]
+                        },
+                        {
+                            "lineTrigger": "OnPlayerOrgasm",
+                            "move": "Foot Smothering",
+                            "theText": [
+                                        "|f|ChangeImageLayer|/|Face|/|Flush|n||f|ChangeImageLayer|/|Expression|/|SmugGrin|n|A traitorous orgasm approaching fast, you manage to stop your frantic thrusting and try to calm down. Your cock throbbing like crazy, you are doing your best to hold back. 'Huhu... you're wrong if you think my smell alone can't make you cum, footboy.'|n|As she says that, your body involuntary draws a sharp breath, the sickly sweet stench of her feet making your head spin. You cum pitifully on the spot, flooding the cackling priestess with hot seed.",
+                                        "|f|ChangeImageLayer|/|Face|/|Flush|n||f|ChangeImageLayer|/|Expression|/|LewdGrin|n|Thrusting frantically into the undead priestess, you just can't get away from her feet that she keeps right in your face. With a helpless moan you unload a hot serving of seed into her cool pussy, the inescapable smell of her stockings making your head spin. 'Huhu... Do we even need to have sex?'",
+                                        "|f|ChangeImageLayer|/|Face|/|Flush|n||f|ChangeImageLayer|/|Expression|/|SmugGrin|n|'That's right, breathe deeply as you cum...' You can't resist her command and greedily gulp down on the of aroma of her stuffy feet, the lewd smell alone overloading your already drooling cock, causing you to spurt a hot load inside the cool priestess."]
+                        },
+                        {
+                            "lineTrigger": "OnPlayerOrgasm",
+                            "move": "Face Sit",
+                            "theText": [
+                                        "|f|ChangeImageLayer|/|Face|/|Flush|n||f|ChangeImageLayer|/|Expression|/|SmugGrin|n|'Sniff! Inhale deeper and cum.' Her soft pussy dominating your face and the unbearably arousing smell are too much, leaving you helplessly ejaculating into the air with no other stimualtion, your hot sticky cum falling fruitlessly on the cavern floor.",
+                                        "|f|ChangeImageLayer|/|Face|/|Flush|n||f|ChangeImageLayer|/|Expression|/|LewdGrin|n|Tied up in this embarrassing position, with a faceful of vampire pussy in front of you, you feel an incredible orgasm approaching. 'Huhu... Your sorry thing is leaking on its own... So lonely, I almost want to tease it.' The teasing suggestion of possible pleasure makes you let loose on the spot, splattering the cold cavern floor with your seed, your head spinning from her all-permeating aroma.",
+                                        "|f|ChangeImageLayer|/|Face|/|Flush|n||f|ChangeImageLayer|/|Expression|/|LewdGrin|n|'Deep breaths, 'Hero'. Huhuhu...' She presses her soft ass into your face, muffling your weak moans with her panties. Your drooling cock already throbs powerfully on the verge of orgasm, but is denied stimulation as Loretta insistently grinds her crotch into your face...|n|But soon enough you realize that her amazing smell really is all you need to cum. With a helpless moan your cock launches thick ropes of white seed into the air, splattering the cold cavern floor fruitlessly with the proof of your defeat."]
+                        },
+                        {
+                            "lineTrigger": "OnPlayerOrgasm",
+                            "move": "Amazon Position",
+                            "theText": [
+                                        "|f|ChangeImageLayer|/|Face|/|Flush|n||f|ChangeImageLayer|/|Expression|/|SmugGrin|n|'Leak, leak you pathetic male!' Her exquisite pussy and verbal assault give you no chance to hold back your orgasm, and locked in this embarrassing position you helplessly ejaculate inside the fallen priestess, blasting her cold womb with your hot, sticky seed.",
+                                        "|f|ChangeImageLayer|/|Face|/|Flush|n||f|ChangeImageLayer|/|Expression|/|LewdGrin|n|Held down in this embarrassing position, you feel an incredible orgasm approaching, bullied out by her inhumanly tight vampire pussy. 'Huhu... Submit and surrender your pathetic cum!' You can't resist her demand and let loose, flooding her cool insides with your warm seed, shaking and moaning from the submissive pleasure.",
+                                        "|f|ChangeImageLayer|/|Face|/|Blush|n||f|ChangeImageLayer|/|Expression|/|LewdGrin|n|Her soft ass slapping loudly against your crotch, you moan weakly as her drooling cool pussy keeps you on the verge of orgasm. She may be feeling it as well, her cheeks an unusually rosy color, but you realize that her amazing pussy has already defeated you.|n|With a helpless moan you unload inside, your cock hilted to the base as you spurt hot seed inside the dominant undead priestess, filling her cold womb to the brim. 'See?♥ You belong underneath me.'"]
+                        },
+                        {
+                            "lineTrigger": "OnPlayerOrgasm",
+                            "move": "Sex",
+                            "theText": [
+                                        "|f|ChangeImageLayer|/|Face|/|Flush|n||f|ChangeImageLayer|/|Expression|/|SmugGrin|n|'What's wrong? Even with no feet in the way, you still can't manage your filthy lusts?' Her taunts don't fall flat, shaming you as your cock gives in and promptly explodes inside the haughty priestess, blasting her cold womb with your hot, sticky seed.",
+                                        "|f|ChangeImageLayer|/|Face|/|Flush|n||f|ChangeImageLayer|/|Expression|/|LewdGrin|n|Even though you're no longer assaulted by her feet, you feel a powerful orgasm approaching, squeezed out by her wondorously tight vampire pussy. 'Huhu... Maybe you're not a footboy after all. Cum, fill me up.' You can't resist her encourgement and let loose, flooding her cool insides with your warm seed.",
+                                        "|f|ChangeImageLayer|/|Face|/|Flush|n||f|ChangeImageLayer|/|Expression|/|LewdGrin|n|Your balls slapping powerfully against Loretta's soft ass, you thrust frantically into her receptive pussy on the verge of orgasm. She's obviously feeling it as well, but you realize that her amazing pussy may squeeze you dry before the haughty woman admits defeat.|n|With a frustrated groan you finally spurt inside, hilting your cock to the base as you unload inside the resilent undead priestess, filling her to the brim with hot cum. 'Hmmh... I like this.♥'"]
+                        },
+                        {
+                            "lineTrigger": "OnPlayerOrgasm",
+                            "move": "Anal",
+                            "theText": [ "|f|CallCombatEventAndScene|/|LorettaCombatEvents|/|AnalOrgasmPunishment|n|" ]
+                        },
+                        {
+                            "lineTrigger": "OnPlayerOrgasm",
+                            "move": "Silky Handjob",
+                            "theText": [
+                                        "|f|ChangeImageLayer|/|Face|/|Flush|n||f|ChangeImageLayer|/|Expression|/|SmugGrin|n|'Aww, is it too much? Hurry, spew out all the toxin, it will get better.♥' The promise of relief flares your desire to ejaculate, and the touch of her silky gloves was leaving you no room to resist anyway. With a howl, you erupt and rain seed all over Loretta's still stroking hands, but the powerful orgasm does not bring the promised reprieve... 'Oh, I lied.♥'",
+                                        "|f|ChangeImageLayer|/|Face|/|Flush|n||f|ChangeImageLayer|/|Expression|/|LewdGrin|n|At complete mercy of Loretta's rapidly stroking silky gloves, you feel a powerful orgasm approaching, huge drops of sticky precum leaking from your cock. 'Huhu... You're dirtying my gloves, brute. Hurry up and spew!' You can't resist her demands any more and let loose, shooting white ropes of sticky seed into the air.",
+                                        "|f|ChangeImageLayer|/|Face|/|\n|n||f|ChangeImageLayer|/|Expression|/|LewdGrin|n|'Huhu... hurry now, I know it hurts...♥' Cupping your balls with her other hand, she picks up the pace of her handjob, clearly intent on squeezing you dry right now. You whine weakly and release, cum spraying all over your stomach as the cruel priestess only hastens her stroking, firmly massaging your rapidly emptying testes."]
+                        },
+                        {
+                            "lineTrigger": "OnPlayerOrgasm",
+                            "move": "",
+                            "theText": ["|f|ChangeImageLayer|/|Face|/|Shade|n||f|ChangeImageLayer|/|Expression|/|Anger|n|'How did you cum without a stance? Please report to Kaa with a screenshot of message history.'"]
+                        },
+                        {
+                            "lineTrigger": "onOrgasm",
+                            "move": "",
+                            "theText": [
+                                        "|f|ChangeImageLayer|/|Face|/|Blush|n||f|ChangeImageLayer|/|Expression|/|Pained|n|'Nnnnhhh...♥ Hyaaa!♥'",
+                                        "|f|ChangeImageLayer|/|Face|/|Blush|n||f|ChangeImageLayer|/|Expression|/|Pained|n|'N-no, no no no way! Hyaan!♥'",
+                                        "|f|ChangeImageLayer|/|Face|/|Blush|n||f|ChangeImageLayer|/|Expression|/|Pained|n|'H-how could I... To this... Hyaahn!♥'"]
+                        },
+                        {
+                            "lineTrigger": "OnSurrender",
+                            "move": "",
+                            "theText": ["|f|CallCombatEventAndScene|/|LorettaCombatEvents|/|Surrender|n|"]
+                        },
+
+
+
+                        {
+                            "lineTrigger": "StanceStruggle",
+                            "move": "Face Sit",
+                            "theText": [ "{ThePlayerName} tries to push {AttackerName}'s soft ass away from his face..."]
+                        },
+                        {
+                            "lineTrigger": "StanceStruggleFail",
+                            "move": "Face Sit",
+                            "theText": [ "But {AttackerName}'s delightful fragrance rapidly drains your desire to resist, leaving you a panting mess under her crotch!",
+                                        "But {AttackerName}'s wonderfully soft ass pushing down on your face erases all the willpower you mustered!",
+                                        "But as you grab her asscheeks to push them away, you can only rub your face against them, hooked on the wonderful sensation!"]
+                        },
+                        {
+                            "lineTrigger": "StanceStruggleComment",
+                            "move": "Face Sit",
+                            "theText": [
+                                        "|f|ChangeImageLayer|/|Face|/|Flush|n||f|ChangeImageLayer|/|Expression|/|SmugGrin|n|'Huhuhu... I am not heavy, so why is it so hard for you?'",
+                                        "|f|ChangeImageLayer|/|Face|/|Flush|n||f|ChangeImageLayer|/|Expression|/|LewdGrin|n|'Don't fight it. You will surrender under my ass.'",
+                                        "|f|ChangeImageLayer|/|Face|/|Flush|n||f|ChangeImageLayer|/|Expression|/|EvilSmile|n|'Why struggle at all? You finally found a nice place to belong.'"]
+                        },
+                        {
+                            "lineTrigger": "StanceStruggleFree",
+                            "move": "Face Sit",
+                            "theText": [ "And manage to push her away, sending the lecherous vampiress stumbling to the side!"]
+                        },
+                        {
+                            "lineTrigger": "StanceStruggleFreeComment",
+                            "move": "Face Sit",
+                            "theText": [
+                                        "|f|ChangeImageLayer|/|Face|/|Flush|n||f|ChangeImageLayer|/|Expression|/|SmugGrin|n|'Huhu... You know you won't ever forget that.'",
+                                        "|f|ChangeImageLayer|/|Face|/|Flush|n||f|ChangeImageLayer|/|Expression|/|SmugGrin|n|'You'll be back. You're already aching for more of my fragrance.'",
+                                        "|f|ChangeImageLayer|/|Face|/|Flush|n||f|ChangeImageLayer|/|Expression|/|LewdGrin|n|'What's wrong? I know you enjoyed yourself.'"]
+                        },
+
+                        {
+                            "lineTrigger": "StanceStruggle",
+                            "move": "Footjob",
+                            "theText": [ "{ThePlayerName} tries to break out of {AttackerName}'s obscene embrace..."]
+                        },
+                        {
+                            "lineTrigger": "StanceStruggleFail",
+                            "move": "Footjob",
+                            "theText": [ "But {AttackerName}'s delightfully silky soles rapidly drain your desire to resist, leaving you a panting mess in her embrace!",
+                                        "But {AttackerName}'s subtle fragrance wafting all around you erases all the willpower you mustered!",
+                                        "But as you grab her soft feet to push them away, you can only keep jacking yourself off with them, hooked on the pleasurable sensation!"]
+                        },
+                        {
+                            "lineTrigger": "StanceStruggleComment",
+                            "move": "Footjob",
+                            "theText": [
+                                        "|f|ChangeImageLayer|/|Face|/|Flush|n||f|ChangeImageLayer|/|Expression|/|SmugGrin|n|'Shh, it's okay. I will keep stroking it for you.♥'",
+                                        "|f|ChangeImageLayer|/|Face|/|Flush|n||f|ChangeImageLayer|/|Expression|/|LewdGrin|n|'Don't fight it. You can leave everything to my feet.♥'",
+                                        "|f|ChangeImageLayer|/|Face|/|Flush|n||f|ChangeImageLayer|/|Expression|/|EvilSmile|n|'Stay a while still, my little thrall...♥'"]
+                        },
+                        {
+                            "lineTrigger": "StanceStruggleFree",
+                            "move": "Footjob",
+                            "theText": [ "And manage to push her away, blindly stumbling away from the lecherous vampiress!"]
+                        },
+                        {
+                            "lineTrigger": "StanceStruggleFreeComment",
+                            "move": "Footjob",
+                            "theText": ["|f|CallCombatEventAndScene|/|LorettaCombatEvents|/|EndFootjob|n|"]
+                        },
+
+                        {
+                            "lineTrigger": "StanceStruggle",
+                            "move": "Blindfold",
+                            "theText": [ "{ThePlayerName} tries to pull off {AttackerName}'s pleasantly-scentful stocking..."]
+                        },
+                        {
+                            "lineTrigger": "StanceStruggleFail",
+                            "move": "Blindfold",
+                            "theText": [ "But {AttackerName}'s delightfully silky soles rapidly drain your desire to resist, leaving you a panting mess in her embrace!",
+                                        "But {AttackerName}'s soft hands skillfully keep your face wrapped!",
+                                        "But as you try to grab on the silky fabric, Loretta timely tightens the blindfold, fumbling your attempt!"]
+                        },
+                        {
+                            "lineTrigger": "StanceStruggleComment",
+                            "move": "Blindfold",
+                            "theText": [
+                                        "|f|ChangeImageLayer|/|Face|/|Flush|n||f|ChangeImageLayer|/|Expression|/|SmugGrin|n|'Shh, it's okay. I will keep stroking it for you.♥'",
+                                        "|f|ChangeImageLayer|/|Face|/|Flush|n||f|ChangeImageLayer|/|Expression|/|LewdGrin|n|'Don't fight it. You can leave everything to my feet.♥'",
+                                        "|f|ChangeImageLayer|/|Face|/|Flush|n||f|ChangeImageLayer|/|Expression|/|EvilSmile|n|'Stay a while still, my little thrall...♥'"]
+                        },
+                        {
+                            "lineTrigger": "StanceStruggleFree",
+                            "move": "Blindfold",
+                            "theText": [ "|f|CallCombatEventAndScene|/|LorettaCombatEvents|/|EndBlindfold|n|"]
+                        },
+                        {
+                            "lineTrigger": "StanceStruggleFreeComment",
+                            "move": "Blindfold",
+                            "theText": [""]
+                        },
+
+                        {
+                            "lineTrigger": "StanceStruggle",
+                            "move": "Sex",
+                            "theText": [ "{ThePlayerName} tries to pull out of {AttackerName}'s uncannily cool and incredibly tight pussy..."]
+                        },
+                        {
+                            "lineTrigger": "StanceStruggleFail",
+                            "move": "Sex",
+                            "theText": [ "But {AttackerName}'s delightfully silky pussy walls draw you inside again and again!",
+                                        "But {AttackerName}'s subtle fragrance drives you crazy and you keep thrusting inside her receptive pussy!",
+                                        "But as you grab her hips to pull out, you can only keep thrusting into her cool pussy again and again, hooked on the strange sensation!"]
+                        },
+                        {
+                            "lineTrigger": "StanceStruggleComment",
+                            "move": "Sex",
+                            "theText": [
+                                        "|f|ChangeImageLayer|/|Face|/|Flush|n||f|ChangeImageLayer|/|Expression|/|SmugGrin|n|'Can't stop, huh?'",
+                                        "|f|ChangeImageLayer|/|Face|/|Flush|n||f|ChangeImageLayer|/|Expression|/|LewdGrin|n|'You started this. Changing your mind?'",
+                                        "|f|ChangeImageLayer|/|Face|/|Flush|n||f|ChangeImageLayer|/|Expression|/|EvilSmile|n|'Won't you see this through?'"]
+                        },
+                        {
+                            "lineTrigger": "StanceStruggleFree",
+                            "move": "Sex",
+                            "theText": [ "And manage to pull your cock out of her wet and cool pussy!"]
+                        },
+                        {
+                            "lineTrigger": "StanceStruggleFreeComment",
+                            "move": "Sex",
+                            "theText": ["|f|CallCombatEventAndScene|/|LorettaCombatEvents|/|EndSex|n|"]
+                        },
+
+
+                        {
+                            "lineTrigger": "StanceStruggle",
+                            "move": "Foot Smothering",
+                            "theText": [ "You try to push away {AttackerName}'s pleasantly-smelling feet..."]
+                        },
+                        {
+                            "lineTrigger": "StanceStruggleFail",
+                            "move": "Foot Smothering",
+                            "theText": [ "But fumble your attempt, as {AttackerName} insistently keeps them in your face!",
+                                        "But as her supremely tight pussy clamps down on your erection, you fumble your attempts at grasping {AttackerName}'s feet!",
+                                        "But the insidious smell coming from {AttackerName}'s perfect feet makes it impossible to push them away!",
+                                        "But despite grabbing her ankles and pushing as hard as you can, you can't overcome her powerful undead legs!"]
+                        },
+                        {
+                            "lineTrigger": "StanceStruggleComment",
+                            "move": "Foot Smothering",
+                            "theText": [
+                                        "|f|ChangeImageLayer|/|Face|/|Flush|n||f|ChangeImageLayer|/|Expression|/|SmugGrin|n|'Now then, don't lie to yourself.'",
+                                        "|f|ChangeImageLayer|/|Face|/|Flush|n||f|ChangeImageLayer|/|Expression|/|SmugGrin|n|'If you want to keep having sex with me, we'll do it like this...'",
+                                        "|f|ChangeImageLayer|/|Face|/|Flush|n||f|ChangeImageLayer|/|Expression|/|SmugGrin|n|'No, no, be my guest. Sniff some more.'"]
+                        },
+                        {
+                            "lineTrigger": "StanceStruggleFree",
+                            "move": "Foot Smothering",
+                            "theText": [ "And finally manage to push them away, pinning her feet down to the ground as you lock her down in a mating press!"]
+                        },
+                        {
+                            "lineTrigger": "StanceStruggleFreeComment",
+                            "move": "Foot Smothering",
+                            "theText": ["|f|CallCombatEventAndScene|/|LorettaCombatEvents|/|EndSmothering|n|"]
+                        },
+
+                        {
+                            "lineTrigger": "StanceStruggle",
+                            "move": "Anal",
+                            "theText": [ "You try to pull out of {AttackerName}'s tight asshole..."]
+                        },
+                        {
+                            "lineTrigger": "StanceStruggleFail",
+                            "move": "Anal",
+                            "theText": [ "But {AttackerName}'s lukewarm anus clenches down suddenly and lewdly, keeping you inside!",
+                                        "But {AttackerName}'s subtle fragrance drives you crazy and you keep thrusting inside her hellishly tight anus!",
+                                        "But as you grab her hips to pull out, you can only keep thrusting into her cool ass again and again, hooked on the strange sensation!"]
+                        },
+                        {
+                            "lineTrigger": "StanceStruggleComment",
+                            "move": "Anal",
+                            "theText": [
+                                        "|f|ChangeImageLayer|/|Face|/|\n|n||f|ChangeImageLayer|/|Expression|/|Anger|n|'Hmm...'",
+                                        "|f|ChangeImageLayer|/|Face|/|\n|n||f|ChangeImageLayer|/|Expression|/|Anger|n|'Leaving already?'",
+                                        "|f|ChangeImageLayer|/|Face|/|\n|n||f|ChangeImageLayer|/|Expression|/|Anger|n|'What's wrong? Not enjoying yourself?'"]
+                        },
+                        {
+                            "lineTrigger": "StanceStruggleFree",
+                            "move": "Anal",
+                            "theText": ["And manage to pull your cock out of her tempting porcelain ass!"]
+                        },
+                        {
+                            "lineTrigger": "StanceStruggleFreeComment",
+                            "move": "Anal",
+                            "theText": ["|f|CallCombatEventAndScene|/|LorettaCombatEvents|/|AnalPulloutPunishment|n|"]
+                        }
+                      ],
+  "victoryScenes": [
+            {
+                "NameOfScene": "",
+                "move": "",
+                "stance": "",
+                "includes": [ ""],
+                "theScene": [ ""
+                          ],
+                "picture": ""
+            }
+        ],
+"pictures": [
+    {
+      "Name":"Base",
+      "StartOn": "1",
+      "AlwaysOn": "1",
+      "IsScene": "0",
+      "TheBody": "1",
+      "Overlay": "No",
+      "setXalign": "0.0",
+      "setYalign": "0.09",
+      "Images":[
+          {
+            "Name":"Base",
+            "File": "../Mods/Pale Priestess/Images/Loretta_Base.png",
+            "setXalign": "0.0",
+            "setYalign": "0.0"
+          },
+          {
+            "Name":"BaseAdjust",
+            "File": "../Mods/Pale Priestess/Images/Loretta_Base_Adjust.png",
+            "setXalign": "0.0",
+            "setYalign": "0.0"
+          },
+          {
+            "Name":"BaseNoGlove",
+            "File": "../Mods/Pale Priestess/Images/Loretta_Base_NoGlove.png",
+            "setXalign": "0.0",
+            "setYalign": "0.0"
+          },
+          {
+            "Name":"BaseBottomless",
+            "File": "../Mods/Pale Priestess/Images/Loretta_Base_NoPantiesNoStockings.png",
+            "setXalign": "0.0",
+            "setYalign": "0.0"
+          },
+          {
+            "Name":"BaseLingerie",
+            "File": "../Mods/Pale Priestess/Images/Loretta_Base_NoRobes.png",
+            "setXalign": "0.0",
+            "setYalign": "0.0"
+          },
+          {
+            "Name":"BaseOneStocking",
+            "File": "../Mods/Pale Priestess/Images/Loretta_Base_NoStocking.png",
+            "setXalign": "0.0",
+            "setYalign": "0.0"
+          },
+          {
+            "Name":"BaseNoStocking",
+            "File": "../Mods/Pale Priestess/Images/Loretta_Base_NoStockings.png",
+            "setXalign": "0.0",
+            "setYalign": "0.0"
+          },
+          {
+            "Name":"BaseSemiNude",
+            "File": "../Mods/Pale Priestess/Images/Loretta_Base_SemiNude.png",
+            "setXalign": "0.0",
+            "setYalign": "0.0"
+          },
+          {
+            "Name":"BaseNoStaff",
+            "File": "../Mods/Pale Priestess/Images/Loretta_Base_NoStaff.png",
+            "setXalign": "0.0",
+            "setYalign": "0.0"
+          },
+          {
+            "Name":"BaseNoStaffLingerie",
+            "File": "../Mods/Pale Priestess/Images/Loretta_Base_NoStaffLingerie.png",
+            "setXalign": "0.0",
+            "setYalign": "0.0"
+          },
+          {
+            "Name":"BaseNoStaffNude",
+            "File": "../Mods/Pale Priestess/Images/Loretta_Base_NoStaffNude.png",
+            "setXalign": "0.0",
+            "setYalign": "0.0"
+          }
+      ]
+    },
+    {
+      "Name":"Face",
+      "StartOn": "0",
+      "AlwaysOn": "0",
+      "IsScene": "0",
+      "TheBody": "0",
+      "Overlay": "No",
+      "setXalign": "0.0",
+      "setYalign": "0.0",
+      "Images":[
+          {
+            "Name":"Shade",
+            "File": "../Mods/Pale Priestess/Images/Loretta_FaceShade.png",
+            "setXalign": "0.0",
+            "setYalign": "0.0"
+          },
+          {
+            "Name":"Flush",
+            "File": "../Mods/Pale Priestess/Images/Loretta_FaceFlush.png",
+            "setXalign": "0.0",
+            "setYalign": "0.0"
+          },
+          {
+            "Name":"Blush",
+            "File": "../Mods/Pale Priestess/Images/Loretta_FaceBlush.png",
+            "setXalign": "0.0",
+            "setYalign": "0.0"
+          }
+      ]
+    },
+    {
+      "Name":"Shoes",
+      "StartOn": "1",
+      "AlwaysOn": "0",
+      "IsScene": "0",
+      "TheBody": "0",
+      "Overlay": "No",
+      "setXalign": "0.0",
+      "setYalign": "0.0",
+      "Images":[
+          {
+            "Name":"Shoes",
+            "File": "../Mods/Pale Priestess/Images/Loretta_Shoes.png",
+            "setXalign": "0.0",
+            "setYalign": "0.0"
+          }
+      ]
+    },
+    {
+      "Name":"Expression",
+      "StartOn": "1",
+      "AlwaysOn": "1",
+      "IsScene": "0",
+      "TheBody": "0",
+      "Overlay": "No",
+      "setXalign": "0.0",
+      "setYalign": "0.0",
+      "Images":[
+          {
+            "Name":"Base",
+            "File": "../Mods/Pale Priestess/Images/Loretta_Expression_Base.png",
+            "setXalign": "0.0",
+            "setYalign": "0.0"
+          },
+          {
+            "Name":"Amused",
+            "File": "../Mods/Pale Priestess/Images/Loretta_Expression_Amused.png",
+            "setXalign": "0.0",
+            "setYalign": "0.0"
+          },
+          {
+            "Name":"Anger",
+            "File": "../Mods/Pale Priestess/Images/Loretta_Expression_Anger.png",
+            "setXalign": "0.0",
+            "setYalign": "0.0"
+          },
+          {
+            "Name":"AngerGlow",
+            "File": "../Mods/Pale Priestess/Images/Loretta_Expression_AngerGlow.png",
+            "setXalign": "0.0",
+            "setYalign": "0.0"
+          },
+          {
+            "Name":"AngerKissy",
+            "File": "../Mods/Pale Priestess/Images/Loretta_Expression_AngerKissy.png",
+            "setXalign": "0.0",
+            "setYalign": "0.0"
+          },
+          {
+            "Name":"AngerSubdued",
+            "File": "../Mods/Pale Priestess/Images/Loretta_Expression_AngerSubdued.png",
+            "setXalign": "0.0",
+            "setYalign": "0.0"
+          },
+          {
+            "Name":"BashfulGrin",
+            "File": "../Mods/Pale Priestess/Images/Loretta_Expression_BashfulGrin.png",
+            "setXalign": "0.0",
+            "setYalign": "0.0"
+          },
+          {
+            "Name":"Blowjob",
+            "File": "../Mods/Pale Priestess/Images/Loretta_Expression_Blowjob.png",
+            "setXalign": "0.0",
+            "setYalign": "0.0"
+          },
+          {
+            "Name":"Blowjob2",
+            "File": "../Mods/Pale Priestess/Images/Loretta_Expression_Blowjob2.png",
+            "setXalign": "0.0",
+            "setYalign": "0.0"
+          },
+          {
+            "Name":"Boredom",
+            "File": "../Mods/Pale Priestess/Images/Loretta_Expression_Boredom.png",
+            "setXalign": "0.0",
+            "setYalign": "0.0"
+          },
+          {
+            "Name":"Confus",
+            "File": "../Mods/Pale Priestess/Images/Loretta_Expression_Confus.png",
+            "setXalign": "0.0",
+            "setYalign": "0.0"
+          },
+          {
+            "Name":"CrimsonGaze",
+            "File": "../Mods/Pale Priestess/Images/Loretta_Expression_CrimsonGaze.png",
+            "setXalign": "0.0",
+            "setYalign": "0.0"
+          },
+          {
+            "Name":"Crying",
+            "File": "../Mods/Pale Priestess/Images/Loretta_Expression_Crying.png",
+            "setXalign": "0.0",
+            "setYalign": "0.0"
+          },
+          {
+            "Name":"Crying2",
+            "File": "../Mods/Pale Priestess/Images/Loretta_Expression_Crying2.png",
+            "setXalign": "0.0",
+            "setYalign": "0.0"
+          },
+          {
+            "Name":"DangerousGlint",
+            "File": "../Mods/Pale Priestess/Images/Loretta_Expression_DangerousGlint.png",
+            "setXalign": "0.0",
+            "setYalign": "0.0"
+          },
+          {
+            "Name":"DangerousSmile",
+            "File": "../Mods/Pale Priestess/Images/Loretta_Expression_DangerousSmile.png",
+            "setXalign": "0.0",
+            "setYalign": "0.0"
+          },
+          {
+            "Name":"Disdain",
+            "File": "../Mods/Pale Priestess/Images/Loretta_Expression_Disdain.png",
+            "setXalign": "0.0",
+            "setYalign": "0.0"
+          },
+          {
+            "Name":"Embarrassed",
+            "File": "../Mods/Pale Priestess/Images/Loretta_Expression_Embarrassed.png",
+            "setXalign": "0.0",
+            "setYalign": "0.0"
+          },
+          {
+            "Name":"EmbarrassedAngry",
+            "File": "../Mods/Pale Priestess/Images/Loretta_Expression_EmbarrassedAngry.png",
+            "setXalign": "0.0",
+            "setYalign": "0.0"
+          },
+          {
+            "Name":"EnchantingGaze",
+            "File": "../Mods/Pale Priestess/Images/Loretta_Expression_EnchantingGaze.png",
+            "setXalign": "0.0",
+            "setYalign": "0.0"
+          },
+          {
+            "Name":"EvilSmile",
+            "File": "../Mods/Pale Priestess/Images/Loretta_Expression_EvilSmile.png",
+            "setXalign": "0.0",
+            "setYalign": "0.0"
+          },
+          {
+            "Name":"EyesClosed",
+            "File": "../Mods/Pale Priestess/Images/Loretta_Expression_EyesClosed.png",
+            "setXalign": "0.0",
+            "setYalign": "0.0"
+          },
+          {
+            "Name":"Frown",
+            "File": "../Mods/Pale Priestess/Images/Loretta_Expression_Frown.png",
+            "setXalign": "0.0",
+            "setYalign": "0.0"
+          },
+          {
+            "Name":"FrownAvert",
+            "File": "../Mods/Pale Priestess/Images/Loretta_Expression_FrownAvert.png",
+            "setXalign": "0.0",
+            "setYalign": "0.0"
+          },
+          {
+            "Name":"Happy",
+            "File": "../Mods/Pale Priestess/Images/Loretta_Expression_Happy.png",
+            "setXalign": "0.0",
+            "setYalign": "0.0"
+          },
+          {
+            "Name":"HappyGrin",
+            "File": "../Mods/Pale Priestess/Images/Loretta_Expression_HappyGrin.png",
+            "setXalign": "0.0",
+            "setYalign": "0.0"
+          },
+          {
+            "Name":"Kissy",
+            "File": "../Mods/Pale Priestess/Images/Loretta_Expression_Kissy.png",
+            "setXalign": "0.0",
+            "setYalign": "0.0"
+          },
+          {
+            "Name":"Languid",
+            "File": "../Mods/Pale Priestess/Images/Loretta_Expression_Languid.png",
+            "setXalign": "0.0",
+            "setYalign": "0.0"
+          },
+          {
+            "Name":"LanguidFang",
+            "File": "../Mods/Pale Priestess/Images/Loretta_Expression_Languid2.png",
+            "setXalign": "0.0",
+            "setYalign": "0.0"
+          },
+          {
+            "Name":"LewdGrin",
+            "File": "../Mods/Pale Priestess/Images/Loretta_Expression_LewdGrin.png",
+            "setXalign": "0.0",
+            "setYalign": "0.0"
+          },
+          {
+            "Name":"Pained",
+            "File": "../Mods/Pale Priestess/Images/Loretta_Expression_Pained.png",
+            "setXalign": "0.0",
+            "setYalign": "0.0"
+          },
+          {
+            "Name":"Pleading",
+            "File": "../Mods/Pale Priestess/Images/Loretta_Expression_Pleading.png",
+            "setXalign": "0.0",
+            "setYalign": "0.0"
+          },
+          {
+            "Name":"Pleasured",
+            "File": "../Mods/Pale Priestess/Images/Loretta_Expression_Pleasured.png",
+            "setXalign": "0.0",
+            "setYalign": "0.0"
+          },
+          {
+            "Name":"PleasuredGrin",
+            "File": "../Mods/Pale Priestess/Images/Loretta_Expression_PleasuredGrin.png",
+            "setXalign": "0.0",
+            "setYalign": "0.0"
+          },
+          {
+            "Name":"Resolute",
+            "File": "../Mods/Pale Priestess/Images/Loretta_Expression_Resolute.png",
+            "setXalign": "0.0",
+            "setYalign": "0.0"
+          },
+          {
+            "Name":"Sad",
+            "File": "../Mods/Pale Priestess/Images/Loretta_Expression_Sad.png",
+            "setXalign": "0.0",
+            "setYalign": "0.0"
+          },
+          {
+            "Name":"SadVampire",
+            "File": "../Mods/Pale Priestess/Images/Loretta_Expression_SadVampire.png",
+            "setXalign": "0.0",
+            "setYalign": "0.0"
+          },
+          {
+            "Name":"Scared",
+            "File": "../Mods/Pale Priestess/Images/Loretta_Expression_Scared.png",
+            "setXalign": "0.0",
+            "setYalign": "0.0"
+          },
+          {
+            "Name":"Shy",
+            "File": "../Mods/Pale Priestess/Images/Loretta_Expression_Shy.png",
+            "setXalign": "0.0",
+            "setYalign": "0.0"
+          },
+          {
+            "Name":"ShySmile",
+            "File": "../Mods/Pale Priestess/Images/Loretta_Expression_ShySmile.png",
+            "setXalign": "0.0",
+            "setYalign": "0.0"
+          },
+          {
+            "Name":"SmugGrin",
+            "File": "../Mods/Pale Priestess/Images/Loretta_Expression_SmugGrin.png",
+            "setXalign": "0.0",
+            "setYalign": "0.0"
+          },
+          {
+            "Name":"SmugSmile",
+            "File": "../Mods/Pale Priestess/Images/Loretta_Expression_SmugSmile.png",
+            "setXalign": "0.0",
+            "setYalign": "0.0"
+          },
+          {
+            "Name":"Surprise",
+            "File": "../Mods/Pale Priestess/Images/Loretta_Expression_Surprise.png",
+            "setXalign": "0.0",
+            "setYalign": "0.0"
+          }
+      ]
+    },
+    {
+      "Name":"Glasses",
+      "StartOn": "1",
+      "AlwaysOn": "0",
+      "IsScene": "0",
+      "TheBody": "0",
+      "Overlay": "No",
+      "setXalign": "0.0",
+      "setYalign": "0.0",
+      "Images":[
+          {
+            "Name":"Glasses",
+            "File": "../Mods/Pale Priestess/Images/Loretta_Glasses.png",
+            "setXalign": "0.0",
+            "setYalign": "0.0"
+          },
+          {
+            "Name":"GlassesAdjust",
+            "File": "../Mods/Pale Priestess/Images/Loretta_GlassesAdjust.png",
+            "setXalign": "0.0",
+            "setYalign": "0.0"
+          }
+      ]
+    },
+    {
+      "Name":"HairOverlay",
+      "StartOn": "1",
+      "AlwaysOn": "1",
+      "IsScene": "0",
+      "TheBody": "0",
+      "Overlay": "No",
+      "setXalign": "0.0",
+      "setYalign": "0.0",
+      "Images":[
+          {
+            "Name":"Base",
+            "File": "../Mods/Pale Priestess/Images/Loretta_Hair_Overlay.png",
+            "setXalign": "0.0",
+            "setYalign": "0.0"
+          },
+          {
+            "Name":"Adjust",
+            "File": "../Mods/Pale Priestess/Images/Loretta_Hair_Overlay2.png",
+            "setXalign": "0.0",
+            "setYalign": "0.0"
+          }
+      ]
+    }
+  ]
+}

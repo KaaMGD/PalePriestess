@@ -1,0 +1,877 @@
+{
+    "name": "LorettaCombatEvents",
+    "CardType": "",
+    "CardLimit": "0",
+    "Description": "",
+    "requires": [""],
+    "Speakers": [
+                  {
+                    "name": "Loretta",
+                    "postName": "",
+                    "SpeakerType": "Monster"
+                  }
+                ],
+    "EventText": [
+          {
+            "NameOfScene": "Init",
+            "theScene": [
+              "Loretta is approaching!",
+              "SetChoice", "1", "",
+              "SetChoice", "2", ""
+            ]
+          },
+          {
+            "NameOfScene": "PenetrationCounter",
+            "theScene": [
+              "IfMonsterHasStatusEffect", "Stun", "StatusPenetration",
+              "IfMonsterHasStatusEffect", "Restrain", "StatusPenetration",
+
+              "ChangeImageLayer", "Face", "Shade",
+              "ChangeImageLayer", "Expression", "DangerousSmile",
+              "PlayVisualEffect", "SuddenHaze", "pinkHaze.png",
+              "HitPlayerWith", "Foot Smother",
+              "CallSceneThenReturn", "RandomFootStatus",
+              "ApplyStance", "Foot Smothering",
+              "SetPostName", " - Foot Smother", "FocusedSpeaksSkill",
+              "SwapLineIf", "Choice",
+                "2", "", "As your cock slips inside her cool and tight womanly folds, Loretta flashes her fangs in a predatory smile. Laying on her back, she lifts her long legs into the air, and presses both of her stocking-clad feet in your face! An insidious, bittersweet fragrance starts permeating your senses...{DamageToPlayer}",
+                "2", "Barefoot", "As your cock slips inside her cool and tight womanly folds, Loretta flashes her fangs in a predatory smile. Laying on her back, she lifts her long legs into the air, and presses both of her bare feet in your face! An insidious, bittersweet fragrance starts permeating your senses...{DamageToPlayer}",
+              "EndLoop",
+              "SetPostName", "",
+              "Speaks", "For your added pleasure... Huhuhu...",
+              "IfFetishLevelEqualOrGreater", "Feet", "75", "FootWorship"
+            ]
+          },
+          {
+            "NameOfScene": "StatusPenetration",
+            "theScene": [
+              "ChangeImageLayer", "Face", "Shade",
+              "ChangeImageLayer", "Expression", "DangerousSmile",
+              "Taking advantage of Loretta's vulnerable state, you shift aside her lacy panties and shove your cock deep inside her slick pussy!",
+              "FocusedSpeaks", "SwapLineIf", "Random",
+                "Nnh...♥ You're... prudent.",
+                "Haah...♥ I- I'll get you for this, just you wait...",
+                "Nhaa...♥ {i}Now{/i} you're being careful?",
+              "EndLoop"
+            ]
+          },
+          {
+            "NameOfScene": "RandomFootStatus",
+            "theScene": [
+              "JumpToRandomScene", "ApplyFootStatus", "DoNothing", "EndLoop"
+            ]
+          },
+          {
+            "NameOfScene": "ApplyFootStatus",
+            "theScene": [
+              "ApplyStatusEffect", "Foot Smother"
+            ]
+          },
+          {
+            "NameOfScene": "FootWorship",
+            "theScene": [
+              "ChangeImageLayer", "Expression", "EvilSmile",
+              "With her perfect, erotic feet right in your face, you fear you may not be able to control yourself...",
+              "Menu",
+                  "RequiresFetishLevelEqualOrLess", "Feet", "99",
+                "Resist!",
+                "Sniff...(♥)",
+              "EndLoop"
+            ]
+          },
+          {
+            "NameOfScene": "Resist!",
+            "theScene": [
+              "StatCheck",
+              "ChangeStatCheckDifficulty", "IfFetishLevelEqualOrGreater", "Feet", "25", "3",
+              "ChangeStatCheckDifficulty", "IfFetishLevelEqualOrGreater", "Feet", "50", "5",
+              "ChangeStatCheckDifficulty", "IfFetishLevelEqualOrGreater", "Feet", "75", "8",
+              "ChangeStatCheckDifficulty", "IfPlayerHasStatusEffect", "Aphrodisiac", "5",
+              "Temptation", "15", "PassFeet",
+              "Fail", "FailFeet"
+            ]
+          },
+          {
+            "NameOfScene": "PassFeet",
+            "theScene": [
+              "You manage to control your tendencies and slowly begin thrusting your cock inside the haughty priestess, doing your best to continue ignoring her wonderful feet!",
+              "ChangeImageLayer", "Face", "",
+              "ChangeImageLayer", "Expression", "PleasuredGrin",
+              "Loretta grins wickedly as she watches your efforts, leaning back on the floor relaxedly even as your cock is stirring up her insides...",
+              "Speaks", "Let's see you try then, footboy."
+            ]
+          },
+          {
+            "NameOfScene": "FailFeet",
+            "theScene": [
+              "You can't help yourself! You need her feet, need to touch them, worship them, even if just for a moment!",
+              "ChangeImageLayer", "Expression", "LewdGrin",
+              "Speaks", "As expected... This is what you really want.",
+              "HitPlayerWith", "Foot Smother",
+              "CallSceneThenReturn", "RandomFootStatus",
+              "SetPostName", " - Foot Smother", "FocusedSpeaksSkill",
+              "She presses her feet into your face harder, catching your nose between her big and index toes. You can't help but take a long, needy breath...{DamageToPlayer}",
+              "SetPostName", "",
+              "Grabbing her feet with both of your hands needily, you run your tongue over her perfect, slightly damp soles. Your cock can only throb helplessly inside her tight pussy as you focus on her divine feet instead..."
+            ]
+          },
+          {
+            "NameOfScene": "Sniff...(♥)",
+            "theScene": [
+              "CallSceneThenReturn", "RandomFootStatus",
+              "You inhale sharply, longing for more of her foot scent. Your head starts spinning as you sniff again and again, the unsubtle fragrance of her worn stockings melting your mind with every breath...",
+              "ChangeImageLayer", "Expression", "LewdGrin",
+              "Speaks", "As expected... This is what you really want.",
+              "HitPlayerWith", "Foot Smother",
+              "CallSceneThenReturn", "RandomFootStatus",
+              "SetPostName", " - Foot Smother", "FocusedSpeaksSkill",
+              "She presses her feet into your face harder, catching your nose between her big and index toes. You can't help but take a long, needy breath...{DamageToPlayer}",
+              "SetPostName", "",
+              "Grabbing her feet with both of your hands needily, you run your tongue over her perfect, slightly damp soles. Your cock can only throb helplessly inside her tight pussy as you focus on her divine feet instead..."
+            ]
+          },
+          {
+            "NameOfScene": "DoNothing",
+            "theScene": [
+              ""
+            ]
+          },
+          {
+            "NameOfScene": "ThrustCounter",
+            "theScene": [
+              "ChangeImageLayer", "Expression", "LewdGrin",
+              "HitPlayerWith", "Foot Smother",
+              "CallSceneThenReturn", "RandomFootStatus",
+              "SetPostName", " - Foot Smother", "FocusedSpeaksSkill",
+              "Each time you thrust your hips forward, Loretta pushes her soft feet into your face... {DamageToPlayer}",
+              "SetPostName", "",
+              "FocusedSpeaks",
+              "SwapLineIf", "Random",
+                "'So eager for more of my feet?'",
+                "'You know you can't win this way, don't you?'",
+                "'So you keep going? You really must be after my feet...'",
+              "EndLoop"
+            ]
+          },
+          {
+            "NameOfScene": "StrongThrustCounter",
+            "theScene": [
+              "HitPlayerWith", "Foot Smother",
+              "CallSceneThenReturn", "RandomFootStatus",
+              "SetPostName", " - Foot Smother", "FocusedSpeaksSkill",
+              "With each powerful thrust of your hips, Loretta pushes back with her soft feet in your face... {DamageToPlayer}",
+              "SetPostName", "",
+              "FocusedSpeaks",
+              "SwapLineIf", "Random",
+                "|f|ChangeImageLayer|/|Expression|/|SmugGrin|n|'Nnh...♥ So eager for more of my feet?'",
+                "|f|ChangeImageLayer|/|Expression|/|PleasuredGrin|n|'Haa...♥ You won't last...'",
+                "|f|ChangeImageLayer|/|Expression|/|PleasuredGrin|n|'Haah...♥ Doing your best, or are you after my feet?'",
+              "EndLoop"
+            ]
+          },
+          {
+            "NameOfScene": "LoveyThrustCounter",
+            "theScene": [
+              "ChangeImageLayer", "Face", "Blush",
+              "HitPlayerWith", "Foot Smother",
+              "CallSceneThenReturn", "RandomFootStatus",
+              "SetPostName", " - Foot Smother", "FocusedSpeaksSkill",
+              "With each lovey-dovey thrust of your hips, Loretta pushes back with her soft feet in your face... {DamageToPlayer}",
+              "SetPostName", "",
+              "FocusedSpeaks",
+              "SwapLineIf", "Random",
+                "|f|ChangeImageLayer|/|Expression|/|Shy|n|'You- nnh...♥ Impudent footboy...'",
+                "|f|ChangeImageLayer|/|Expression|/|BashfulGrin|n|'Hyaah...♥ You can't fool me...♥ What you really want are my feet...'",
+                "|f|ChangeImageLayer|/|Expression|/|BashfulGrin|n|'Y-yoouu...♥ Stop that and focus on my feet...!♥'",
+              "EndLoop"
+            ]
+          },
+          {
+            "NameOfScene": "EOR",
+            "theScene": [
+              "IfPlayerHasStatusEffect", "Sleep", "SleepBlindfolding",
+              "IfPlayerHasStance", "Foot Smothering", "EORFootSex",
+              "IfPlayerHasStance", "Blindfold", "EORBlindfold",
+              "IfPlayerHasStance", "Amazon Position", "EORAmazon",
+              "IfPlayerHasStance", "Face Sit", "EORFacesit"
+            ]
+          },
+          {
+            "NameOfScene": "SleepBlindfolding",
+            "theScene": [
+              "PlayBlackOut"
+            ]
+          },
+          {
+            "NameOfScene": "EORFootSex",
+            "theScene": [
+              "CallSceneThenReturn", "RandomFootStatus",
+              "PlayVisualEffect2", "ScreenPulse", "pinkHaze.png",
+              "Every moment you spend next to her feet makes it harder to breathe...",
+              "EndVisualEffect2"
+            ]
+          },
+          {
+            "NameOfScene": "EORBlindfold",
+            "theScene": [
+              "Every moment you spend wrapped in her silky stockings makes it harder to breathe...",
+              "JumpToScene", "ApplyFootStatus"
+            ]
+          },
+          {
+            "NameOfScene": "EORAmazon",
+            "theScene": [
+              "Every moment you spend wrapped in her silky panties makes it harder to breathe...",
+              "JumpToScene", "ApplyFootStatus"
+            ]
+          },
+          {
+            "NameOfScene": "EORFacesit",
+            "theScene": [
+              "Every moment you spend trapped under her silky panties makes it harder to breathe...",
+              "JumpToScene", "ApplyFootStatus"
+            ]
+          },
+          {
+            "NameOfScene": "EndSex",
+            "theScene": [
+              "ClearStanceFromMonsterAndPlayer", "Foot Smothering",
+              "EndVisualEffect",
+              "ChangeImageLayer", "Face", "Flush",
+              "FocusedSpeaks", "SwapLineIf", "Random",
+                "|f|ChangeImageLayer|/|Expression|/|EvilSmile|n|'Thinking you can do better elsewhere?'",
+                "|f|ChangeImageLayer|/|Expression|/|Boredom|n|'Change your mind? Typical male.'",
+                "|f|ChangeImageLayer|/|Expression|/|Boredom|n|'Hmph.' She waves you away with her hand.",
+              "EndLoop"
+            ]
+          },
+          {
+            "NameOfScene": "EndSmothering",
+            "theScene": [
+              "EndVisualEffect",
+              "ChangeImageLayer", "Face", "Flush",
+              "ChangeImageLayer", "Expression", "DangerousSmile",
+              "ApplyStatusEffectToMonster", "Pin",
+              "Loretta narrows her eyes and grits her teeth, trying to hide the pleasure she feels as you're thrusting in her receptive pussy without restraint.",
+              "Speaks", "Savour your advantage while you can..."
+            ]
+          },
+          {
+            "NameOfScene": "AnalCounter",
+            "theScene": [
+              "IfMonsterHasStatusEffect", "Stun", "StunAnal",
+              "IfMonsterHasStatusEffect", "Restrain", "RestrainAnal",
+
+              "ChangeImageLayer", "Face", "",
+              "ChangeImageLayer", "Expression", "Boredom",
+              "As your cock slips inside her cool and incredibly tight butthole, Loretta just sighs dismissively. Bending over even more, she rests herself against her staff as she gives you unrestricted access to her anus. Casting a sidelong glance in your direction, she exudes an air of confidence that does not inspire you to continue with this plan...",
+              "Speaks", "Do go on.",
+              "CallSceneThenReturn", "RandomHairStatus",
+              "SetPostName", " - Vampire's Fragrance", "FocusedSpeaksSkill",
+              "To make matters worse, her long pale hair is spreading a subtle, insidious aroma all around you...",
+              "SetPostName", ""
+            ]
+          },
+          {
+            "NameOfScene": "StunAnal",
+            "theScene": [
+              "ChangeImageLayer", "Face", "",
+              "ChangeImageLayer", "Expression", "Confus",
+              "Taking advantage of Loretta's stunned state, you push her over her staff, and shove your cock deep inside her soft ass! Failing to draw even a moan from the haughty priestess, you wonder if this was a bad idea...",
+              "FocusedSpeaks", "SwapLineIf", "Random",
+                "...? Oh.",
+                "...That's what you're going for?",
+                "...Huh? Ah, suit yourself...",
+              "EndLoop",
+              "CallSceneThenReturn", "RandomHairStatus",
+              "SetPostName", " - Vampire's Fragrance", "FocusedSpeaksSkill",
+              "To make matters worse, her long pale hair is spreading a subtle, insidious aroma all around you...",
+              "SetPostName", ""
+            ]
+          },
+          {
+            "NameOfScene": "RestrainAnal",
+            "theScene": [
+              "ChangeImageLayer", "Face", "",
+              "ChangeImageLayer", "Expression", "Confus",
+              "Taking advantage of Loretta's restrained state, her hands tied tightly to her own staff, you bend her over and shove your cock deep inside her soft ass! Failing to draw even a moan from the haughty priestess, you wonder if this was a bad idea...",
+              "FocusedSpeaks", "SwapLineIf", "Random",
+                "|f|ChangeImageLayer|/|Face|/|Shade|n||f|ChangeImageLayer|/|Expression|/|EvilSmile|n|Oh nooo, you tied me up and you're fucking my ass~~~! Huhuhu...♥",
+                "|f|ChangeImageLayer|/|Face|/|\n|n||f|ChangeImageLayer|/|Expression|/|Boredom|n|It doesn't matter if you tie me up... Well, see for yourself.",
+                "|f|ChangeImageLayer|/|Face|/|\n|n||f|ChangeImageLayer|/|Expression|/|SmugSmile|n| Well, suit yourself...",
+              "EndLoop",
+              "CallSceneThenReturn", "RandomHairStatus",
+              "SetPostName", " - Vampire's Fragrance", "FocusedSpeaksSkill",
+              "To make matters worse, her long pale hair is spreading a subtle, insidious aroma all around you...",
+              "SetPostName", ""
+            ]
+          },
+          {
+            "NameOfScene": "AnalThrustCounter",
+            "theScene": [
+              "ChangeImageLayer", "Face", "",
+              "ChangeImageLayer", "Expression", "Boredom",
+              "CallSceneThenReturn", "RandomHairStatus",
+              "FocusedSpeaks",
+              "SwapLineIf", "Random",
+                "'Mmh, well, suit yourself.'",
+                "'You should thrust faster. I don't plan to entertain you for long.'",
+                "'Well, how's my ass? Still think you can win this?'",
+              "EndLoop"
+            ]
+          },
+          {
+            "NameOfScene": "AnalStrongThrustCounter",
+            "theScene": [
+              "ChangeImageLayer", "Face", "",
+              "ChangeImageLayer", "Expression", "Boredom",
+              "CallSceneThenReturn", "RandomHairStatus",
+              "FocusedSpeaks",
+              "SwapLineIf", "Random",
+                "'Hmm... You're really doing your best back there...'",
+                "'Misguided effort...'",
+                "'...'",
+              "EndLoop"
+            ]
+          },
+          {
+            "NameOfScene": "AnalLoveyThrustCounter",
+            "theScene": [
+              "ChangeImageLayer", "Face", "Flush",
+              "ChangeImageLayer", "Expression", "Boredom",
+              "CallSceneThenReturn", "RandomHairStatus",
+              "FocusedSpeaks",
+              "SwapLineIf", "Random",
+                "'Nnnh...♥ Good effort, at least...'",
+                "'...♥'",
+                "'You...♥ This won't help, you know?'",
+              "EndLoop"
+            ]
+          },
+          {
+            "NameOfScene": "RandomHairStatus",
+            "theScene": [
+              "JumpToRandomScene", "ApplyHairStatus", "DoNothing", "DoNothing", "EndLoop"
+            ]
+          },
+          {
+            "NameOfScene": "ApplyHairStatus",
+            "theScene": [
+              "ApplyStatusEffect", "Vampire's Fragrance"
+            ]
+          },
+          {
+            "NameOfScene": "AnalOrgasmPunishment",
+            "theScene": [
+              "ChangeImageLayer", "Face", "Flush",
+              "ChangeImageLayer", "Expression", "Boredom",
+              "SwapLineIf", "Random",
+                "Even with her largely disinterested demeanor during this act, you realize that you may fuck yourself silly at this rate. Gritting your teeth, you promise yourself to pull out afterwards as you pump her plump ass full of hot seed, your legs almost giving out from the powerful orgasm. |n|'Ah, you're cumming...'",
+                "Even though she's not fighting back and unabashedly lets you thrust freely into her asshole, you fail to make it count and feel your own orgasm building. With a weak cry, you thrust forward needily, your heavy balls slapping against her ass, and unleash a massive load of hot seed into her colon. |n|'Mhm, figures...'",
+                "Your balls slapping powerfully against Loretta's soft ass, you thrust frantically into her tight asshole, on the verge of orgasm. She is completely unfazed, and you let out a frustrated groan as you finally spurt inside, hilting your cock to the base as you unload deep inside the resilient undead priestess, filling her to the brim with hot cum. |n|'Had your fun yet?'",
+              "EndLoop",
+              "IfPlayerSpiritGone", "DoNothing",
+              "ChangeImageLayer", "Face", "Shade",
+              "ChangeImageLayer", "Expression", "DangerousGlint",
+              "Speaks", "Hmm...",
+              "All of a sudden, Loretta bumps her womanly ass into you strongly, pushing you against the wall and trapping your cock inside her crushingly-tight asshole!",
+              "ChangeArousalQuietly", "100",
+              "The priestess starts thrusting her ass against you energetically, her pale asscheeks jiggling delightfully around your length. Her cum-filled asshole feels amazing around your post-orgasmic cock, threatening to quickly make you spurt again. You moan helplessly from the overwhelming pleasure and try to push her away fruitlessly, failing to muster any strength.",
+              "Speaks", "Forcing your cock inside a holy woman's ass and just cumming on your own selfishly... The least you can do is offer another load.",
+              "ChangeArousalQuietly", "200",
+              "Loretta does not relent, assaulting you with her porcelain ass as you can do nothing but squirm helplessly. Another climax is fast on its way as her soft but incredibly tight anus is mercilessly crushing down on your cock, demanding another ejaculation from you. Your cock throbs like crazy, already aching to unleash another portion of seed.",
+              "ChangeArousalQuietly", "999",
+              "Speaks", "... At least you have the decency to ejaculate faster this time. Do go on, surrender all of your shameful seed to my asshole.",
+              "PlayerOrgasm", "1",
+              "The intense assault gives you no room to hold back and you cum again, even more of your thick spunk flooding Loretta's tight colon. She never stops shaking her hips, her ass making loud and wet slaps against your crotch as your cum starts rushing out of her ass, overfilling the woman's tight insides.",
+              "The repeated, rapid-fire orgasm makes your knees weak, as you shiver and cum helplessly into her tight butthole. Loretta hums quietly, as if appraising your orgasmic effort, bouncing her butt in your crotch in smaller motions.",
+              "IfPlayerSpiritGone", "Defeat",
+              "ClearStanceFromMonsterAndPlayer", "Anal",
+              "Satisfied, she takes a step forward, allowing your cock to weakly slip out of her cum-filled asshole. A huge load of your seed comes rushing out of her anus, drooling down her legs obscenely, completely unbefitting of her holy priestessly visage... With another step forward, she turns around to face you, hiding the vulgar sight from your eyes.",
+              "ChangeImageLayer", "Face", "Flush",
+              "ChangeImageLayer", "Expression", "SmugGrin",
+              "Speaks", "Consider your next move more carefully..."
+            ]
+          },
+          {
+            "NameOfScene": "AnalPulloutPunishment",
+            "theScene": [
+              "ChangeImageLayer", "Face", "Shade",
+              "ChangeImageLayer", "Expression", "Anger",
+              "As your cock escapes the dangerous confines of her anus, Loretta glances behind, still craned over against her staff, and narrows her eyes.",
+              "Speaks", "What is this? Changing your mind after I displayed such hospitality? Ingrate brute.",
+              "ChangeImageLayer", "Expression", "AngerGlow",
+              "HitPlayerWith", "Blood-chilling Glare",
+              "ApplyStatusEffect", "Blood-chilling Glare",
+              "SetPostName", " - Blood-chilling Glare", "FocusedSpeaksSkill",
+              "Her normally pale eyes flash a horrifying red, the magical glow leaving you paralyzed on the spot! {DamageToPlayer}",
+              "SetPostName", "",
+              "ChangeImageLayer", "Expression", "Anger",
+              "ChangeArousal", "100",
+              "Her ass moves back slowly, catching your helpless erection between its soft asscheeks. You can't move a finger, caught off-guard by her enchanted eyes, and can only watch silently as your cock starts drooling precum on her round pale ass.",
+              "ChangeArousal", "200",
+              "Speaks", "Do you stick your sorry thing in every hole you come across, hoping it goes well? Is this how all male adventurers are?",
+              "ChangeArousal", "999",
+              "She starts bouncing her pale ass against your erection. The assjob is slow and methodical, but her jiggly asscheeks squeeze your cock quite firmly. You feel her soft anus dragging over the underside of your cock, the pleasant sensation somehow uncannily intense, likely due to the effects of the magical paralysis. You would gasp, if you could, but now you can only watch in silent awe as her perfect ass overwhelms your paralyzed cock in mere moments.",
+              "Speaks", "Repent. Repent and surrender your seed to my ass. It's the least you can do.",
+              "PlayerOrgasm", "1",
+              "ChangeImageLayer", "Face", "Flush",
+              "ChangeImageLayer", "Expression", "AngerSubdued",
+              "As if obediently following her command, your cock erupts eagerly, raining ivory seed on her porcelain ass, the white proof of your submission barely visible on her pale skin. The vampire priestess nods, seemingly satisfied with your ejaculation, and takes a step forward before spinning around. Moving her hips in a whip-like motion, she shakes off most your seed to the ground...",
+              "IfPlayerSpiritGone", "Defeat",
+              "Speaks", "Think more carefully about what you do next..."
+            ]
+          },
+          {
+            "NameOfScene": "Defeat",
+            "theScene": [
+              "PlayerLosesCombat"
+            ]
+          },
+          {
+            "NameOfScene": "MakeoutCounter",
+            "theScene": [
+              "IfMonsterHasStatusEffect", "Stun", "StunKissy",
+              "IfMonsterHasStatusEffect", "Restrain", "RestrainKissy",
+              "IfPlayerHasStance", "Anal", "AnalMakeoutCounter",
+              "IfPlayerHasStance", "Foot Smothering", "SmotherMakeoutCounter",
+
+              "SkipPlayerAttack",
+              "ChangeImageLayer", "Face", "Shade",
+              "ChangeImageLayer", "Expression", "Anger",
+              "Right as you move to kiss the haughty vampire, her hands move in a blur!",
+              "ApplyStatusEffect", "Priestess Defense Arts",
+              "SetPostName", " - Priestess Defense Arts", "FocusedSpeaksSkill",
+              "Slamming you over the ears, her hands retreat as quickly as they struck. You are stunned, reeling with dizziness, your ears still ringing from the strike. The unusually harsh attack easily prevented your kiss and also let you know what she thinks of the attempt...",
+              "SetPostName", ""
+            ]
+          },
+          {
+            "NameOfScene": "StunKissy",
+            "theScene": [
+              "SkipPlayerAttack",
+              "IfPlayerHasStance", "Anal", "AnalMakeoutCounter",
+              "IfPlayerHasStance", "Foot Smothering", "SmotherMakeoutCounter",
+              "ChangeImageLayer", "Face", "Shade",
+              "ChangeImageLayer", "Expression", "Anger",
+              "Right as you move to seize the moment and kiss the stunned vampire, her hands move in a blur!",
+              "ApplyStatusEffect", "Priestess Defense Arts",
+              "SetPostName", " - Priestess Defense Arts", "FocusedSpeaksSkill",
+              "Slamming you over ears, her hands retreat as quickly as they struck. You are stunned, reeling with dizziness, your ears still ringing from the strike. The unusually harsh attack easily prevented your kiss and also let you know what she thinks of the attempt...",
+              "SetPostName", "",
+              "Even in her stunned state, she could do something like that... Seems like nothing short of restraining her will work."
+            ]
+          },
+          {
+            "NameOfScene": "RestrainKissy",
+            "theScene": [
+              "IfPlayerHasStance", "Anal", "AnalMakeoutCounter",
+              "ChangeImageLayer", "Face", "Shade",
+              "ChangeImageLayer", "Expression", "AngerKissy",
+              "Taking advantage of Loretta's restrained state, you manage to plant a kiss on her lips!",
+              "FocusedSpeaks", "SwapLineIf", "Random",
+                "Mwah...♥ You-... you're dead!",
+                "Mmh...♥ H-how dare you...!",
+                "Mwah...♥ I- I won't forgive this... Mhwaaa...♥",
+              "EndLoop"
+            ]
+          },
+          {
+            "NameOfScene": "AnalMakeoutCounter",
+            "theScene": [
+              "SkipPlayerAttack",
+              "With the position she is in right now, kissing her is impossible..."
+            ]
+          },
+          {
+            "NameOfScene": "SmotherMakeoutCounter",
+            "theScene": [
+              "SkipPlayerAttack",
+              "With her soft feet insistently pressing into your face, trying to kiss her would be impossible..."
+            ]
+          },
+          {
+            "NameOfScene": "EnsorcGaze",
+            "theScene": [
+              "ChangeImageLayer", "Face", "Flush",
+              "ChangeImageLayer", "Expression", "CrimsonGaze",
+              "SetPostName", " - Ensorcelled Gaze", "FocusedSpeaksSkill",
+              "Loretta's normally pale blue eyes undergo a rapid transformation! The pleasantly blue color is rapidly washed away by a terrifying crimson...",
+              "ChangeImageLayer", "Expression", "EnchantingGaze",
+              "FocusedSpeaksSkill", "A glowing red aura flashes from her eyes, threatening to draw you in!",
+              "SetPostName", "",
+              "In hopes of breaking the spell, you narrowly manage to move your gaze away from her eyes to look...",
+              "Menu",
+                "...at her lips.",
+                "...at her breasts.",
+                "...at her legs.",
+                "...at her feet.",
+                "...back to her eyes...",
+              "EndLoop"
+            ]
+          },
+          {
+            "NameOfScene": "...at her lips.",
+            "theScene": [
+              "HitPlayerWith", "Lips Sight",
+              "Escaping the spell, you look down to Loretta's sensual lips and your heart flutters in your chest from the sight. You watch in awe as her horrifying fangs softly bite at her lips, the contrast of yielding flesh and animalistic sharpness so oddly appealing...{DamageToPlayer}",
+              "StatCheck",
+              "ChangeStatCheckDifficulty", "IfFetishLevelEqualOrGreater", "Oral", "25", "1",
+              "ChangeStatCheckDifficulty", "IfFetishLevelEqualOrGreater", "Oral", "50", "3",
+              "ChangeStatCheckDifficulty", "IfFetishLevelEqualOrGreater", "Oral", "75", "5",
+              "ChangeStatCheckDifficulty", "IfFetishLevelEqualOrGreater", "Kissing", "25", "1",
+              "ChangeStatCheckDifficulty", "IfFetishLevelEqualOrGreater", "Kissing", "50", "3",
+              "ChangeStatCheckDifficulty", "IfFetishLevelEqualOrGreater", "Kissing", "75", "5",
+              "Temptation", "15", "PassTemptation",
+              "Fail", "FailLips"
+            ]
+          },
+          {
+            "NameOfScene": "PassTemptation",
+            "theScene": [
+              "...But with great effort, you manage to tear away your gaze from the alluring priestess for good! You pant heavily, relishing being able to look at your surroundings freely.",
+              "ChangeImageLayer", "Face", "",
+              "ChangeImageLayer", "Expression", "HappyGrin",
+              "This seems to break the spell, as you note the sinister glow disappearing in your peripheral vision. You recompose yourself and look back to the vampiress, surprised to see her look oddly satisfied.",
+              "Speaks", "Good on you. Think you can keep doing that?"
+            ]
+          },
+          {
+            "NameOfScene": "FailLips",
+            "theScene": [
+              "HitPlayerWith", "Lips Sight",
+              "Her luscious lips look so soft and you're slowly losing yourself in them... Her pearly white fangs look so right, biting down powerfully on her perfect lips, nearly drawing blood... You start to wonder how it would feel, getting bitten like that...?{DamageToPlayer}",
+              "You snap out of the delusion momentarily, but in the end you can't, can't look away from her!",
+              "HitPlayerWith", "Vampiric Enthrallment",
+              "ApplyStatusEffect", "Vampiric Enthrallment",
+              "SetPostName", " - Vampiric Enthrallment", "FocusedSpeaksSkill",
+              "As if giving up, your eyes steal a glance at the crimson abyss emanating from her gaze... And you don't look away again.{DamageToPlayer}",
+              "SetPostName", "",
+              "JumpToScene", "GazeWrapup"
+            ]
+          },
+          {
+            "NameOfScene": "...at her breasts.",
+            "theScene": [
+              "HitPlayerWith", "Breasts Sight",
+              "Escaping the spell, your gaze falls to Loretta's heavy bosom, the tight cleavage a natural magnet for the eyes. Loretta stands still, doing nothing to emphasize her chest, but it is still difficult to look away for good...{DamageToPlayer}",
+              "StatCheck",
+              "ChangeStatCheckDifficulty", "IfFetishLevelEqualOrGreater", "Breasts", "25", "3",
+              "ChangeStatCheckDifficulty", "IfFetishLevelEqualOrGreater", "Breasts", "50", "5",
+              "ChangeStatCheckDifficulty", "IfFetishLevelEqualOrGreater", "Breasts", "75", "8",
+              "Temptation", "15", "PassTemptation",
+              "Fail", "FailTits"
+            ]
+          },
+          {
+            "NameOfScene": "FailTits",
+            "theScene": [
+              "HitPlayerWith", "Breasts Sight",
+              "Her heavy tits look so soft and inviting and you're slowly losing yourself in the depths of her pale cleavage... Her porcelain skin is {i}perfect{/i}, not a single blemish in sight... Maybe if you put your face in there, you could escape the scary glare...?{DamageToPlayer}",
+              "You snap out of the delusion momentarily, but in the end you can't, can't look away from her!",
+              "HitPlayerWith", "Vampiric Enthrallment",
+              "ApplyStatusEffect", "Vampiric Enthrallment",
+              "SetPostName", " - Vampiric Enthrallment", "FocusedSpeaksSkill",
+              "As if giving up, your eyes steal a glance at the crimson abyss emanating from her gaze... And you don't look away again.{DamageToPlayer}",
+              "SetPostName", "",
+              "JumpToScene", "GazeWrapup"
+            ]
+          },
+          {
+            "NameOfScene": "...at her legs.",
+            "theScene": [
+              "HitPlayerWith", "Legs Sight",
+              "Escaping the spell, your gaze travels all the way to Loretta's stocking-clad legs, the plump creamy flesh of her thigh pleasing to the eye. Loretta stands still, doing nothing to flaunt her long legs, but it is still difficult to look away for good...{DamageToPlayer}",
+              "StatCheck",
+              "ChangeStatCheckDifficulty", "IfFetishLevelEqualOrGreater", "Legs", "25", "3",
+              "ChangeStatCheckDifficulty", "IfFetishLevelEqualOrGreater", "Legs", "50", "5",
+              "ChangeStatCheckDifficulty", "IfFetishLevelEqualOrGreater", "Legs", "75", "8",
+              "Temptation", "15", "PassTemptation",
+              "Fail", "FailLegs"
+            ]
+          },
+          {
+            "NameOfScene": "FailLegs",
+            "theScene": [
+              "HitPlayerWith", "Legs Sight",
+              "Her thighs look so soft and inviting that you find yourself losing focus, just watching and watching her long legs... Her porcelain skin is {i}perfect{/i}, not a single blemish in sight... Maybe if you stuffed your face between her thighs, you could escape the scary glare...?{DamageToPlayer}",
+              "You snap out of the delusion momentarily, but in the end you can't, can't look away from her!",
+              "HitPlayerWith", "Vampiric Enthrallment",
+              "ApplyStatusEffect", "Vampiric Enthrallment",
+              "SetPostName", " - Vampiric Enthrallment", "FocusedSpeaksSkill",
+              "As if giving up, your eyes steal a glance at the crimson abyss emanating from her gaze... And you don't look away again.{DamageToPlayer}",
+              "SetPostName", "",
+              "JumpToScene", "GazeWrapup"
+            ]
+          },
+          {
+            "NameOfScene": "...at her feet.",
+            "theScene": [
+              "HitPlayerWith", "Feet Sight",
+              "Escaping the spell, your gaze travels all the way down to Loretta's stocking-clad feet, their elegant shape also intensely erotic, as it is complemented by her high heels. Loretta shifts her feet subtly, the simplest of movement capable of captivating you, making it incredibly difficult to look away...{DamageToPlayer}",
+              "StatCheck",
+              "ChangeStatCheckDifficulty", "IfFetishLevelEqualOrGreater", "Feet", "25", "4",
+              "ChangeStatCheckDifficulty", "IfFetishLevelEqualOrGreater", "Feet", "50", "6",
+              "ChangeStatCheckDifficulty", "IfFetishLevelEqualOrGreater", "Feet", "75", "10",
+              "Temptation", "20", "PassTemptation",
+              "Fail", "FailLegs"
+            ]
+          },
+          {
+            "NameOfScene": "FailFeet",
+            "theScene": [
+              "HitPlayerWith", "Feet Sight",
+              "Her feet look so graceful and sensual that you find yourself completely drawn in and enchanted... Her elegant toes are {i}perfect{/i}, you cannot even imagine overcoming their immaculate excellence... Maybe if you prostrated yourself at her divine feet, you could escape the scary glare...?{DamageToPlayer}",
+              "You snap out of the delusion momentarily, but in the end you can't, can't look away from her!",
+              "HitPlayerWith", "Vampiric Enthrallment",
+              "ApplyStatusEffect", "Vampiric Enthrallment",
+              "SetPostName", " - Vampiric Enthrallment", "FocusedSpeaksSkill",
+              "As if giving up, your eyes steal a glance at the crimson abyss emanating from her gaze... And you don't look away again.{DamageToPlayer}",
+              "SetPostName", "",
+              "JumpToScene", "GazeWrapup"
+            ]
+          },
+          {
+            "NameOfScene": "...back to her eyes...",
+            "theScene": [
+              "HitPlayerWith", "Vampiric Enthrallment",
+              "Never escaping the spell, you greedily take in her magic, never even trying to look away. The crimson abyss in her cursed eyes encompasses everything, replacing your entire world as your body starts shaking in helpless pleasure, giving yourself entirety to Her control. In the end, you realize you could never escape her enchanting visage...{DamageToPlayer}",
+              "HitPlayerWith", "Vampiric Enthrallment",
+              "ApplyStatusEffect", "Vampiric Enthrallment",
+              "SetPostName", " - Vampiric Enthrallment", "FocusedSpeaksSkill",
+              "Her wondrous eyes flash once more, instantly wiping away all of your thoughts... A single command rings in your empty mind - to never look away again.{DamageToPlayer}",
+              "SetPostName", "",
+              "ChangeImageLayer", "Face", "Flush",
+              "ChangeImageLayer", "Expression", "SmugGrin",
+              "Speaks", "Good, good... My little {i}thrall{/i}.",
+              "HitPlayerWith", "Seduce",
+              "The word sends shivers of needy pleasure through your strangely sensitive body! Merely being referred to as a 'thrall' by Her brings your body unbearable pleasure...{DamageToPlayer}"
+            ]
+          },
+          {
+            "NameOfScene": "GazeWrapup",
+            "theScene": [
+              "HitPlayerWith", "Vampiric Enthrallment",
+              "The crimson abyss in her cursed eyes encompasses everything, replacing your entire world as your body start shaking in helpless pleasure, giving yourself entirety to Her control. In the end, you realize you could never escape the enchanting visage of your Mistress...{DamageToPlayer}",
+              "ChangeImageLayer", "Face", "Flush",
+              "ChangeImageLayer", "Expression", "SmugGrin",
+              "Speaks", "Good, good... My little {i}thrall{/i}.",
+              "HitPlayerWith", "Seduce",
+              "The word sends shivers of needy pleasure through your strangely sensitive body! Merely being referred to as a 'thrall' by Her brings your body overwhelming pleasure...{DamageToPlayer}"
+            ]
+          },
+          {
+            "NameOfScene": "UgliCounter",
+            "theScene": [
+              "IfChoice", "1", "CountedToTwo", "EatHerb",
+              "SkipPlayerAttack",
+              "IfChoice", "1", "", "CountToOne",
+              "IfChoice", "1", "CountedToOne", "CountToTwo"
+            ]
+          },
+          {
+            "NameOfScene": "CountToOne",
+            "theScene": [
+              "ChangeImageLayer", "Face", "Shade",
+              "ChangeImageLayer", "Expression", "DangerousGlint",
+              "Speaks", "{i}Stop{/i}.",
+              "Your hand freezes mere inches away from your lips, unable to bring the blackened leafy herb to your mouth...",
+              "ChangeImageLayer", "Expression", "SmugSmile",
+              "Speaks", "A {i}thrall{/i} doesn't need that. Lower your hand.",
+              "You can only gulp down helplessly as your hand moves away involuntarily, bringing away your salvation... But you also know that her control over you is not absolute.",
+              "SetChoice", "1", "CountedToOne"
+            ]
+          },
+          {
+            "NameOfScene": "CountToTwo",
+            "theScene": [
+              "ChangeImageLayer", "Face", "Shade",
+              "ChangeImageLayer", "Expression", "DangerousGlint",
+              "Speaks", "I {i}forbid{/i}.",
+              "Your hand freezes again, mere inches away from your lips, still unable to bring the blackened leafy herb to your mouth...",
+              "ChangeImageLayer", "Expression", "SmugSmile",
+              "Speaks", "What an unruly {i}thrall{/i} you are... Lower your hand.",
+              "Your hand moves away shakily, bringing away your salvation again... But you feel like you can do it next time...",
+              "ChangeImageLayer", "Expression", "SmugGrin",
+              "Speaks", "Don't do that again...",
+              "SetChoice", "1", "CountedToTwo"
+            ]
+          },
+          {
+            "NameOfScene": "EatHerb",
+            "theScene": [
+              "Finally, your shaking hands manage to bring the blackened leaf to your dry lips, despite the protests of your vampiric mistress!",
+              "ChangeImageLayer", "Face", "Shade",
+              "ChangeImageLayer", "Expression", "DangerousGlint",
+              "SetChoice", "1", ""
+            ]
+          },
+          {
+            "NameOfScene": "StockingBlindfold",
+            "theScene": [
+              "ChangeImageLayer", "Expression", "DangerousGlint",
+              "Your vampiric Mistress shifts suddenly, slipping her foot from her high-heeled shoe. Her enthralling powers keep you in place, so you can only gawk silently, trying to figure out what she is doing...",
+              "ChangeImageLayer", "Base", "BaseOneStocking",
+              "You watch in awe as she slowly pulls off one of her white stockings, elegantly balancing on one leg. Your heart skips a beat as you catch a glimpse of her bare foot before she slips it back into her shoe...",
+              "ChangeImageLayer", "Expression", "EvilSmile",
+              "PlayBlackOut",
+              "ApplyStance", "Blindfold",
+              "HitPlayerWith", "Seduce",
+              "SetPostName", " - Stocking Blindfold", "FocusedSpeaksSkill",
+              "She takes a single step in your direction, already slipping behind your dazed self the very next moment. You are not sure how that happened, but that's the least of your concerns as her stocking is wrapped around your eyes! Following the overbearing fragrance of her foot sweat creeping into your nostrils, a smoldering hot whisper invades your vulnerable ear...{DamageToPlayer}",
+              "SetPostName", "",
+              "Speaks", "Thralls get to enjoy... special privileges.",
+              "HitPlayerWith", "Seduce",
+              "Your heart aches as you can no longer see your vampiric mistress, but the soft touch of her hands on your chest brings comfort. Embracing you from behind, the taller woman keeps whispering seductively in your ear...{DamageToPlayer}",
+              "Speaks", "Carefully now... sit down.",
+              "You obey. A thrall couldn't go against her wishes even if he wanted to... As you slump down to the stone floor, you feel her long legs wrap around your waist, the fallen priestess possessively latching onto you from behind.",
+              "ApplyStance", "Footjob",
+              "HitPlayerWith", "Foot Stroke",
+              "Her feet grip your throbbing erection, one clad in soft fabric, the other bare. You shudder and inhale sharply, your body feeling more sensitive now that you've been robbed of sight. Her dextrous feet pump your length slowly, the simple motion weakening you considerably.{DamageToPlayer}",
+              "Speaks", "I will use my feet to stroke out all of your dirty juice... Until you give yourself to {i}me{/i}."
+            ]
+          },
+          {
+            "NameOfScene": "EndFootjob",
+            "theScene": [
+              "ClearStanceFromMonsterAndPlayer", "Blindfold",
+              "EndBlackOut",
+              "Scrambling away, you manage to tear off the stocking from your face, tossing the pleasantly-scented cloth back at the vampiress by chance.",
+              "ChangeImageLayer", "Base", "Base",
+              "ChangeImageLayer", "Expression", "SmugGrin",
+              "Turning back to the grinning vampire, who already seems to have replaced the stocking, you manage to calm your throbbing cock and repose yourself for the fight.",
+              "Speaks", "I'm surprised you escaped... Not content with being a mere thrall, mm?"
+            ]
+          },
+          {
+            "NameOfScene": "EndBlindfold",
+            "theScene": [
+              "EndBlackOut",
+              "Momentarily, you manage to pull off the stocking from your eyes, catching a glimpse of surroundings...",
+              "ChangeImageLayer", "Expression", "SmugGrin",
+              "ApplyStance", "Blindfold",
+              "PlayBlackOut",
+              "But as you are still held tightly in Loretta's posessive embrace, she simply pulls the blindfold over your eyes again! You will need to break out of her clutches first...",
+              "Speaks", "So needy... Thralls don't need to see me in order to submit."
+            ]
+          },
+          {
+            "NameOfScene": "Surrender",
+            "theScene": [
+              "ChangeImageLayer", "Expression", "Frown",
+              "Speaks", "Hmph... I am not interested in your submission.",
+              "ChangeImageLayer", "Expression", "DangerousGlint",
+              "Speaks", "Entertain me.",
+              "RemoveStatusEffect", "Surrender"
+            ]
+          },
+          {
+            "NameOfScene": "DistractLogic",
+            "theScene": [
+              "IfPlayerHasStance", "Blindfold", "SkipDistract"
+            ]
+          },
+          {
+            "NameOfScene": "SkipDistract",
+            "theScene": [
+              "SkipPlayerAttack",
+              "You can't manage a distraction in such a state..."
+            ]
+          },
+          {
+            "NameOfScene": "EscapeLogic",
+            "theScene": [
+              "EndBlackOut",
+              "ChangeImageLayer", "Expression", "DangerousGlint",
+              "Speaks", "Hmm-hmm-hmm... You're quite the escape artist."
+            ]
+          },
+          {
+            "NameOfScene": "NightTerrors",
+            "theScene": [
+              "ChangeImageLayer", "Face", "Shade",
+              "ChangeImageLayer", "Expression", "DangerousGlint",
+              "PlayVisualEffect", "SuddenHaze", "darkHaze.png",
+              "SetPostName", " - Vampire's Night Terrors", "FocusedSpeaksSkill",
+              "An oppressive darkness falls over your senses... You sense a powerful magic emanating from Loretta's now hazy silhouette.",
+              "An uncannily intense need to sleep overtakes your senses... You're struggling to stay awake...",
+              "StatCheck",
+              "Willpower", "25", "TerrorsAbate",
+              "Fail", "Terrors"
+            ]
+          },
+          {
+            "NameOfScene": "Terrors",
+            "theScene": [
+              "ApplyStatusEffect", "LorettaSleepApplier",
+              "ApplyStatusEffect", "LorettaSleepApplier",
+              "A feeling of exhaustion hits you like a ton of bricks, threatening to make you fall asleep within moments. You won't be able to resist her spell for long!",
+              "SetPostName", ""
+            ]
+          },
+          {
+            "NameOfScene": "TerrorsAbate",
+            "theScene": [
+              "ApplyStatusEffect", "LorettaSleepApplier",
+              "It takes gargantuan effort, but you manage to resist part of her spell!",
+              "But you still feel an irresistible drowsiness weighing down on you, quickly sapping your energy...",
+              "EndVisualEffect",
+              "SetPostName", ""
+            ]
+          },
+          {
+            "NameOfScene": "SleepFinisherSex",
+            "theScene": [
+              "EndBlackOut",
+              "EndVisualEffect",
+              "IfPlayerSpiritGone", "Defeat",
+              "You whine needily as your sticky load launches into the air as you're torn out from your sleep! Slowly opening your eyes, still feeling groggy and confused, you also note something wrapped snugly around you...",
+              "ChangeImageLayer", "Base", "BaseBottomless",
+              "ChangeImageLayer", "Expression", "SmugGrin",
+              "Speaks", "Seen any nice dreams?",
+              "ApplyStatusEffect", "LorettaRestrains",
+              "Loretta looms over you smugly, not touching you, and you are not sure what caused the intense orgasm. As your mind comes down from orgasmic high to chase away the last of the drowsiness, you finally realize that you were quite thoroughly tied up... and more!",
+              "Your legs raised over your head, the ankles tied to your wrists with her stockings, your penis pointing shamefully into the air.|n|And... an overbearingly sweet smell permeating your senses comes from the pristinely white panties worn over your face...",
+              "ChangeImageLayer", "Expression", "DangerousGlint",
+              "Speaks", "The nightmare begins now.",
+              "You try to struggle, but quickly realize it will take a while to break these restraints. Meanwhile Loretta hovers over your stiff prick, raising her robes and baring her drooling pussy...",
+              "ApplyStance", "Amazon Position",
+              "ApplyStance", "Sex",
+              "In one smooth motion Loretta drops her hips, plunging the entirety of your engorged erection into her cool and inhumanly tight slit!"
+            ]
+          },
+          {
+            "NameOfScene": "SleepFinisherFaceSit",
+            "theScene": [
+              "EndBlackOut",
+              "EndVisualEffect",
+              "IfPlayerSpiritGone", "Defeat",
+              "You whine needily as your sticky load launches into the air as you're torn out from your sleep! Slowly, you open your eyes, still feeling groggy and confused...",
+              "ChangeImageLayer", "Expression", "SmugGrin",
+              "Speaks", "Seen any nice dreams?",
+              "Loretta looms over you smugly, not touching you, and you are not sure what caused the intense orgasm. As your mind comes down from orgasmic high to chase away the last of the drowsiness, you finally scramble to get up in a hurry...",
+              "ChangeImageLayer", "Expression", "DangerousGlint",
+              "Speaks", "The nightmare begins now.",
+              "You were too late to act, as Loretta already hovers over your face, raising her robes and showing off her pristinely white lacy panties...",
+              "ApplyStance", "Face Sit",
+              "In one smooth motion Loretta drops her hips, smothering you with her panties as she sits on your face!"
+            ]
+          },
+          {
+            "NameOfScene": "RestraintBreak",
+            "theScene": [
+              "...And finally the restraints give, allowing him to free up one of his arms!",
+              "ClearStances",
+              "ChangeImageLayer", "Face", "Flush",
+              "ChangeImageLayer", "Expression", "SmugGrin",
+              "Loretta instantly hops backwards from your cock, gracefully standing up on her tall heels as she regards you warily, even while you scramble to pull off her intoxicating lingerie from your face.",
+              "Speaks", "Huhu... Without my stockings it will be harder to fight...",
+              "SetChoice", "2", "Barefoot",
+              "RemoveSkillFromMonster", "Vampire's Night Terrors",
+              "RemoveSkillFromMonster", "Ensorcelled Gaze",
+              "RemoveSkillFromMonster", "Suffocating Foot Sex",
+              "GiveSkillToMonster", "Bare Foot Sex"
+            ]
+          }
+      ]
+}

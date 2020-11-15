@@ -1,0 +1,54 @@
+{
+    "name": "Enter the Bar.",
+    "CardType": "Addition",
+    "CardLimit": "0",
+    "Description": "",
+    "requires": [ ""],
+    "Speakers": [
+                  {
+                    "name": "Belle",
+                    "postName": "",
+                    "SpeakerType": "Monster"
+                  }
+                ],
+    "EventText": [
+                    {
+                        "NameOfScene": "NightLifeMenu",
+                        "theScene": [ "SetChoice", "2", "NotWorking",
+                                      "Menu",
+                                        "MaxMenuSlots", "4",
+                                        "FinalOption",
+                                        "Stop checking out the room.",
+                                        "RequiresChoiceFromEvent", "Lonely Arch Succubus", "2", "Met",
+                                        "Go and check out Mara, as she sits alone while sipping a drink.",
+                                        "RequiresChoiceFromEvent", "Lonely Arch Succubus", "2", "",
+                                        "Go and check out the mature, voluptuous woman sitting alone, sipping a drink.",
+                                        "RequiresChoiceFromEvent", "Galvi's Night Out", "4", "MetGalvi",
+                                        "Go over to Galvi, who's sitting at a small table alone, and giving you a very sultry gaze.",
+                                        "RequiresChoiceFromEvent", "Galvi's Night Out", "4", "",
+                                        "Go over to the short stacked woman who's sitting at a small table alone, and giving you a very sultry gaze.",
+                                        "RequiresChoiceFromEvent", "Hellhound Bondage", "1", "",
+                                        "Head over to the angry looking Hellhound sitting in a booth alone.",
+                                        "RequiresChoiceFromEvent", "Hellhound Bondage", "1", "Signed",
+                                        "Head over to Beris who's sitting in a booth alone glaring angrily at anyone who passes by.",
+                                      "EndLoop"
+                                  ]
+                    },
+                    {
+                      "NameOfScene": "NightLifeMenu",
+                      "theScene": [
+                        "MenuAddition",
+                        "RequiresChoiceFromEvent", "Pale Priestess", "4", "IntroDone",
+                        "RequiresChoiceFromEvent", "Pale Priestess", "5", "",
+                        "Go over to Loretta, your priestess friend who is drinking all alone, looking languid and lonely.",
+                        "EndLoop"
+                      ]
+                    },
+                    {
+                      "NameOfScene": "Go over to Loretta, your priestess friend who is drinking all alone, looking languid and lonely.",
+                      "theScene": [
+                        "JumpToEventThenScene", "Pale Priestess", "EventStart"
+                      ]
+                    }
+            ]
+}

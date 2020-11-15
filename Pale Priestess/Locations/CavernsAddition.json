@@ -1,0 +1,20 @@
+{
+    "name": "Caverns",
+    "exploreTitle": "Addition",
+    "Monsters": [],
+    "MonsterGroups": [ ],
+    "Events": ["Sanguine Priestess"],
+    "Quests": ["A Maroon Encounter..."],
+    "Adventures": [""],
+    "Treasure": [
+                {
+                    "Common": [""]
+                },
+                {
+                    "Uncommon": [""]
+                },
+                {
+                    "Rare": [""]
+                }
+              ]
+}

@@ -1,0 +1,632 @@
+{
+    "name": "A Maroon Encounter...",
+    "CardType": "Quest",
+    "CardLimit": "0",
+    "Description": "An unexpected meeting in the Cavern's dark depths...",
+    "requires": [ ""],
+    "Speakers": [
+                  {
+                    "name": "Loretta",
+                    "postName": "",
+                    "SpeakerType": "Monster"
+                  },
+                  {
+                    "name": "???",
+                    "postName": "",
+                    "SpeakerType": "?"
+                  },
+                  {
+                    "name": "Salaris",
+                    "postName": "",
+                    "SpeakerType": "Monster"
+                  },
+                  {
+                    "name": "Ghost",
+                    "postName": "",
+                    "SpeakerType": "Monster"
+                  },
+                  {
+                    "name": "Lumiren",
+                    "postName": "",
+                    "SpeakerType": "Monster"
+                  },
+                  {
+                    "name": "Toxic Matango",
+                    "postName": "",
+                    "SpeakerType": "Monster"
+                  }
+                ],
+    "EventText": [
+                    {
+                        "NameOfScene": "EventStart",
+                        "theScene": [
+                          "ChangeBG", "CavernsDark.png",
+                          "ChangeBGM", "music/Caverns/Stalwick_-_Dreaming.mp3",
+            							"SetChoice", "1", "LockRepeat",
+            							"Taking an unusually sharp turn in these tight corridors, you arrive at a tall, ridiculously slanted chamber. The unusual geometry of the room makes you a little dizzy, and you make a beeline for the nearest hallway, hoping to leave the place behind quickly. The room would be a great landmark, but such things are no longer relevant with the grimoire handling most of your navigation.",
+            							"Entering the next hallway, you realize that you haven't come across anyone in a while, likely having stumbled into a remote part of the caverns. You make another turn, half-expecting to arrive at a dead-end...",
+                          "ChangeBGM", "music/Unknown/【BGM】 02 Causing pain.mp3",
+            							"But instead find yourself face to face with what seems to be a gigantic maw!",
+                          "ChangeBGM", "music/Caverns/Stalwick_-_Dreaming.mp3",
+            							"Stumbling backwards momentarily, you quickly realize that the 'maw' is merely a curiously arranged array of stalactites and stalagmites. Behind them, you spy a spacious room with multiple pathways leading further in, as well as something else... Something, or someone, unusually white and bright.",
+            							"Craning your neck to look past the room's fanged entrance, you step inside carefully and quietly, hoping to steal a peek at the white silhouette before giving away your presence...",
+            							"DisplayCharacters", "1", "EndLoop",
+                          "ChangeImageLayer", "Expression", "1", "Base",
+                          "Upon closer inspection, the bright presence turns out to be a tall woman, clad in immaculately white lacy robes... Mini-robes? Her long, pale blonde hair flows freely down to her hips, partially covered with a semi-transparent white veil. Seeing no distinct inhuman features, you are not sure if she is a monster at all... The outfit she is wearing is quite risqué, but some female adventurers dress almost as provocatively as monster girls, from what you've seen.",
+                          "ChangeImageLayer", "Expression", "1", "Languid",
+            							"Leaning on a long staff, she slowly turns in your direction, casting a languid gaze at your face. Her full lips part in a tired but genuine smile, and in the complete silence of the caverns, you can hear her quietly exhale in relief.",
+            							"Speaks2", "Ah, how fortunate... A fellow adventurer. Are you searching for the Labyrinth as well?",
+                          "You respond negatively, stating that you have already discovered the place and were simply exploring the caverns.",
+                          "ChangeImageLayer", "Expression", "1", "Surprise",
+                          "The woman slowly turns to face you fully, looking barely surprised. You are not certain whether she expected that answer for some reason, or if she is simply not a very emotive person in general.",
+                          "Speaks2", "Is that so? Ah...",
+                          "ChangeImageLayer", "Base", "1", "BaseAdjust",
+                          "ChangeImageLayer", "Glasses", "1", "GlassesAdjust",
+                          "ChangeImageLayer", "Expression", "1", "Languid",
+                          "ChangeImageLayer", "HairOverlay", "1", "Adjust",
+                          "Speaks2", "I am Loretta, an adventurer priestess. It is a pleasure to meet you.",
+                          "As she lets go of her staff to adjust her glasses, you note that it seems to remain upright somehow... Likely magic?",
+                          "ChangeImageLayer", "Base", "1", "Base",
+                          "ChangeImageLayer", "Glasses", "1", "Glasses",
+                          "ChangeImageLayer", "HairOverlay", "1", "Base",
+                          "She then offers her dainty, silk-clad hand for a handshake, and looks up to you with the same genuine smile that seems so at home on her pretty face.",
+                          "Seeing no reason not to reciprocate, you shake her hand and introduce yourself. Loretta's hand grip is weak and soft, but oddly welcoming, and the fabric of her gloves is unusually cool.",
+                          "ChangeImageLayer", "Expression", "1", "Pleading",
+                          "Speaks", "{ThePlayerName}. I have made at least a dozen expeditions to these caves and the Labyrinth just keeps eluding me. Do you mind showing me the way?",
+                          "ChangeBGM", "music/Unknown/Es-STAGE4.mp3",
+                          "Before you get to formulate a response, you hear the grating footsteps of a clawed foot some distance behind you...!",
+                          "DisplayCharacters", "1", "3", "EndLoop",
+                          "ChangeImageLayer", "Expression", "1", "Surprise",
+                          "ChangeImageLayer", "Expression", "2", "Roar",
+                          "You spin around just in time to see a lone Salaris leaping into your chest!",
+                          "But you step to the side quickly, the jumping lizard merely grazing you and landing in front of the startled priestess.",
+                          "ChangeImageLayer", "Expression", "1", "Resolute",
+                          "ChangeImageLayer", "Expression", "2", "Panic",
+                          "StopBGM",
+                          "In response, Loretta raises her staff in a defensive position, sternly staring down the intruding reptilian girl, who grins nervously as she eyes the two of you up. It seems the Salaris didn't realize there was someone beside you.",
+                          "ChangeBGM", "music/Battle/Ask_Again_-_Dawn_of_the_Cosmos.mp3",
+                          "ChangeImageLayer", "Expression", "2", "Roar",
+                          "After a tense moment of complete silence, the monster girl decides that she isn't one to give up so easily, and a fight breaks out!",
+                          "ChangeImageLayer", "Expression", "2", "KissingAgressive",
+                          "The Salaris seems to have made you her target, insistently leaping at you and trying to coat your body with her saliva, frantically and single-mindedly attempting to get rid of you!",
+                          "ChangeImageLayer", "Expression", "2", "Angry",
+                          "All her attempts, however, are skillfully foiled by Loretta's timely jabs, the pokes from her ornate staff constantly interrupting the Salaris, leaving her open to your touch!",
+                          "Unused to battling with someone else at your side, you don't get to give it your all by employing your usual tactics, but the dual fighting nevertheless proves surprisingly effective and the Salaris starts panting heavily fairly soon.",
+                          "ChangeImageLayer", "Body", "2", "Blush",
+                          "ChangeImageLayer", "Expression", "2", "Panic",
+                          "Speaks3", "D-damn! No fair teaming up! I don't wanna get fucked by some {b}girl{/b} adventurer's dumb staff!",
+            							"DisplayCharacters", "1", "EndLoop",
+                          "ChangeImageLayer", "Expression", "1", "Surprise",
+                          "The Salaris bolts out of the room, fleeing the fight shamefully, leaving you alone with Loretta again.",
+                          "ChangeBGM", "music/Caverns/Stalwick_-_Dreaming.mp3",
+                          "ChangeImageLayer", "Expression", "1", "Pleading",
+                          "ApplyStatusEffect", "Paralytic Lick",
+                          "Figuring that the fight is over, you relax your stance, but quickly notice that your skin tingles. Looking down, you realize that the reptilian girl managed to smear you with her paralytic saliva in a couple of spots.",
+                          "Speaks", "{ThePlayerName}. Sit down, I'll cure the paralysis.",
+                          "Menu",
+                            "'I'll be fine.' (Tough it out)",
+                              "RequiresItem", "Fairy Dust",
+                            "'I have some Fairy Dust.'",
+                            "Sit down.",
+                          "EndLoop"
+                      ]
+                    },
+                    {
+                      "NameOfScene": "'I'll be fine.' (Tough it out)",
+                      "theScene": [
+                        "ChangeImageLayer", "Expression", "1", "Base",
+                        "SetChoice", "2", "Tough",
+                        "Speaks", "Why? Healing is my specialty, you know?",
+                        "JumpToScene", "ConfrontationMenu"
+                      ]
+                    },
+                    {
+                      "NameOfScene": "'I have some Fairy Dust.'",
+                      "theScene": [
+                        "Speaks", "It would be far more efficient and economical to use my magic instead. Are you sure?",
+                        "SetChoice", "2", "Dust",
+                        "Menu",
+                          "'Yes.' (Consumes a Fairy Dust)",
+                          "Sit down.",
+                        "EndLoop"
+                      ]
+                    },
+                    {
+                      "NameOfScene": "'Yes.' (Consumes a Fairy Dust)",
+                      "theScene": [
+                        "GiveItemQuietly", "-1", "Fairy Dust",
+                        "RemoveStatusEffect", "Paralysis",
+                        "ChangeImageLayer", "Expression", "1", "Frown",
+	                      "You consume a portion of the dust and feel the effects of Salaris saliva clearing quickly. Loretta seems mildly put out.",
+	                      "Speaks", "May I ask you why? Healing is my specialty, and it was the superior option. It makes me a little sad, to be frank.",
+                        "JumpToScene", "ConfrontationMenu"
+                      ]
+                    },
+                    {
+                      "NameOfScene": "ConfrontationMenu",
+                      "theScene": [
+                        "Menu",
+                          "'I don't trust you.'",
+                            "RequiresChoice", "2", "Tough",
+                          "'I don't want to impose.'",
+                            "RequiresChoice", "2", "Dust",
+                          "'I didn't want to impose.'",
+                        "EndLoop"
+                      ]
+                    },
+                    {
+                      "NameOfScene": "'I don't trust you.'",
+                      "theScene": [
+                        "ChangeImageLayer", "Expression", "1", "Confus",
+                        "Speaks", "...? Oh... Do you think I am a monster...?",
+                        "You shake your head and explain how you've had... unfriendly encounters with fellow adventurers before.",
+                        "ChangeImageLayer", "Base", "1", "BaseAdjust",
+                        "ChangeImageLayer", "Glasses", "1", "GlassesAdjust",
+                        "ChangeImageLayer", "Expression", "1", "Surprise",
+                        "ChangeImageLayer", "HairOverlay", "1", "Adjust",
+                        "Speaks", "Oh... I have never experienced something like that. I suppose adventuring can be quite different for men.",
+                        "ChangeImageLayer", "Base", "1", "Base",
+                        "ChangeImageLayer", "Glasses", "1", "Glasses",
+                        "ChangeImageLayer", "HairOverlay", "1", "Base",
+                        "Speaks", "Well... I suppose that is up to you.",
+                        "ChangeImageLayer", "Expression", "1", "Languid",
+                        "You nod, and after a brief spell of silence, Loretta's smile returns to her face.",
+                        "ChangeProgress", "2",
+                        "JumpToScene", "ContinueAdventure"
+                      ]
+                    },
+                    {
+                      "NameOfScene": "'I don't want to impose.'",
+                      "theScene": [
+                        "ChangeProgress", "-1",
+                        "ChangeImageLayer", "Expression", "1", "Frown",
+                        "Speaks", "That is... kind of you to say, but I assure you that it is no concern. Please sit down.",
+	                      "Feeling that it would be weird to keep vehemently refusing with such a flimsy reason, you shrug and decide to accept the offer.",
+                        "JumpToScene", "HealingScene"
+                      ]
+                    },
+                    {
+                      "NameOfScene": "'I didn't want to impose.'",
+                      "theScene": [
+                        "ChangeProgress", "-2",
+                        "ChangeImageLayer", "Expression", "1", "Frown",
+                        "Speaks", "It would have been no bother at all... But I suppose that is up to you.",
+                        "ChangeImageLayer", "Base", "1", "Base",
+                        "ChangeImageLayer", "Glasses", "1", "Glasses",
+                        "ChangeImageLayer", "HairOverlay", "1", "Base",
+                        "ChangeImageLayer", "Expression", "1", "Languid",
+                        "You nod, and after a brief spell of silence, Loretta's smile returns to her face.",
+                        "JumpToScene", "ContinueAdventure"
+                      ]
+                    },
+                    {
+                      "NameOfScene": "Sit down.",
+                      "theScene": [
+                        "JumpToScene", "HealingScene"
+                      ]
+                    },
+                    {
+                      "NameOfScene": "HealingScene",
+                      "theScene": [
+                        "You sit down on the cool cavern floor with some difficulty, your joints not bending normally. Loretta walks up behind you and kneels as well, placing her hands on your back.",
+                        "ChangeArousalQuietly", "-50",
+                        "A gentle wave of healing emanates from her hand. You note that it feels like holy magic, but very different from Lillian's. More intense and much warmer, creating a very distinct contrast with Loretta's cool hand.",
+                        "ChangeImageLayer", "Face", "1", "Flush",
+                        "ChangeImageLayer", "Expression", "1", "Base",
+                        "You feel her soft bosom pressing up against you, only thin layers of fabric separating you from her exquisite body. You gulp down nervously, worried that the 'healing' may have the opposite effect at this rate.",
+                        "Speaks", "Apologies, curing paralysis requires... closer contact.",
+                        "RemoveStatusEffect", "Paralysis",
+                        "ChangeArousalQuietly", "20",
+                        "Just as she says, you feel the effects of Salaris saliva abating quickly, although the intimate touch of her soft body leaves you a little flushed.",
+                        "ChangeImageLayer", "Face", "1", "",
+                        "Finished with the treatment, Loretta hurriedly removes herself from your back, standing up on her tall heels again. She offers you a hand, helping you to your feet as well, your body still just a little stiff from the venomous saliva.",
+                        "JumpToScene", "ContinueAdventure"
+                      ]
+                    },
+                    {
+                      "NameOfScene": "ContinueAdventure",
+                      "theScene": [
+                        "ChangeImageLayer", "Expression", "1", "Languid",
+                        "Speaks", "Aaahh... Before we get rudely interrupted by another Salaris, could I ask for your response to my previous request? I really would like to find the Labyrinth.",
+                        "Thinking for a moment, you agree to lead her there, having little reason to refuse. At this point, it'll be much faster to return to town via the checkpoint rather than backtracking all the way through the caverns, so you might as well help her.",
+                        "ChangeImageLayer", "Expression", "1", "Happy",
+                        "Loretta claps her hands with a smile, looking very pleased with your response.",
+	                      "ChangeImageLayer", "Expression", "1", "Languid",
+	                      "Speaks", "Wonderful. Lead the way, I'll be right behind you. Hopefully, we won't run into too many monsters.",
+	                      "You take the lead, deciding to backtrack through the unfamiliar parts of the caverns first. Loretta doesn't say much, though the two of you do maintain an idle conversation about the caverns.",
+	                      "ChangeBG", "Caverns.png",
+	                      "As you return to the more familiar parts of the caves, you remember that those portions are more frequented by monster girls and proceed at a slower pace, readying yourself for a fight at any moment...",
+                        "JumpToScene", "GhostsoOOoooOoOoo"
+                      ]
+                    },
+                    {
+                      "NameOfScene": "GhostsoOOoooOoOoo",
+                      "theScene": [
+                        "ChangeBGM", "music/Unknown/Es-STAGE4.mp3",
+                        "DisplayCharacters", "1", "4","4","4","EndLoop",
+                        "ChangeImageLayer", "Expression", "1", "Surprise",
+                        "ChangeImageLayer", "Expression", "2", "Excited",
+                        "ChangeImageLayer", "Expression", "3", "Spooky",
+                        "ChangeImageLayer", "Expression", "4", "Horny",
+                        "Suddenly, a group of ghost girls come rushing in from all directions!",
+                        "Speaks4", "OOooOoOOOooo, we're going to haunt your dick...",
+                        "ChangeImageLayer", "Expression", "1", "Resolute",
+                        "ChangeImageLayer", "Expression", "2", "Shocked",
+                        "ChangeImageLayer", "Expression", "3", "Horny",
+                        "ChangeImageLayer", "Expression", "4", "Panic",
+                        "Speaks4", "... and uhhh... pussy?",
+                        "You fall back a little, readying yourself for the onslaught of ectoplasmic girls, but notice Loretta rushing in front of you.",
+                        "Speaks", "BE GONE WITH YOU!",
+                        "ChangeImageLayer", "Expression", "2", "Panic",
+                        "ChangeImageLayer", "Expression", "3", "Panic",
+                        "ChangeImageLayer", "Expression", "4", "Panic",
+                        "Speaks4", "OooOOOoOOoo... or maybe not...",
+                        "PlaySoundEffect", "sfx/Magic/Hypnosis effect 24.wav",
+	                      "PlayVisualEffect", "BlindingFlash", "white.png",
+	                      "A blast of holy energy flows from her staff, sending rays of blinding light into the panicking ghosts!",
+                        "ChangeImageLayer", "Expression", "3", "Orgasm",
+	                      "One of them seems to actually cum from the spell, while the others retreat hastily into the darkness.",
+                        "ChangeBGM", "music/Caverns/Stalwick_-_Dreaming.mp3",
+                        "DisplayCharacters", "1", "EndLoop",
+                        "ChangeImageLayer", "Expression", "1", "Languid",
+                        "Loretta turns to face you, completely unfazed by the sudden encounter.",
+                        "Speaks", "Let us be on our way.",
+                        "Menu",
+                          "Praise her.",
+                          "'You could've left some for me...'",
+                          "Move on quietly.",
+                        "EndLoop"
+                      ]
+                    },
+                    {
+                      "NameOfScene": "Praise her.",
+                      "theScene": [
+                        "ChangeProgress", "2",
+                        "ChangeImageLayer", "Expression", "1", "HappyGrin",
+                        "Speaks", "Thank you... They may not be real ghosts, but they seem to dislike holy magic regardless.",
+                        "ChangeImageLayer", "Expression", "1", "Languid",
+                        "Speaks", "But we should move on.",
+                        "You nod and get a move on, leaving behind the haunted cave, hoping the rest of the journey goes as smoothly.",
+                        "JumpToScene", "ToxiSign"
+                      ]
+                    },
+                    {
+                      "NameOfScene": "'You could've left some for me...'",
+                      "theScene": [
+                        "ChangeProgress", "-2",
+                        "ChangeImageLayer", "Face", "1", "Shade",
+                        "ChangeImageLayer", "Base", "1", "BaseAdjust",
+                        "ChangeImageLayer", "Glasses", "1", "GlassesAdjust",
+                        "ChangeImageLayer", "Expression", "1", "Languid",
+                        "ChangeImageLayer", "HairOverlay", "1", "Adjust",
+                        "Speaks", "...Sure.",
+                        "ChangeImageLayer", "Base", "1", "Base",
+                        "ChangeImageLayer", "Glasses", "1", "Glasses",
+                        "ChangeImageLayer", "HairOverlay", "1", "Base",
+                        "Speaks", "But that was not necessary, {i}was it{/i}?",
+	                      "Noticing her testy expression and tone, you wonder if she is going to start something, but just as quickly, she returns to her usual amicable demeanor.",
+                        "ChangeImageLayer", "Face", "1", "",
+                        "Speaks", "We should move on before more of them show up.",
+	                      "You nod and proceed forward, leaving the haunted cave behind.",
+                        "JumpToScene", "ToxiSign"
+                      ]
+                    },
+                    {
+                      "NameOfScene": "Move on quietly.",
+                      "theScene": [
+                        "ChangeProgress", "1",
+                        "ChangeImageLayer", "Expression", "1", "SmugSmile",
+                        "You nod and get a move on quietly, leaving behind the haunted cave. Loretta seems oddly satisfied, energetically strutting along on her high heels.",
+                        "JumpToScene", "ToxiSign"
+                      ]
+                    },
+                    {
+                      "NameOfScene": "ToxiSign",
+                      "theScene": [
+                        "ChangeImageLayer", "Base", "1", "BaseAdjust",
+                        "ChangeImageLayer", "Glasses", "1", "GlassesAdjust",
+                        "ChangeImageLayer", "Expression", "1", "Languid",
+                        "ChangeImageLayer", "HairOverlay", "1", "Adjust",
+                        "In the next cavernous room, you come across a familar warning sign. Toxic Matangos down the way! You look to Loretta, but she doesn't seem to notice your gaze, silently studying the warning sign...",
+                        "Menu",
+                          "'We should take the shortcut.'",
+                          "'We should go around.'",
+                        "EndLoop"
+                      ]
+                    },
+                    {
+                      "NameOfScene": "'We should take the shortcut.'",
+                      "theScene": [
+                        "ChangeProgress", "-2",
+                        "ChangeImageLayer", "Base", "1", "Base",
+                        "ChangeImageLayer", "Glasses", "1", "Glasses",
+                        "ChangeImageLayer", "Expression", "1", "Frown",
+                        "ChangeImageLayer", "HairOverlay", "1", "Base",
+                        "Speaks", "I suppose... But you will have to handle her by yourself.",
+                        "ChangeImageLayer", "Expression", "1", "FrownAvert",
+                        "Speaks", "Those girls are particularly dangerous to female adventurers, after all.",
+                        "Menu",
+                          "Keep going.",
+                          "'We should go around after all.'",
+                        "EndLoop"
+                      ]
+                    },
+                    {
+                      "NameOfScene": "Keep going.",
+                      "theScene": [
+                        "ChangeImageLayer", "Base", "1", "Base",
+                        "ChangeImageLayer", "Glasses", "1", "Glasses",
+                        "ChangeImageLayer", "Expression", "1", "Frown",
+                        "ChangeImageLayer", "HairOverlay", "1", "Base",
+                        "You walk down the dark path, the numerous purple mushrooms giving away the presence of a Matango. Loretta keeps her distance, walking behind you at a slower pace.",
+                        "Quickly enough, you arrive at a large chamber where the alluring purple Matango smell seems particularly concentrated. Bracing yourself for a fight, you scan your surroundings for the mushroom woman...",
+	                      "But surprisingly enough, she is not here...? Or so you think at first, before you spot a dark purple cap.",
+                        "ChangeImageLayer", "Expression", "1", "Confus",
+                        "... It's sticking out of the ground. Just the cap, and nothing else.",
+                        "Speaks", "How droll...",
+                        "Loretta walks up closer, also studying the mysterious lone Matango cap.",
+                        "ChangeImageLayer", "Expression", "1", "Frown",
+                        "Speaks6", "Your face is droll!",
+                        "The muffled voice is coming from beneath the ground, under the cap. Is she hiding?",
+                        "PlayerSpeaks", "What are you doing?",
+                        "Speaks6", "Watareyoudoin?",
+                        "She repeats the question in a teasing manner, clearly making fun of your voice.",
+                        "Speaks6", "... I'm not into girls or threesomes, so take your bitch and go away. Shoo, shoo, before you breathe in the spores and get all horny on me!",
+                        "...",
+                        "ChangeImageLayer", "Expression", "1", "Languid",
+                        "You take a look at Loretta. She just shrugs, looking more relieved than anything.",
+                        "Figuring there's nothing else to it, both of you go further down the path. You are half-expecting a trap, but safely leave the mushroomy domain.",
+                        "JumpToScene", "LumirenCave"
+                      ]
+                    },
+                    {
+                      "NameOfScene": "'We should go around after all.'",
+                      "theScene": [
+                        "ChangeProgress", "1",
+                        "She nods, looking relieved. You backtrack through the mushroom caverns and take the long path, walking through twisting, confusing but largely empty corridors.",
+                        "PlaySoundEffect", "sfx/Magic/charm.wav",
+                        "The path is long and exhausting, as expected, but Loretta casts a spell that engulfs the two of you in soothing light, seemingly preserving your strength.",
+                        "JumpToScene", "LumirenCave"
+                      ]
+                    },
+                    {
+                      "NameOfScene": "'We should go around.'",
+                      "theScene": [
+                        "ChangeProgress", "1",
+                        "She nods, looking relieved. You walk down the long way, your path taking you through twisting, confusing but largely empty corridors.",
+                        "PlaySoundEffect", "sfx/Magic/charm.wav",
+                        "The path is long and exhausting, as expected, but Loretta casts a spell that engulfs the two of you in soothing light, seemingly preserving your strength.",
+                        "JumpToScene", "LumirenCave"
+                      ]
+                    },
+                    {
+                      "NameOfScene": "LumirenCave",
+                      "theScene": [
+                        "ChangeImageLayer", "Expression", "1", "Languid",
+                        "It is a little boring, so you kill some time exchanging life stories. Recalling your days at the academy, you ask Loretta about her experience there.",
+                        "ChangeImageLayer", "Base", "1", "BaseAdjust",
+                        "ChangeImageLayer", "Glasses", "1", "GlassesAdjust",
+                        "ChangeImageLayer", "HairOverlay", "1", "Adjust",
+                        "Speaks", "Back in Adventum...? Well, I trained to be a priestess. I suppose I still am, even if I don't get many chances to use holy magic.",
+                        "ChangeImageLayer", "Expression", "1", "Frown",
+                        "Speaks", "It was quite the shock to learn about... the barrier. And how things really worked here. The best I could do then was learn erotic magic. That's how I managed so far.",
+                        "ChangeImageLayer", "Base", "1", "Base",
+                        "ChangeImageLayer", "Glasses", "1", "Glasses",
+                        "ChangeImageLayer", "Expression", "1", "Languid",
+                        "ChangeImageLayer", "HairOverlay", "1", "Base",
+                        "Speaks", "Didn't expect my adventuring life would become... this. But I suppose none of us did.",
+                        "ChangeBG", "CavernsLumiren.png",
+                        "Before you manage to respond, the two of you arrive at the damper parts of the caverns. A familar song fills the air, threatening to draw you in...",
+                        "ChangeImageLayer", "Expression", "1", "Resolute",
+                        "... Or not? The song sounds nice, but doesn't seem to have any effect on you right now. You look to Loretta in confusion, noting a pale blue light emanating from her staff.",
+                        "Speaks", "This should keep us safe from the song. But let's move quickly, I can't maintain the spell for long.",
+                        "ChangeBGM", "music/Battle/Goodbye.mp3",
+                        "You nod and the two of you rush forward hastily, hoping to spook away the aquatic songstress.",
+                        "DisplayCharacters", "1", "5", "EndLoop",
+                        "ChangeImageLayer", "Expression", "1", "Resolute",
+                        "ChangeImageLayer", "Expression", "2", "SingingEyesClosed",
+                        "With the Lumiren in sight, the two of you pick up pace. She is still singing, eyes closed and unaware of your rapid advance...",
+                        "ChangeImageLayer", "Expression", "2", "Panic",
+                        "... But soon enough, she hears you and opens her eyes, startled to see two people rushing in her direction, clearly unaffected by her song!",
+                        "Speaks5", "Ah- wha, what?!",
+                        "DisplayCharacters", "1", "EndLoop",
+                        "ChangeImageLayer", "Expression", "1", "Resolute",
+                        "The Lumiren panics and dives into the lake, trying to escape...",
+                        "Menu",
+                          "Try to grab her!",
+                          "Let her go.",
+                        "EndLoop"
+                      ]
+                    },
+                    {
+                      "NameOfScene": "Try to grab her!",
+                      "theScene": [
+                        "ChangeProgress", "-1",
+                        "ChangeImageLayer", "Expression", "1", "Frown",
+                        "You dart towards the lake, trying to get a grip on her escaping tentacles! But the slippery monster girl flows between your fingers, quickly escaping into the dark depths, apparently daunted by the prospect of facing two people at once.",
+                        "ChangeImageLayer", "Expression", "1", "Confus",
+                        "Loretta scratches her cheek in confusion as you emerge from the pool.",
+                        "ChangeBGM", "music/Caverns/Stalwick_-_Dreaming.mp3",
+                        "Speaks", "Why did you try to catch her...?",
+                        "Menu",
+                          "Reflex.",
+                          "For a good time.",
+                          "No reason.",
+                        "EndLoop"
+                      ]
+                    },
+                    {
+                      "NameOfScene": "Reflex.",
+                      "theScene": [
+                        "ChangeProgress", "1",
+                        "ChangeImageLayer", "Expression", "1", "Languid",
+                        "Speaks", "Something like... predatory instinct, then? I... see.",
+                        "ChangeBGM", "music/Caverns/Stalwick_-_Dreaming.mp3",
+                        "Speaks", "But please, let's try not to get distracted.",
+                        "ChangeBG", "Caverns.png",
+                        "You nod and apologize, getting back on track. It should be smooth sailing up to the Labyrinth now... as long as you don't run into Amy.",
+                        "JumpToScene", "AmyMention"
+                      ]
+                    },
+                    {
+                      "NameOfScene": "For a good time.",
+                      "theScene": [
+                        "ChangeProgress", "-1",
+                        "ChangeImageLayer", "Expression", "1", "Anger",
+                        "Speaks", "... Please, let's try not to get distracted.",
+                        "ChangeBGM", "music/Caverns/Stalwick_-_Dreaming.mp3",
+                        "ChangeBG", "Caverns.png",
+                        "ChangeImageLayer", "Expression", "1", "Frown",
+                        "You nod and get back on track. It should be smooth sailing up to the Labyrinth now... as long as you don't run into Amy.",
+                        "JumpToScene", "AmyMention"
+                      ]
+                    },
+                    {
+                      "NameOfScene": "No reason.",
+                      "theScene": [
+                        "ChangeImageLayer", "Expression", "1", "EyesClosed",
+                        "Speaks", "... Well, please let's try not to get distracted.",
+                        "ChangeBGM", "music/Caverns/Stalwick_-_Dreaming.mp3",
+                        "ChangeBG", "Caverns.png",
+                        "You nod and apologize, getting back on track. It should be smooth sailing up to the Labyrinth now... as long as you don't run into Amy.",
+                        "JumpToScene", "AmyMention"
+                      ]
+                    },
+                    {
+                      "NameOfScene": "Let her go.",
+                      "theScene": [
+                        "ChangeProgress", "1",
+                        "You watch as the Lumiren escapes into the underground lake, your plan to scare her away a success. Loretta catches up with you, eyeing up the pool of water warily.",
+                        "ChangeImageLayer", "Expression", "1", "Languid",
+                        "Speaks", "She's gone? Let us be off then.",
+                        "ChangeBGM", "music/Caverns/Stalwick_-_Dreaming.mp3",
+                        "ChangeBG", "Caverns.png",
+                        "You nod and get back on track. It should be smooth sailing up to the Labyrinth now... as long as you don't run into Amy.",
+                        "JumpToScene", "AmyMention"
+                      ]
+                    },
+                    {
+                      "NameOfScene": "AmyMention",
+                      "theScene": [
+                        "As the two of you get closer to the checkpoint, you wonder if you should warn Loretta about the white aberrant. Her otherworldly appearance is quite something, after all, and could easily spook some people...",
+                        "Menu",
+                          "Warn her.",
+                          "Don't mention it.",
+                        "EndLoop"
+                      ]
+                    },
+                    {
+                      "NameOfScene": "Warn her.",
+                      "theScene": [
+                        "ChangeProgress", "2",
+                        "ChangeImageLayer", "Expression", "1", "Confus",
+                        "You stop in your tracks, turning to face Loretta. The pale priestess cocks her head, looking confused.",
+                        "Speaks", "Is something wrong?",
+                        "You explain how the territory is home to a rather unusual aberrant girl, and that you may have to fight her to advance.",
+                        "ChangeImageLayer", "Expression", "1", "Languid",
+                        "Loretta nods thoughtfully, softly touching her chin.",
+                        "Speaks", "Let us move quickly then. Perhaps we can get by unnoticed.",
+                        "You nod and turn around, moving ahead silently. Almost there...",
+                        "JumpToScene", "JudgingYou"
+                      ]
+                    },
+                    {
+                      "NameOfScene": "Don't mention it.",
+                      "theScene": [
+                        "ChangeImageLayer", "Base", "1", "BaseAdjust",
+                        "ChangeImageLayer", "Glasses", "1", "GlassesAdjust",
+                        "ChangeImageLayer", "HairOverlay", "1", "Adjust",
+                        "You keep moving ahead silently. Almost there...",
+                        "JumpToScene", "JudgingYou"
+                      ]
+                    },
+                    {
+                      "NameOfScene": "JudgingYou",
+                      "theScene": [
+                        "ProgressEqualsOrGreater", "0", "PositiveFinale",
+                        "JumpToScene", "NegativeFinale"
+                      ]
+                    },
+                    {
+                      "NameOfScene": "PositiveFinale",
+                      "theScene": [
+                        "SetChoice", "1", "Positive",
+                        "ChangeImageLayer", "Base", "1", "Base",
+                        "ChangeImageLayer", "Glasses", "1", "Glasses",
+                        "ChangeImageLayer", "HairOverlay", "1", "Base",
+                        "... The two of you keep walking silently, luckily unnoticed by Amy or any other monster. The checkpoint gem is already in sight, and you turn to face Loretta.",
+                        "ChangeImageLayer", "Expression", "1", "HappyGrin",
+                        "She is practically beaming, the wide grin quite uncharacteristic for her normally blank face. You feel quite satisfied with yourself, getting to see her happy like that.",
+                        "ChangeImageLayer", "Expression", "1", "Languid",
+                        "Speaks", "Thank you, truly. Let me just activate it now...",
+                        "Loretta walks up to the large gem, touching it softly with her hand. Like it did for you, a smaller gemstone appears in her other hand, which she promptly stuffs into her cleavage.",
+                        "ChangeImageLayer", "Expression", "1", "Base",
+                        "Turning back to face you, she looks oddly serious for a moment.",
+                        "Speaks", "{ThePlayerName}, I... ",
+                        "ChangeImageLayer", "Base", "1", "BaseAdjust",
+                        "ChangeImageLayer", "Glasses", "1", "GlassesAdjust",
+                        "ChangeImageLayer", "Expression", "1", "Shy",
+                        "ChangeImageLayer", "HairOverlay", "1", "Adjust",
+                        "Speaks", "I would like to stay in touch. Can you tell me your... room number?",
+	                      "ChangeImageLayer", "Face", "1", "Flush",
+	                      "... And would you like to go on a... date now?",
+                        "Menu",
+                          "Invite her for a drink at the bar.",
+                          "Maybe later.",
+                        "EndLoop"
+                      ]
+                    },
+                    {
+                      "NameOfScene": "Invite her for a drink at the bar.",
+                      "theScene": [
+                        "ChangeImageLayer", "Base", "1", "Base",
+                        "ChangeImageLayer", "Glasses", "1", "Glasses",
+                        "ChangeImageLayer", "Expression", "1", "Languid",
+                        "ChangeImageLayer", "HairOverlay", "1", "Base",
+                        "ChangeImageLayer", "Face", "1", "",
+                        "Speaks", "... Sure.",
+                        "ChangeImageLayer", "Expression", "1", "Happy",
+                        "Speaks", "I accept.",
+                        "ChangeImageLayer", "Expression", "1", "Sad",
+                        "Speaks", "Admittedly, I... haven't made many friends since I came here.",
+                        "She turns away, an awkward silence hanging for a moment, until she clears her throat and points to the checkpoint gemstone.",
+                        "ChangeImageLayer", "Expression", "1", "Languid",
+                        "Speaks", "Let us be off, then?",
+                        "You take her hand and the two of you touch the crystal together...",
+                        "ChangeBG", "town.png",
+                        "StopBGM",
+                        "QuestComplete",
+                        "JumpToNPCEvent", "Pale Priestess"
+                      ]
+                    },
+                    {
+                      "NameOfScene": "Maybe later.",
+                      "theScene": [
+                        "ChangeImageLayer", "Expression", "1", "Sad",
+                        "ChangeImageLayer", "Face", "1", "",
+                        "Speaks", "I see...",
+                        "ChangeImageLayer", "Expression", "1", "Languid",
+                        "Speaks", "Well... I sometimes drink at the bar, so you could find me there on some nights.",
+                        "ChangeImageLayer", "Expression", "1", "SmugSmile",
+                        "Speaks", "I'd be really happy to see you again.",
+                        "You nod and step towards the checkpoint pedestal.",
+                        "ChangeBG", "town.png",
+                        "StopBGM",
+                        "The two of you use the crystal together, but part ways for now, going your own directions...",
+                        "QuestComplete",
+                        "GoToTown"
+                      ]
+                    },
+                    {
+                      "NameOfScene": "NegativeFinale",
+                      "theScene": [
+                        "ChangeImageLayer", "Base", "1", "Base",
+                        "ChangeImageLayer", "Glasses", "1", "Glasses",
+                        "ChangeImageLayer", "HairOverlay", "1", "Base",
+                        "SetChoice", "1", "Negative",
+                        "QuestComplete",
+                        "JumpToEvent", "Sanguine Priestess"
+                      ]
+                    }
+                ]
+}

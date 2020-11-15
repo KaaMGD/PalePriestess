@@ -1,0 +1,143 @@
+{
+    "name": "Sanguine Priestess",
+    "CardType": "Event",
+    "CardLimit": "1",
+    "Description": "Loretta, the Vampire Priestess, lurks in the darkness of the Caverns...",
+    "requires": [ ""],
+    "requiresEvent": [
+                        {
+                          "NameOfEvent": "A Maroon Encounter...",
+                          "Progress": "-99",
+                          "ChoiceNumber": "1",
+                          "Choice": "Negative"
+                        }
+                      ],
+    "Speakers": [
+                  {
+                    "name": "Loretta",
+                    "postName": "",
+                    "SpeakerType": "Monster"
+                  }
+                ],
+    "EventText": [
+                    {
+                        "NameOfScene": "EventStart",
+                        "theScene": [
+                                      "IfChoice", "1", "Repeat", "RepeatStart",
+                                      "SetChoice", "1", "Repeat",
+                                      "StopBGM",
+                                      "ChangeImageLayer", "Expression", "1", "Resolute",
+                                      "As Loretta is walking behind you, her footsteps pick up pace all of a sudden. Sensing that something is amiss, you turn around...",
+                                      "ChangeBGM", "../Mods/Pale Priestess/Music/Purple Planet Music - Possession (2 17) (L) 120bpm.mp3",
+                                      "But freeze when you feel Loretta's staff firmly press on your neck! Casting a worried glance, you see the priestess right behind you, her face sporting a forebodingly intense expression.",
+                                      "ChangeImageLayer", "Expression", "1", "Amused",
+                                      "Speaks", "Well... This was a fun expedition.",
+                                      "Her tone is different, her voice unusually cold and... strained.",
+                                      "ChangeImageLayer", "Expression", "1", "DangerousGlint",
+                                      "Speaks", "But we are done here, {ThePlayerName}.",
+                                      "Speaks", "To the end, you were so... adorably oblivious.",
+                                      "ChangeImageLayer", "Expression", "1", "CrimsonGaze",
+                                      "Speaks", "And at the same time...|n|Rather unpleasant.",
+                                      "Fangs... A vampire?!",
+                                      "You try and break out of her hold but can't even move a finger, paralyzed by her powerful and terrifying presence. A deathly cold emanates from her, as if sapping your life away...",
+                                      "Speaks", "Now I only hope your blood doesn't disappoint...",
+                                      "Loretta's demonic maw swings open... She is going to bite you...!",
+                                      "Menu",
+                                        "Resist!",
+                                        "Let her...(♥)",
+                                      "EndLoop"
+                                  ]
+                    },
+                    {
+                      "NameOfScene": "Resist!",
+                      "theScene": [
+                        "ChangeImageLayer", "Expression", "1", "Surprise",
+                        "You struggle violently and manage to break her frightening spell! Turning around, you knock her staff aside and she stumbles a step away, unable to keep her hold on you.",
+                        "ChangeImageLayer", "Expression", "1", "DangerousGlint",
+                        "Speaks", "Ohh, a feisty one...",
+                        "ChangeImageLayer", "Expression", "1", "Amused",
+                        "Speaks", "I'll need to mess with your memories when you lose...",
+                        "CombatEncounter",
+                        "RunningWontSkipEvent",
+                        "NoRunning",
+                        "Loretta",
+                        "StartCombat",
+                        "Finally, you manage to triumph over the fake priestess! As she fades away, the ominous glint in her eyes tells you this won't be the last you'll see of her...",
+                        "... Should you report this to Elena? The other adventurers could fall into her clutches.",
+                        "KAANOTE: reporting to Elena is not yet implemented. But for now, you can revisit the fight as many times as you want. Or explore the other path, by loading an earlier save or using the console commands from the readme."
+                      ]
+                    },
+                    {
+                      "NameOfScene": "Let her...(♥)",
+                      "theScene": [
+                        "ChangeBGM", "music/Casino/BGM06_sink.mp3",
+                        "Her fangs sink right into your neck... It hurts a little, but the pain is quickly drowned in the heat of your blood rushing from the bite wound, and by the deathly cold emanating from Loretta absorbing that heat.",
+                        "ChangeImageLayer", "Face", "1", "Blush",
+                        "ChangeImageLayer", "Expression", "1", "Amused",
+                        "Speaks", "Mmh...♥ Hyaah...♥",
+                        "You hear her gulping, moaning and giggling into your neck, her normally calm voice both hysterical and euphoric. She drops her staff, embracing you with her hands instead, and digs deeper into your neck.",
+                        "PlayVisualEffect", "SuddenHaze", "darkHaze.png",
+                        "A strange feeling wells up in you as she drinks... You feel... aroused? Excited or scared? Submissive?",
+                        "The dark cavern grows even more dim, but all of your other senses seem to becmome hyper-focused. A painful erection strains against your pants, throbbing powerfully even as your blood leaves your body. You want to cum...",
+                        "Speaks", "'Mmhaa...♥' *gulp gulp*",
+                        "It was only a moment, but you can't take it anymore... Her erotic moans, the soft embrace and your own body's abnormal reaction are just too much. You gasp sharply, right on the verge of cumming... But not yet, she is still...",
+                        "Gulp... Gulp... Gulp.|n|You are going insane. Each time you hear that sound, your cock throbs with need, until finally... She moves her mouth away from your neck, a hissing moan escaping her fanged mouth.",
+                        "PlayerOrgasmNoSpiritLoss",
+                        "PlaySoundEffect", "EjaculationLong",
+                        "ChangeImageLayer", "Expression", "1", "CrimsonGaze",
+                        "As if given signal, your cock erupts powerfully, flooding your pants with hot seed, a searing, blinding pleasure wracking your entire body... How could you cum from that...? And so powerfully...?",
+                        "That single, mind-bending orgasm drains all your strength at once, causing you to slump into Loretta's supportive embrace... Just as you are fading away, the vampiress whispers to your ear with her blood-stained lips...",
+                        "ChangeImageLayer", "Expression", "1", "EnchantingGaze",
+                        "Speaks", "You will come visit me again... And tell no one else of me...",
+                        "GameOver"
+                      ]
+                    },
+                    {
+                      "NameOfScene": "RepeatStart",
+                      "theScene": [
+                        "ChangeBG", "CavernsDark.png",
+                        "DisplayCharacters", "1", "EndLoop",
+                        "ChangeImageLayer", "Expression", "1", "Surprise",
+                        "Speaks", "Oh...",
+                        "ChangeImageLayer", "Expression", "1", "AngerSubdued",
+                        "Speaks", "It's {i}you{/i}.",
+                        "ChangeImageLayer", "Base", "1", "BaseAdjust",
+                        "ChangeImageLayer", "Glasses", "1", "GlassesAdjust",
+                        "ChangeImageLayer", "Expression", "1", "EyesClosed",
+                        "ChangeImageLayer", "HairOverlay", "1", "Adjust",
+                        "Speaks", "Well...",
+                        "ChangeImageLayer", "Base", "1", "Base",
+                        "ChangeImageLayer", "Glasses", "1", "Glasses",
+                        "ChangeImageLayer", "Expression", "1", "EvilSmile",
+                        "ChangeImageLayer", "HairOverlay", "1", "Base",
+                        "Speaks", "A little snack won't hurt.",
+                        "Menu",
+                          "Defend yourself!",
+                          "Feed her...(♥)",
+                        "EndLoop"
+                      ]
+                    },
+                    {
+                      "NameOfScene": "Defend yourself!",
+                      "theScene": [
+                        "CombatEncounter",
+                        "RunningWontSkipEvent",
+                        "NoRunning",
+                        "Loretta",
+                        "StartCombat",
+                        "Finally, you manage to triumph over the fake priestess! As she fades away, the ominous glint in her eyes tells you this won't be the last you'll see of her...",
+                        "...Should you report this to Elena? The other adventurers could fall into her clutches.",
+                        "KAANOTE: reporting to Elena is not yet implemented. But for now, you can revisit the fight as many times as you want. Or explore the other path, by loading an earlier save or using the console commands from the readme."
+                      ]
+                    },
+                    {
+                      "NameOfScene": "Feed her...(♥)",
+                      "theScene": [
+                        "ChangeImageLayer", "Expression", "1", "SmugSmile",
+                        "Loretta smiles as you seem to freeze up in her presence, already knowing what is going to happen next. Gracefully, she struts up to you, walking around and behind your stiff body...",
+                        "Speaks", "I don't dislike... obedience.♥",
+                        "JumpToScene", "Let her...(♥)"
+                      ]
+                    }
+                ]
+}
