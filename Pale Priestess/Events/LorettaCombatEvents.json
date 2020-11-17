@@ -191,6 +191,7 @@
             "theScene": [
               "IfPlayerHasStatusEffect", "Sleep", "SleepBlindfolding",
               "IfPlayerHasStance", "Foot Smothering", "EORFootSex",
+              "IfPlayerHasStance", "Foot Worship", "EORWorship",
               "IfPlayerHasStance", "Blindfold", "EORBlindfold",
               "IfPlayerHasStance", "Amazon Position", "EORAmazon",
               "IfPlayerHasStance", "Face Sit", "EORFacesit"
@@ -614,11 +615,11 @@
               "ChangeStatCheckDifficulty", "IfFetishLevelEqualOrGreater", "Feet", "50", "6",
               "ChangeStatCheckDifficulty", "IfFetishLevelEqualOrGreater", "Feet", "75", "10",
               "Temptation", "20", "PassTemptation",
-              "Fail", "FailLegs"
+              "Fail", "FailFeetEyes"
             ]
           },
           {
-            "NameOfScene": "FailFeet",
+            "NameOfScene": "FailFeetEyes",
             "theScene": [
               "HitPlayerWith", "Feet Sight",
               "Her feet look so graceful and sensual that you find yourself completely drawn in and enchanted... Her elegant toes are {i}perfect{/i}, you cannot even imagine overcoming their immaculate excellence... Maybe if you prostrated yourself at her divine feet, you could escape the scary glare...?{DamageToPlayer}",
@@ -663,6 +664,7 @@
           {
             "NameOfScene": "UgliCounter",
             "theScene": [
+              "IfPlayerDoesntHaveStatusEffect", "Charm", "DoNothing",
               "IfChoice", "1", "CountedToTwo", "EatHerb",
               "SkipPlayerAttack",
               "IfChoice", "1", "", "CountToOne",
@@ -870,7 +872,141 @@
               "RemoveSkillFromMonster", "Vampire's Night Terrors",
               "RemoveSkillFromMonster", "Ensorcelled Gaze",
               "RemoveSkillFromMonster", "Suffocating Foot Sex",
-              "GiveSkillToMonster", "Bare Foot Sex"
+              "GiveSkillToMonster", "Barefoot Sex"
+            ]
+          },
+          {
+            "NameOfScene": "BarefootInvitation",
+            "theScene": [
+              "ChangeImageLayer", "Face", "Flush",
+              "ChangeImageLayer", "Expression", "SmugGrin",
+              "ChangeImageLayer", "Shoes", "",
+              "HitPlayerWith", "Feet Sight",
+              "SetPostName", " - Barefoot Invitation", "FocusedSpeaksSkill",
+              "Loretta sits on the floor gracefully, slipping her feet from her shoes and raising them into the air, wiggling her toes at you playfully. Her bare pussy is plainly visible as well, glistening in the dim light, barely covered by her tiny robe...{DamageToPlayer}",
+              "Speaks", "Kneel. And you may kiss them...",
+              "SetPostName", "",
+              "Your cock throbs powerfully from the sight, unbidden but intense fantasies of worshipping her perfect feet come flooding into your mind...",
+              "StatCheck",
+              "ChangeStatCheckDifficulty", "IfFetishLevelEqualOrGreater", "Feet", "25", "8",
+              "ChangeStatCheckDifficulty", "IfFetishLevelEqualOrGreater", "Feet", "50", "12",
+              "ChangeStatCheckDifficulty", "IfFetishLevelEqualOrGreater", "Feet", "75", "15",
+              "ChangeStatCheckDifficulty", "IfPlayerHasStatusEffect", "Aphrodisiac", "5",
+              "Temptation", "10", "PassBarefoot",
+              "Fail", "FailBarefoot"
+            ]
+          },
+          {
+            "NameOfScene": "PassBarefoot",
+            "theScene": [
+              "ChangeImageLayer", "Face", "",
+              "ChangeImageLayer", "Expression", "SmugSmile",
+              "ChangeImageLayer", "Shoes", "Shoes",
+              "... But you manage to resist the temptation! Loretta slips her feet back into the shoes and hops up again, her confidence undented by your denial..."
+            ]
+          },
+          {
+            "NameOfScene": "FailBarefoot",
+            "theScene": [
+              "ChangeImageLayer", "Face", "",
+              "ChangeImageLayer", "Expression", "LewdGrin",
+              "... And you can't stand it, the sight is too erotic! In a horny daze, you fall to your knees in front of her, pressing your face into her feet, kissing, sniffing, licking them in unseemly desperation...",
+              "ApplyStance", "Foot Worship",
+              "HitPlayerWith", "Foot Smother",
+              "PlayVisualEffect2", "ScreenPulse", "pinkHaze.png",
+              "GiveSkill","Worship Feet",
+              "The haughty priestess presses her damp soles into your face with a coo, rewarding your obedience. Like a man possessed, you rub your face against her feet, completely lost in their fragrance, the texture, the soft pressure as she playfully pushes them into your face... And the taste... the taste...!{DamageToPlayer}",
+              "Speaks", "Huhu...♥ huhuhu...♥ Control yourself, you foot-addicted brute...♥"
+            ]
+          },
+          {
+            "NameOfScene": "EORWorship",
+            "theScene": [
+              "CallSceneThenReturn", "RandomFootStatus",
+              "PlayVisualEffect2", "ScreenPulse", "pinkHaze.png",
+              "Every moment you spend next to her feet makes it harder to breathe...",
+              "EndVisualEffect2",
+              "ChangeImageLayer", "Face", "",
+              "ChangeImageLayer", "Expression", "PleasuredGrin",
+              "FocusedSpeaks", "SwapLineIf", "Random",
+                "Nnh...♥ Ahh, aren't you just so precious... Let's make this a competition...♥",
+                "Haah...♥ Oh I can't resist, you look so ridiculous...♥",
+                "Nhaa...♥ You're so disgusting... so pathetic...♥ and I love it so much...♥",
+              "EndLoop",
+              "JumpToRandomScene", "SelfDmg1", "SelfDmg2", "SelfDmg3", "SelfDmg4", "SelfDmg5", "EndLoop"
+            ]
+          },
+          {
+            "NameOfScene": "SelfDmg1",
+            "theScene": [
+              "ChangeMonsterArousal", "82",
+              "SetPostName", " - Masturbation", "FocusedSpeaksSkill",
+              "Loretta is masturbating intensely, her face flushed with indecent arousal as she watches you writhe beneath her feet... Loretta is aroused by 82!",
+              "SetPostName", "",
+              "IfMonsterOrgasm", "MasturbationOrgasm"
+            ]
+          },
+          {
+            "NameOfScene": "SelfDmg2",
+            "theScene": [
+              "ChangeMonsterArousal", "91",
+              "SetPostName", " - Masturbation", "FocusedSpeaksSkill",
+              "Loretta is masturbating intensely, her face flushed with indecent arousal as she watches you writhe beneath her feet... Loretta is aroused by 91!",
+              "SetPostName", "",
+              "IfMonsterOrgasm", "MasturbationOrgasm"
+            ]
+          },
+          {
+            "NameOfScene": "SelfDmg3",
+            "theScene": [
+              "ChangeMonsterArousal", "106",
+              "SetPostName", " - Masturbation", "FocusedSpeaksSkill",
+              "Loretta is masturbating intensely, her face flushed with indecent arousal as she watches you writhe beneath her feet... Loretta is aroused by 106!",
+              "SetPostName", "",
+              "IfMonsterOrgasm", "MasturbationOrgasm"
+            ]
+          },
+          {
+            "NameOfScene": "SelfDmg4",
+            "theScene": [
+              "ChangeMonsterArousal", "87",
+              "SetPostName", " - Masturbation", "FocusedSpeaksSkill",
+              "Loretta is masturbating intensely, her face flushed with indecent arousal as she watches you writhe beneath her feet... Loretta is aroused by 87!",
+              "SetPostName", "",
+              "IfMonsterOrgasm", "MasturbationOrgasm"
+            ]
+          },
+          {
+            "NameOfScene": "SelfDmg5",
+            "theScene": [
+              "ChangeMonsterArousal", "94",
+              "SetPostName", " - Masturbation", "FocusedSpeaksSkill",
+              "Loretta is masturbating intensely, her face flushed with indecent arousal as she watches you writhe beneath her feet... Loretta is aroused by 94!",
+              "SetPostName", "",
+              "IfMonsterOrgasm", "MasturbationOrgasm"
+            ]
+          },
+          {
+            "NameOfScene": "MasturbationOrgasm",
+            "theScene": [
+              "MonsterOrgasm", "1"
+            ]
+          },
+          {
+            "NameOfScene": "EndFootWorship",
+            "theScene": [
+              "ChangeImageLayer", "Face", "",
+              "ChangeImageLayer", "Expression", "Surprise",
+              "Speaks", "Oh!",
+              "ChangeImageLayer", "Expression", "SmugSmile",
+              "ChangeImageLayer", "Shoes", "Shoes",
+              "RemoveSkillFromPlayer", "Worship Feet",
+              "Loretta sits up gracefully, slipping her feet back into her shoes, and hops to stand up again, her confidence undaunted by your denial.",
+              "FocusedSpeaks", "SwapLineIf", "Random",
+                "Huhu...♥ Didn't think you had it in you.♥",
+                "Huhuhu...♥ I will just do it again...♥",
+                "Sheesh...♥ You're only lying to yourself, you know?",
+              "EndLoop"
             ]
           }
       ]

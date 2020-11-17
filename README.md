@@ -1,8 +1,8 @@
-# Another nsfw mod for the nsfw game Monster Girl Dreams.
+# Another nsfw mod for the nsfw game Monster Girl Dreams. Requires game version v23.5a and later.
 
 Installation: place the "Pale Priestess" folder into the game's "Mods" folder
 
-if you get missing file errors when entering the world map, make sure your installation/folder structure is correct.
+if you get missing file errors when encountering the priestess, make sure your installation/folder structure is correct.
 
 \game\Mods\Pale Priestess\Images\...
 
