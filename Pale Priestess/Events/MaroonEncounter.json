@@ -613,6 +613,8 @@
                         "ChangeBG", "town.png",
                         "StopBGM",
                         "The two of you use the crystal together, but part ways for now, going your own directions...",
+                        "GetEventAndSetChoice", "Pale Priestess", "4", "IntroDone",
+                        "GetEventAndSetChoice", "Pale Priestess", "6", "SkippedIntro",
                         "QuestComplete",
                         "GoToTown"
                       ]
