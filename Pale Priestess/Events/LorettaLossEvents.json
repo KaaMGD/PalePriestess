@@ -8,13 +8,14 @@
                   {
                     "name": "Loretta",
                     "postName": "",
-                    "SpeakerType": "Monster"
+                    "SpeakerType": ""
                   }
                 ],
     "EventText": [
                  {
                    "NameOfScene": "WorshipLoss",
                    "theScene": [
+                     "DisplayCharacters", "1", "EndLoop",
                      "ChangeImageLayer", "Face", "1", "",
                      "ChangeImageLayer", "Expression", "1", "LewdGrin",
                      "As the last orgasm brings you a moment of clarity, you realize something. This wasn't sex fighting. You were simply indulging yourself in her bare feet, completely smitten by them, cumming shamefully from having your face smothered by them, and you cannot even stop now.",
@@ -53,14 +54,16 @@
                      "Speaks", "You will come for my feet again...♥ And tell no one else of me...",
                      "ChangeSensitivity", "Sex", "7",
                      "ChangeFetish", "Feet", "15",
+                     "CallSceneThenReturn", "SkillFix",
                      "GameOver"
                    ]
                  },
                  {
       					  "NameOfScene": "Glovejob",
       					  "theScene": [
-                      "Squeezing out the last bit of white splooge, Loretta lets go of your cock. The respite is both welcome and unpleasant, as your still erect cock needily throbs for more pleasure.",
+                      "DisplayCharacters", "1", "EndLoop",
                       "ChangeImageLayer", "Expression", "1", "SmugSmile",
+                      "Squeezing out the last bit of white splooge, Loretta lets go of your cock. The respite is both welcome and unpleasant, as your still erect cock needily throbs for more pleasure.",
                       "Speaks", "Huhuh...♥",
                       "ChangeImageLayer", "Base", "1", "BaseNoGlove",
                       "Looking you in the eye smugly, Loretta pulls off the cum-stained silky glove from her hand. With now bare hand, she firmly grips your balls and brings her lips to you ear.",
@@ -105,18 +108,21 @@
                       "ChangeImageLayer", "Expression", "1", "SmugSmile",
                       "Arching your back you groan and finally manage to cum, powerfully and wildly, spraying a huge serving of scaldingly hot seed into the luxuriously soft glove. Loretta's previously firm grasp on your balls loosens up, as she softly massages your unloading testes, guiding you through your animalistic orgasm.",
                       "As your orgasm subsides, you collapse on the floor in exhaustion, her sperm-soaked glove falling dirtily on your stomach with a loud splat. As your consciousness dims, you watch Loretta's rosy lips whisper to you...",
-                      "ChangeImageLayer", "Expression", "1", "EnchantingGaze",
+                      "ChangeImageLayer", "Expression", "1", "CrimsonGaze",
+                      "ChangeImageLayer", "GazeOverlay", "1", "Gaze",
                       "Speaks", "You will come visit me again... And tell no one else of me...",
                       "ChangeSensitivity", "Pain", "3",
                       "ChangeSensitivity", "Sex", "3",
+                      "CallSceneThenReturn", "SkillFix",
                       "GameOver"
                     ]
                   },
                   {
                     "NameOfScene": "AmazonLoss",
                     "theScene": [
-                      "As the last of your resistance spurts weakly into her hellishly tight pussy, Loretta lifts her hips, as if already sensing your utter defeat. Your cock slips out of her over-filled pussy and falls down, flaccid and defeated.",
+                      "DisplayCharacters", "1", "EndLoop",
                       "ChangeImageLayer", "Expression", "1", "SmugSmile",
+                      "As the last of your resistance spurts weakly into her hellishly tight pussy, Loretta lifts her hips, as if already sensing your utter defeat. Your cock slips out of her over-filled pussy and falls down, flaccid and defeated.",
                       "Speaks", "Hmph, no stamina at all.",
                       "Putting two fingers over her pussy, Loretta spreads its lips wide open, showing off how much you filled it with your thick splooge. A stream of sticky ivory leaks outside, splattering down unto your thoroughly drained cock.",
                       "Speaks", "Lookie here, 'Hero'. Is this the extent of your resolve? Is surrendering your pitiful seed to monsters your real goal?",
@@ -140,22 +146,25 @@
                       "Speaks", "What do you say?",
                       "Menu",
                         "Agree to get bitten.",
-                        "Turn down the offer",
+                        "Turn down the offer.",
                       "EndLoop"
                     ]
                   },
                   {
                     "NameOfScene": "Agree to get bitten.",
                     "theScene": [
-                      "ChangeImageLayer", "Expression", "1", "EnchantingGaze",
+                      "ChangeImageLayer", "Expression", "1", "CrimsonGaze",
+                      "ChangeImageLayer", "GazeOverlay", "1", "Gaze",
                       "Speaks", "Hahyaaa...♥",
                       "PlayVisualEffect", "BlindingFlash", "../Mods/Pale Priestess/Images/FangedKissy.png",
+                      "ChangeImageLayer", "GazeOverlay", "1", "",
                       "Loretta wastes no time sinking her fangs into your neck, just as your cock sinks into the moist depths of her delightful pussy, knocking softly against her womb.",
                       "PlayerOrgasm", "1",
                       "PlaySoundEffect", "EjaculationLong",
                       "PlayVisualEffect", "BlindingFlash", "../Mods/Pale Priestess/Images/FangedKissy.png",
                       "You don't feel much pain from bite, only the heat of your blood rushing out and getting absorbed by the deathly cold emanating from her hungry maw. You don't mind this uncanny chill of death, because your engorged cock feels like it's on fire, already spurting a massive load of hot seed into Loretta's waiting womb.",
                       "PlayVisualEffect", "BlindingFlash", "../Mods/Pale Priestess/Images/FangedKissy.png",
+                      "ChangeImageLayer", "Expression", "1", "Amused",
                       "Speaks", "Mmhph...♥ Tashty blood...♥",
                       "PlayerOrgasm", "1",
                       "PlaySoundEffect", "EjaculationLong",
@@ -167,11 +176,12 @@
                       "Speaks", "You will come visit me again... And tell no one else of me...",
                       "ChangeSensitivity", "Pain", "5",
                       "ChangeSensitivity", "Sex", "3",
+                      "CallSceneThenReturn", "SkillFix",
                       "GameOver"
                     ]
                   },
                   {
-                    "NameOfScene": "Turn down the offer",
+                    "NameOfScene": "Turn down the offer.",
                     "theScene": [
                       "ChangeImageLayer", "Expression", "1", "Amused",
                       "Speaks", "Huhu... Is that so?",
@@ -179,9 +189,10 @@
                       "Speaks", "Are you that afraid of the scary vampire...? Or maybe my taunts stung a little too much, mm? Decided to be a real Hero for once? Almost commendable.",
                       "ChangeImageLayer", "Expression", "1", "Disdain",
                       "Speaks", "Unless it's just your pride talking.",
-                      "ChangeImageLayer", "Expression", "1", "EnchantingGaze",
-                      "Speaks", "Now cum.",
                       "ChangeImageLayer", "Expression", "1", "CrimsonGaze",
+                      "ChangeImageLayer", "GazeOverlay", "1", "Gaze",
+                      "Speaks", "Now cum.",
+                      "ChangeImageLayer", "GazeOverlay", "1", "",
                       "PlayerOrgasm", "1",
                       "PlaySoundEffect", "EjaculationLong",
                       "Your cock erupts at her command, splattering her stomach, the underside of her tits and raining hot, white seed all over her soft thighs in one go. But it doesn't end there, more and more sticky white stuff rushing out from your defeated dick, pooling up in the soft, creamy valley between her supple thighs.",
@@ -190,13 +201,16 @@
                       "And as you finally pass out, one last sentence slips into your rapidly shutting down mind...",
                       "Speaks", "You will come visit me again... And tell no one else of me...",
                       "ChangeSensitivity", "Sex", "5",
+                      "CallSceneThenReturn", "SkillFix",
                       "GameOver"
                     ]
                   },
                   {
                     "NameOfScene": "FaceSitLoss",
                     "theScene": [
+                      "DisplayCharacters", "1", "EndLoop",
                       "ChangeImageLayer", "Face", "1", "",
+                      "ChangeImageLayer", "Expression", "1", "SmugSmile",
                       "With your cock raising its final white flag, sputtering hot seed all over the floor, you slump to the ground in defeat. You couldn't remove Loretta's wonderful ass from your face, and now you don't want to.",
                       "Loretta's addictive floral fragrance dominates your senses completely, and with her wonderful, soft ass resting on your face, you couldn't wish for anything more. Greedily, you start huffing and panting beneath her, your cock shamelessly growing hard again, as if it could still resist.",
                       "ChangeImageLayer", "Expression", "1", "Boredom",
@@ -241,21 +255,23 @@
                       "As the world grows dim... One last instruction leaks into your defeated mind...",
                       "Speaks", "You will come visit me again... And tell no one else of me...",
                       "ChangeSensitivity", "Sex", "5",
+                      "CallSceneThenReturn", "SkillFix",
                       "GameOver"
                     ]
                   },
                   {
                     "NameOfScene": "FeedingFootjob",
                     "theScene": [
-                      "With another mind-bending orgasm your cock erupts with the last of your energy, raining white all around. Loretta nibbles at your ear softly, causing you to moan weakly, and the last of your resistance crumbles.",
-                      "Speaks", "It only gets better from now...",
-                      "You whine a little as her feet leave your cock. You feel her bare leg rest on your thigh for a moment, but not the other. You do hear ruffling of cloth, however, and dimly realize she must be taking off her other stocking...",
+                      "DisplayCharacters", "1", "EndLoop",
+                      "With a mind-bending orgasm your cock erupts with the last of your energy, raining white all around. Loretta nibbles at your ear softly, causing you to moan weakly, and the last of your self-control crumbles.",
+                      "Speaks", "Good, good... But it only gets better from now...",
+                      "You whine a little in confusion as her feet leave your cock. You feel her bare leg rest on your thigh for a moment, but not the other. You do hear ruffling of cloth, however, and dimly realize she must be taking off her other stocking...",
                       "Next moment you know that she did, as the stocking slips over your mouth like a makeshift gag. You gasp and moan as more of her stuffy foot-scent invades your senses, but the gag muffles your helpless pants.",
                       "Speaks", "Shh... Breathe deeper and enjoy yourself, thrall. I know my smell is irresistable.",
                       "Not having a choice or the strength to resist, you have to do as she says. Gasping for more air, you only get more and more of her overbearing fragrance instead, the bittersweet scent threatening to make you spurt another shameful load for her amusement.",
-                      "Speaks", "You also get to have bareback sex with my priestessly feet... Aren't you glad?♥",
+                      "Speaks", "You also get to have raw, bareback sex with my priestessly feet... Aren't you glad?♥",
                       "PlayLoopingSoundEffect", "sfx/Erotic/Feet/kuchaLong03.wav",
-                      "You can't deny your desire as her soft and slightly damp feet grip your cock. You whine and thrust your hips upwards, your sensitive, defeated cock seeking even more pleasure. Loretta coos in your ear and starts to jack off your cock with her feet slowly.",
+                      "You can't deny your desire as her soft and slightly damp feet grip your cock again. You whine and thrust your hips upwards, your sensitive, defeated cock seeking even more pleasure. Loretta coos in your ear and starts to jack you off with her feet slowly.",
                       "As your cock grows ever stiffer, the rest of your body seems to lose more and more strength, weakly relaxing in Loretta's cradling embrace. You lean back against her soft tits, deprived of vision, your helpless moans muffled by her silky stocking. Your senses seem to focus completely on her almost suffocating smell, and the sublime touch of her feet on your cock.",
                       "Speaks", "All comfortable? You should start cumming then, my little thrall.",
                       "PlayLoopingSoundEffect", "sfx/Erotic/Feet/kucha03.wav",
@@ -290,11 +306,11 @@
                       "PlaySoundEffect", "EjaculationLong",
                       "You whine in protest, but cannot disobey. Your cock starts spurting weakly unto the ground, even while flaccid. The sensation is quite strange and unsatisfying, but takes the last bit of your energy as you feel the recall stone activating.",
                       "As your consciousness grows dim, you hear Loretta sighing languidly. How miserable she sounds...",
-                      "PlayBlackOut",
                       "Everything goes black. One last sentence slips into your rapidly shutting down mind...",
                       "Speaks", "You will come visit me again... And tell no one else of me...",
                       "ChangeSensitivity", "Sex", "7",
                       "ChangeFetish", "Feet", "10",
+                      "CallSceneThenReturn", "SkillFix",
                       "GameOver"
                     ]
                   },
@@ -316,14 +332,24 @@
                       "Finally, your cock erupts in a blissful orgasm, splattering her pale feet with your warm cum. Loretta stops drinking, softly pulling her fangs from your neck with a quiet sigh. The deathly cold you felt is replaced by her hot, passionate panting.",
                       "Speaks", "T-thank you...",
                       "You don't manage to respond, completely spent and feeling the recall stone activating, but feel just as appreciative of her. Loretta remains unusually tender to the end, her hands caressing your limp body softly as you slowly disappear...",
-                      "PlayBlackOut",
                       "One last sentence slips into your rapidly shutting down mind...",
                       "Speaks", "You will come visit me again... And tell no one else of me...",
                       "ChangeSensitivity", "Pain", "7",
                       "ChangeSensitivity", "Sex", "5",
                       "ChangeFetish", "Feet", "10",
+                      "CallSceneThenReturn", "SkillFix",
                       "GameOver"
                     ]
+                  },
+                  {
+                    "NameOfScene": "SkillFix",
+                    "theScene": [
+                    "RemoveSkillFromPlayerQuietly", "Kiss Feet",
+                    "RemoveSkillFromPlayerQuietly", "Lick Soles",
+                    "RemoveSkillFromPlayerQuietly", "Sniff Feet",
+                    "RemoveSkillFromPlayerQuietly", "Suck Toes"
+                    ]
                   }
+
                 ]
 }

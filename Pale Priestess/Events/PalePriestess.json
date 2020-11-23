@@ -115,6 +115,7 @@
                           "'Your ears are quite... pointy.'",
                             "HideOptionOnRequirementFail",
                             "RequiresStat", "Intelligence", "25",
+                            "RequiresChoice", "1", "FightingTalked",
                           "'Archmage Elizabeth...?'",
                           "Back.",
                         "EndLoop"
@@ -295,7 +296,7 @@
                         "DisplayCharacters", "EndLoop",
                         "You slump back unto your bed, unusually exhausted, and drift away...",
                         "SleepPlayer", "DelayNotifications",
-                        "JumpToEventThenScene", "Go to your room.", "RoomMenu"
+                        "JumpToNPCEventThenScene", "Go to your room.", "RoomMenu"
                       ]
                     },
                     {
@@ -401,7 +402,7 @@
                         "Speaks", "'Sorry for leaving early. There is something I need to tell you next time.    -Loretta.'",
                         "How cryptic...",
                         "SetChoice", "3", "FuckedTwice",
-                        "JumpToEventThenScene", "Go to your room.", "RoomMenu"
+                        "JumpToNPCEventThenScene", "Go to your room.", "RoomMenu"
                       ]
                     },
                     {
@@ -679,7 +680,7 @@
                         "EndLoop",
                         "DisplayCharacters", "EndLoop",
                         "You part with a smile, Loretta going her own way while you go to your room to think about your next move.",
-                        "JumpToEventThenScene", "Go to your room.", "RoomMenu"
+                        "JumpToNPCEventThenScene", "Go to your room.", "RoomMenu"
                       ]
                     },
                     {
@@ -821,16 +822,22 @@
                         "Speaks", "I would have unremorsefully attacked you back then...",
                         "ChangeImageLayer", "Expression", "1", "LanguidFang",
                         "Speaks", "I'm glad things turned out differently. You are a great man, and even found it within yourself to forgive me. So of course I would love you.",
+                        "...",
                         "ChangeImageLayer", "Expression", "1", "ShySmile",
-                        "Speaks", "Truth be told, I'm not sure what exactly I want out of this relationship now, but... I am fine with that.",
+                        "She pauses for a moment.",
+                        "Speaks", "I should clarify. When I say 'love', I don't mean a romantic infatuation, but an extreme opposite of the disdain I normally feel towards men. We just met recently, and believe it or not, my views on romance remained largely human-like despite my transformation.",
                         "ChangeImageLayer", "Expression", "1", "LanguidFang",
-                        "Speaks", "We can take our time and see where that leads us.",
+                        "Speaks", "In retrospect, any notion of 'normal' romance between us sounds ridiculous... given how I started our relationship.",
+                        "ChangeImageLayer", "Expression", "1", "ShySmile",
+                        "Speaks", "The fact we're already having this conversation right now... it really serves to demonstrate how my careless words and actions keep leading me far away from the dreamlike, gentle romance I would've liked to experience.",
+                        "ChangeImageLayer", "Expression", "1", "EvilSmile",
+                        "Speaks", "... To say nothing of my... dark inclinations. Even you... no, especially because it is someone like you... I would be really excited to turn you into my hapless plaything...",
                         "ChangeImageLayer", "Expression", "1", "Happy",
-                        "Speaks", "For the time being, at least, I'm perfectly content to simply chat with you and...",
+                        "Speaks", "But worry not, I'm perfectly content to hold myself back and simply enjoy your company... And of course...",
                         "ChangeImageLayer", "Expression", "1", "LewdGrin",
-                        "Speaks", "... have {i}lots and lots{/i} of sex.",
+                        "Speaks", "... have {i}lots and lots{/i} of sex. I promise, I won't try to break you... much.",
                         "ChangeArousalQuietly", "50",
-                        "Caught by surprise by the brazen declaration, you feel your cheeks flush as your dick twitches in your pants, remembering the times spent in your room with the insatiable vampire.",
+                        "Taken aback by the brazen declaration, and more importantly, its implcations, you feel your cheeks flush as your dick twitches in your pants. Remembering the times spent in your room with the insatiable vampire, you ponder if you could resist if she really tried 'breaking' you...",
                         "ChangeImageLayer", "Face", "1", "Flush",
                         "ChangeImageLayer", "Expression", "1", "HappyGrin",
                         "Noticing your reaction, Loretta giggles happily, her cheeks flush with arousal of her own.",
@@ -1049,7 +1056,7 @@
                         "SleepPlayer", "DelayNotifications",
                         "DisplayCharacters", "EndLoop",
                         "EndBlackOut",
-                        "JumpToEventThenScene", "Go to your room.", "RoomMenu"
+                        "JumpToNPCEventThenScene", "Go to your room.", "RoomMenu"
                       ]
                     },
                     {
@@ -1149,7 +1156,7 @@
                         "EndBlackOut",
                         "You come to a while later, feeling quite exhausted. Seems like you fell asleep after the intense blowjob sessions...",
                         "As usual, Loretta is nowhere to be seen. You shrug and get up, feeling a little lonely, but figure she must be hiding away from the sun...",
-                        "JumpToEventThenScene", "Go to your room.", "RoomMenu"
+                        "JumpToNPCEventThenScene", "Go to your room.", "RoomMenu"
                       ]
                     },
                     {
@@ -1224,7 +1231,7 @@
                         "DisplayCharacters", "EndLoop",
                         "EndBlackOut",
                         "Morning comes, and you find that Loretta has disappeared from your bed as usual. You shrug and get up, feeling a little lonely, but figure she must be hiding away from the sun...",
-                        "JumpToEventThenScene", "Go to your room.", "RoomMenu"
+                        "JumpToNPCEventThenScene", "Go to your room.", "RoomMenu"
                       ]
                     }
                 ]

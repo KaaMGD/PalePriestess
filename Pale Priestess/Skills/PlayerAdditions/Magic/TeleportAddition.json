@@ -1,0 +1,17 @@
+{
+    "name": "Teleport",
+    "skillType": "Addition",
+    "fetishTags": [],
+    "startsStance": "",
+    "unusableIfStance": [],
+    "requiresTargetStance": [],
+    "unusableIfTarget": [],
+    "removesStance": "",
+    "unusableIfPerk": [],
+    "unusableIfPerkSelf": [],
+
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

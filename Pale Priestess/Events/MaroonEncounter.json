@@ -569,7 +569,7 @@
                         "ChangeImageLayer", "HairOverlay", "1", "Adjust",
                         "Speaks", "I would like to stay in touch. Can you tell me your... room number?",
 	                      "ChangeImageLayer", "Face", "1", "Flush",
-	                      "... And would you like to go on a... date now?",
+	                      "Speaks", "... And would you like to go on a... date now?",
                         "Menu",
                           "Invite her for a drink at the bar.",
                           "Maybe later.",

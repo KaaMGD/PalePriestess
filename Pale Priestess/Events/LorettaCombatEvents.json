@@ -83,11 +83,11 @@
             "NameOfScene": "Resist!",
             "theScene": [
               "StatCheck",
-              "ChangeStatCheckDifficulty", "IfFetishLevelEqualOrGreater", "Feet", "25", "3",
-              "ChangeStatCheckDifficulty", "IfFetishLevelEqualOrGreater", "Feet", "50", "5",
-              "ChangeStatCheckDifficulty", "IfFetishLevelEqualOrGreater", "Feet", "75", "8",
+              "ChangeStatCheckDifficulty", "IfFetishLevelEqualOrGreater", "Feet", "25", "4",
+              "ChangeStatCheckDifficulty", "IfFetishLevelEqualOrGreater", "Feet", "50", "6",
+              "ChangeStatCheckDifficulty", "IfFetishLevelEqualOrGreater", "Feet", "75", "10",
               "ChangeStatCheckDifficulty", "IfPlayerHasStatusEffect", "Aphrodisiac", "5",
-              "Temptation", "15", "PassFeet",
+              "Temptation", "10", "PassFeet",
               "Fail", "FailFeet"
             ]
           },
@@ -194,6 +194,7 @@
               "IfPlayerHasStance", "Foot Worship", "EORWorship",
               "IfPlayerHasStance", "Blindfold", "EORBlindfold",
               "IfPlayerHasStance", "Amazon Position", "EORAmazon",
+              "IfPlayerHasStance", "Anal", "EORAnal",
               "IfPlayerHasStance", "Face Sit", "EORFacesit"
             ]
           },
@@ -231,6 +232,13 @@
             "theScene": [
               "Every moment you spend trapped under her silky panties makes it harder to breathe...",
               "JumpToScene", "ApplyFootStatus"
+            ]
+          },
+          {
+            "NameOfScene": "EORAnal",
+            "theScene": [
+              "Every moment you spend humping her soft ass, the insidious fragrance coming from her pale blonde hair makes it harder to breathe...",
+              "JumpToScene", "ApplyHairStatus"
             ]
           },
           {
@@ -498,7 +506,8 @@
               "ChangeImageLayer", "Expression", "CrimsonGaze",
               "SetPostName", " - Ensorcelled Gaze", "FocusedSpeaksSkill",
               "Loretta's normally pale blue eyes undergo a rapid transformation! The pleasantly blue color is rapidly washed away by a terrifying crimson...",
-              "ChangeImageLayer", "Expression", "EnchantingGaze",
+              "ChangeImageLayer", "Expression", "CrimsonGaze",
+              "ChangeImageLayer", "GazeOverlay", "Gaze",
               "FocusedSpeaksSkill", "A glowing red aura flashes from her eyes, threatening to draw you in!",
               "SetPostName", "",
               "In hopes of breaking the spell, you narrowly manage to move your gaze away from her eyes to look...",
@@ -517,13 +526,13 @@
               "HitPlayerWith", "Lips Sight",
               "Escaping the spell, you look down to Loretta's sensual lips and your heart flutters in your chest from the sight. You watch in awe as her horrifying fangs softly bite at her lips, the contrast of yielding flesh and animalistic sharpness so oddly appealing...{DamageToPlayer}",
               "StatCheck",
-              "ChangeStatCheckDifficulty", "IfFetishLevelEqualOrGreater", "Oral", "25", "1",
-              "ChangeStatCheckDifficulty", "IfFetishLevelEqualOrGreater", "Oral", "50", "3",
-              "ChangeStatCheckDifficulty", "IfFetishLevelEqualOrGreater", "Oral", "75", "5",
-              "ChangeStatCheckDifficulty", "IfFetishLevelEqualOrGreater", "Kissing", "25", "1",
-              "ChangeStatCheckDifficulty", "IfFetishLevelEqualOrGreater", "Kissing", "50", "3",
-              "ChangeStatCheckDifficulty", "IfFetishLevelEqualOrGreater", "Kissing", "75", "5",
-              "Temptation", "15", "PassTemptation",
+              "ChangeStatCheckDifficulty", "IfFetishLevelEqualOrGreater", "Oral", "25", "2",
+              "ChangeStatCheckDifficulty", "IfFetishLevelEqualOrGreater", "Oral", "50", "4",
+              "ChangeStatCheckDifficulty", "IfFetishLevelEqualOrGreater", "Oral", "75", "7",
+              "ChangeStatCheckDifficulty", "IfFetishLevelEqualOrGreater", "Kissing", "25", "3",
+              "ChangeStatCheckDifficulty", "IfFetishLevelEqualOrGreater", "Kissing", "50", "6",
+              "ChangeStatCheckDifficulty", "IfFetishLevelEqualOrGreater", "Kissing", "75", "8",
+              "Temptation", "10", "PassTemptation",
               "Fail", "FailLips"
             ]
           },
@@ -531,6 +540,7 @@
             "NameOfScene": "PassTemptation",
             "theScene": [
               "...But with great effort, you manage to tear away your gaze from the alluring priestess for good! You pant heavily, relishing being able to look at your surroundings freely.",
+              "ChangeImageLayer", "GazeOverlay", "",
               "ChangeImageLayer", "Face", "",
               "ChangeImageLayer", "Expression", "HappyGrin",
               "This seems to break the spell, as you note the sinister glow disappearing in your peripheral vision. You recompose yourself and look back to the vampiress, surprised to see her look oddly satisfied.",
@@ -557,10 +567,10 @@
               "HitPlayerWith", "Breasts Sight",
               "Escaping the spell, your gaze falls to Loretta's heavy bosom, the tight cleavage a natural magnet for the eyes. Loretta stands still, doing nothing to emphasize her chest, but it is still difficult to look away for good...{DamageToPlayer}",
               "StatCheck",
-              "ChangeStatCheckDifficulty", "IfFetishLevelEqualOrGreater", "Breasts", "25", "3",
-              "ChangeStatCheckDifficulty", "IfFetishLevelEqualOrGreater", "Breasts", "50", "5",
-              "ChangeStatCheckDifficulty", "IfFetishLevelEqualOrGreater", "Breasts", "75", "8",
-              "Temptation", "15", "PassTemptation",
+              "ChangeStatCheckDifficulty", "IfFetishLevelEqualOrGreater", "Breasts", "25", "4",
+              "ChangeStatCheckDifficulty", "IfFetishLevelEqualOrGreater", "Breasts", "50", "6",
+              "ChangeStatCheckDifficulty", "IfFetishLevelEqualOrGreater", "Breasts", "75", "10",
+              "Temptation", "10", "PassTemptation",
               "Fail", "FailTits"
             ]
           },
@@ -584,10 +594,10 @@
               "HitPlayerWith", "Legs Sight",
               "Escaping the spell, your gaze travels all the way to Loretta's stocking-clad legs, the plump creamy flesh of her thigh pleasing to the eye. Loretta stands still, doing nothing to flaunt her long legs, but it is still difficult to look away for good...{DamageToPlayer}",
               "StatCheck",
-              "ChangeStatCheckDifficulty", "IfFetishLevelEqualOrGreater", "Legs", "25", "3",
-              "ChangeStatCheckDifficulty", "IfFetishLevelEqualOrGreater", "Legs", "50", "5",
-              "ChangeStatCheckDifficulty", "IfFetishLevelEqualOrGreater", "Legs", "75", "8",
-              "Temptation", "15", "PassTemptation",
+              "ChangeStatCheckDifficulty", "IfFetishLevelEqualOrGreater", "Legs", "25", "4",
+              "ChangeStatCheckDifficulty", "IfFetishLevelEqualOrGreater", "Legs", "50", "6",
+              "ChangeStatCheckDifficulty", "IfFetishLevelEqualOrGreater", "Legs", "75", "10",
+              "Temptation", "10", "PassTemptation",
               "Fail", "FailLegs"
             ]
           },
@@ -614,7 +624,7 @@
               "ChangeStatCheckDifficulty", "IfFetishLevelEqualOrGreater", "Feet", "25", "4",
               "ChangeStatCheckDifficulty", "IfFetishLevelEqualOrGreater", "Feet", "50", "6",
               "ChangeStatCheckDifficulty", "IfFetishLevelEqualOrGreater", "Feet", "75", "10",
-              "Temptation", "20", "PassTemptation",
+              "Temptation", "15", "PassTemptation",
               "Fail", "FailFeetEyes"
             ]
           },
@@ -643,6 +653,7 @@
               "Her wondrous eyes flash once more, instantly wiping away all of your thoughts... A single command rings in your empty mind - to never look away again.{DamageToPlayer}",
               "SetPostName", "",
               "ChangeImageLayer", "Face", "Flush",
+              "ChangeImageLayer", "GazeOverlay", "",
               "ChangeImageLayer", "Expression", "SmugGrin",
               "Speaks", "Good, good... My little {i}thrall{/i}.",
               "HitPlayerWith", "Seduce",
@@ -655,6 +666,7 @@
               "HitPlayerWith", "Vampiric Enthrallment",
               "The crimson abyss in her cursed eyes encompasses everything, replacing your entire world as your body start shaking in helpless pleasure, giving yourself entirety to Her control. In the end, you realize you could never escape the enchanting visage of your Mistress...{DamageToPlayer}",
               "ChangeImageLayer", "Face", "Flush",
+              "ChangeImageLayer", "GazeOverlay", "",
               "ChangeImageLayer", "Expression", "SmugGrin",
               "Speaks", "Good, good... My little {i}thrall{/i}.",
               "HitPlayerWith", "Seduce",
@@ -736,7 +748,7 @@
           {
             "NameOfScene": "EndFootjob",
             "theScene": [
-              "ClearStanceFromMonsterAndPlayer", "Blindfold",
+              "ClearStances",
               "EndBlackOut",
               "Scrambling away, you manage to tear off the stocking from your face, tossing the pleasantly-scented cloth back at the vampiress by chance.",
               "ChangeImageLayer", "Base", "Base",
@@ -748,6 +760,7 @@
           {
             "NameOfScene": "EndBlindfold",
             "theScene": [
+              "IfPlayerDoesntHaveStance", "Footjob", "DoNothing",
               "EndBlackOut",
               "Momentarily, you manage to pull off the stocking from your eyes, catching a glimpse of surroundings...",
               "ChangeImageLayer", "Expression", "SmugGrin",
@@ -826,7 +839,7 @@
             "theScene": [
               "EndBlackOut",
               "EndVisualEffect",
-              "IfPlayerSpiritGone", "Defeat",
+              "ClearStances",
               "You whine needily as your sticky load launches into the air as you're torn out from your sleep! Slowly opening your eyes, still feeling groggy and confused, you also note something wrapped snugly around you...",
               "ChangeImageLayer", "Base", "BaseBottomless",
               "ChangeImageLayer", "Expression", "SmugGrin",
@@ -839,7 +852,8 @@
               "You try to struggle, but quickly realize it will take a while to break these restraints. Meanwhile Loretta hovers over your stiff prick, raising her robes and baring her drooling pussy...",
               "ApplyStance", "Amazon Position",
               "ApplyStance", "Sex",
-              "In one smooth motion Loretta drops her hips, plunging the entirety of your engorged erection into her cool and inhumanly tight slit!"
+              "In one smooth motion Loretta drops her hips, plunging the entirety of your engorged erection into her cool and inhumanly tight slit!",
+              "IfPlayerSpiritGone", "Defeat"
             ]
           },
           {
@@ -847,7 +861,7 @@
             "theScene": [
               "EndBlackOut",
               "EndVisualEffect",
-              "IfPlayerSpiritGone", "Defeat",
+              "ClearStances",
               "You whine needily as your sticky load launches into the air as you're torn out from your sleep! Slowly, you open your eyes, still feeling groggy and confused...",
               "ChangeImageLayer", "Expression", "SmugGrin",
               "Speaks", "Seen any nice dreams?",
@@ -856,7 +870,8 @@
               "Speaks", "The nightmare begins now.",
               "You were too late to act, as Loretta already hovers over your face, raising her robes and showing off her pristinely white lacy panties...",
               "ApplyStance", "Face Sit",
-              "In one smooth motion Loretta drops her hips, smothering you with her panties as she sits on your face!"
+              "In one smooth motion Loretta drops her hips, smothering you with her panties as she sits on your face!",
+              "IfPlayerSpiritGone", "Defeat"
             ]
           },
           {
@@ -872,6 +887,8 @@
               "RemoveSkillFromMonster", "Vampire's Night Terrors",
               "RemoveSkillFromMonster", "Ensorcelled Gaze",
               "RemoveSkillFromMonster", "Suffocating Foot Sex",
+              "GiveSkillToMonster", "Barefoot Invitation",
+              "GiveSkillToMonster", "Smothering Encouragement",
               "GiveSkillToMonster", "Barefoot Sex"
             ]
           },
@@ -914,9 +931,12 @@
               "ApplyStance", "Foot Worship",
               "HitPlayerWith", "Foot Smother",
               "PlayVisualEffect2", "ScreenPulse", "pinkHaze.png",
-              "GiveSkill","Worship Feet",
               "The haughty priestess presses her damp soles into your face with a coo, rewarding your obedience. Like a man possessed, you rub your face against her feet, completely lost in their fragrance, the texture, the soft pressure as she playfully pushes them into your face... And the taste... the taste...!{DamageToPlayer}",
-              "Speaks", "Huhu...♥ huhuhu...♥ Control yourself, you foot-addicted brute...♥"
+              "Speaks", "Huhu...♥ huhuhu...♥ Control yourself, you foot-addicted brute...♥",
+              "GiveSkillQuietly", "Kiss Feet",
+              "GiveSkillQuietly", "Lick Soles",
+              "GiveSkillQuietly", "Sniff Feet",
+              "GiveSkillQuietly", "Suck Toes"
             ]
           },
           {
@@ -939,9 +959,9 @@
           {
             "NameOfScene": "SelfDmg1",
             "theScene": [
-              "ChangeMonsterArousal", "82",
+              "ChangeMonsterArousal", "62",
               "SetPostName", " - Masturbation", "FocusedSpeaksSkill",
-              "Loretta is masturbating intensely, her face flushed with indecent arousal as she watches you writhe beneath her feet... Loretta is aroused by 82!",
+              "Loretta is masturbating intensely, her face flushed with indecent arousal as she watches you writhe beneath her feet... Loretta is aroused by 62!",
               "SetPostName", "",
               "IfMonsterOrgasm", "MasturbationOrgasm"
             ]
@@ -949,9 +969,9 @@
           {
             "NameOfScene": "SelfDmg2",
             "theScene": [
-              "ChangeMonsterArousal", "91",
+              "ChangeMonsterArousal", "71",
               "SetPostName", " - Masturbation", "FocusedSpeaksSkill",
-              "Loretta is masturbating intensely, her face flushed with indecent arousal as she watches you writhe beneath her feet... Loretta is aroused by 91!",
+              "Loretta is masturbating intensely, her face flushed with indecent arousal as she watches you writhe beneath her feet... Loretta is aroused by 7!",
               "SetPostName", "",
               "IfMonsterOrgasm", "MasturbationOrgasm"
             ]
@@ -959,9 +979,9 @@
           {
             "NameOfScene": "SelfDmg3",
             "theScene": [
-              "ChangeMonsterArousal", "106",
+              "ChangeMonsterArousal", "86",
               "SetPostName", " - Masturbation", "FocusedSpeaksSkill",
-              "Loretta is masturbating intensely, her face flushed with indecent arousal as she watches you writhe beneath her feet... Loretta is aroused by 106!",
+              "Loretta is masturbating intensely, her face flushed with indecent arousal as she watches you writhe beneath her feet... Loretta is aroused by 86!",
               "SetPostName", "",
               "IfMonsterOrgasm", "MasturbationOrgasm"
             ]
@@ -969,9 +989,9 @@
           {
             "NameOfScene": "SelfDmg4",
             "theScene": [
-              "ChangeMonsterArousal", "87",
+              "ChangeMonsterArousal", "67",
               "SetPostName", " - Masturbation", "FocusedSpeaksSkill",
-              "Loretta is masturbating intensely, her face flushed with indecent arousal as she watches you writhe beneath her feet... Loretta is aroused by 87!",
+              "Loretta is masturbating intensely, her face flushed with indecent arousal as she watches you writhe beneath her feet... Loretta is aroused by 67!",
               "SetPostName", "",
               "IfMonsterOrgasm", "MasturbationOrgasm"
             ]
@@ -979,9 +999,9 @@
           {
             "NameOfScene": "SelfDmg5",
             "theScene": [
-              "ChangeMonsterArousal", "94",
+              "ChangeMonsterArousal", "74",
               "SetPostName", " - Masturbation", "FocusedSpeaksSkill",
-              "Loretta is masturbating intensely, her face flushed with indecent arousal as she watches you writhe beneath her feet... Loretta is aroused by 94!",
+              "Loretta is masturbating intensely, her face flushed with indecent arousal as she watches you writhe beneath her feet... Loretta is aroused by 74!",
               "SetPostName", "",
               "IfMonsterOrgasm", "MasturbationOrgasm"
             ]
@@ -1000,13 +1020,16 @@
               "Speaks", "Oh!",
               "ChangeImageLayer", "Expression", "SmugSmile",
               "ChangeImageLayer", "Shoes", "Shoes",
-              "RemoveSkillFromPlayer", "Worship Feet",
               "Loretta sits up gracefully, slipping her feet back into her shoes, and hops to stand up again, her confidence undaunted by your denial.",
               "FocusedSpeaks", "SwapLineIf", "Random",
                 "Huhu...♥ Didn't think you had it in you.♥",
                 "Huhuhu...♥ I will just do it again...♥",
                 "Sheesh...♥ You're only lying to yourself, you know?",
-              "EndLoop"
+              "EndLoop",
+              "RemoveSkillFromPlayerQuietly", "Kiss Feet",
+              "RemoveSkillFromPlayerQuietly", "Lick Soles",
+              "RemoveSkillFromPlayerQuietly", "Sniff Feet",
+              "RemoveSkillFromPlayerQuietly", "Suck Toes"
             ]
           }
       ]

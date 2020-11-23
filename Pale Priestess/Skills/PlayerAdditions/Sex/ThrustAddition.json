@@ -1,0 +1,17 @@
+{
+    "name": "Thrust",
+    "skillType": "Addition",
+    "fetishTags": [],
+    "startsStance": "",
+    "unusableIfStance": [],
+    "requiresTargetStance": [],
+    "unusableIfTarget": [],
+    "removesStance": "None",
+    "unusableIfPerk": [],
+    "unusableIfPerkSelf": [],
+
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

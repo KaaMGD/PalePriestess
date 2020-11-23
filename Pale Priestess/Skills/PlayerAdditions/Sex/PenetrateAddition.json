@@ -1,0 +1,17 @@
+{
+    "name": "Penetrate",
+    "skillType": "Addition",
+    "fetishTags": [],
+    "startsStance": "",
+    "unusableIfStance": ["Foot Worship"],
+    "requiresTargetStance": [],
+    "unusableIfTarget": [],
+    "removesStance": "Thighjob",
+    "unusableIfPerk": [],
+    "unusableIfPerkSelf": [],
+
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

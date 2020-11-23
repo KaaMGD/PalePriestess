@@ -1,0 +1,17 @@
+{
+    "name": "Bondage Net",
+    "skillType": "Addition",
+    "fetishTags": [],
+    "startsStance": "",
+    "unusableIfStance": ["Foot Worship"],
+    "requiresTargetStance": [],
+    "unusableIfTarget": [],
+    "removesStance": "None",
+    "unusableIfPerk": [],
+    "unusableIfPerkSelf": [],
+
+    "restraintStruggle": "{TargetName} struggles against the tightly binding ropes...",
+    "restraintStruggleCharmed": "{TargetName} squirms against the tightly binding ropes...",
+    "restraintEscaped": "And breaks free, shredding the ropes in the process!",
+    "restraintEscapedFail": "But stays snug in the pleasant bondage of the ropes!"
+}

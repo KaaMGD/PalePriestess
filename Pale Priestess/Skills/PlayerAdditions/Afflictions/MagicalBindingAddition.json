@@ -1,0 +1,17 @@
+{
+    "name": "Magical Binding",
+    "skillType": "Addition",
+    "fetishTags": [],
+    "startsStance": "",
+    "unusableIfStance": ["Foot Worship"],
+    "requiresTargetStance": [],
+    "unusableIfTarget": [],
+    "removesStance": "None",
+    "unusableIfPerk": [],
+    "unusableIfPerkSelf": [],
+
+    "restraintStruggle": "{TargetName} struggles against the arcane bindings...",
+    "restraintStruggleCharmed": "{TargetName} squirms against the arcane bindings...",
+    "restraintEscaped": "And breaks free, making the ropes shatter into motes of magic!",
+    "restraintEscapedFail": "But can't break free of the coiling, magical ropes!"
+}

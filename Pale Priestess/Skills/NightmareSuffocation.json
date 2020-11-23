@@ -26,7 +26,7 @@
     "statusEffect": "Aphrodisiac",
     "statusChance": "99",
     "statusDuration": "1",
-    "statusPotency": "150",
+    "statusPotency": "80",
     "statusResistedBy": "Willpower",
     "statusText": "Panties...",
     "descrip": "",

@@ -41,7 +41,7 @@
     "perks": [ "Kissing Adverse","Undeniable Pleasure","Honey Trap","Aphrodisiac Resistant","Domineering","Quick Witted"],
     "stats": { "lvl": "35",
               "Exp": "550",
-              "max_hp": "500",
+              "max_hp": "600",
               "max_ep": "100",
               "max_sp": "1",
               "Power": "15",
@@ -94,6 +94,7 @@
                         "stance": "Foot Worship",
                         "includes": ["Loretta"],
                         "theScene": [
+                                    "DisplayCharacters", "1", "EndLoop",
                                     "JumpToEventThenScene", "LorettaLossEvents", "WorshipLoss"
                                   ],
                         "picture": ""
@@ -104,6 +105,7 @@
                         "stance": "",
                         "includes": ["Loretta"],
                         "theScene": [
+                                    "DisplayCharacters", "1", "EndLoop",
                                     "JumpToEventThenScene", "LorettaLossEvents", "Glovejob"
                         ],
                         "picture": ""
@@ -114,6 +116,8 @@
                         "stance": "",
                         "includes": ["Loretta"],
                         "theScene": [
+                                    "DisplayCharacters", "1", "EndLoop",
+                                    "ChangeImageLayer", "Expression", "1", "SmugSmile",
                                     "Her teasing caress proves to be too much, and you erupt pitfully unto the stone floor, Loretta sneering at your cock over your shoulder.",
                                     "Speaks", "Huhu, already? You aren't even paralyzed yet...",
                                     "She leans in and grips your cock from behind firmly, drawing a sharp gasp from you as she starts jacking it off quickly.",
@@ -150,13 +154,37 @@
                         "stance": "Anal",
                         "includes": ["Loretta"],
                         "theScene": [
-                                    "ChangeImageLayer", "Face", "1", "",
+                                    "DisplayCharacters", "1", "EndLoop",
                                     "ChangeImageLayer", "Expression", "1", "Boredom",
                                     "Spurting the last of your cum into Loretta's inhumanly tight asshole, you moan weakly and tumble forward, desperately wrapping your arms around Loretta's waist to remain standing. The vampire priestess glances behind and only sighs softly.",
                                     "Speaks", "All done? Stop clinging to me so much then, it's gross.",
                                     "She pushes you with her soft butt, the weak impact enough to send you falling down on your ass. Your defeated, flaccid cock drools cum on the ground weakly as you try to catch your breath.",
                                     "ChangeImageLayer", "Expression", "1", "Disdain",
                                     "Loretta doesn't seem to plan on giving you any respite however, gracefully walking up to you again. Your cum drips to the ground from between her asscheeks but you don't see that, unable to look away from her disdainful face as she sneers down on your prone form.",
+                                    "Speaks", "Huhu... what do I do with you now?",
+                                    "ChangeImageLayer", "Expression", "1", "SmugSmile",
+                                    "She struts up behind you, resting her hands on your shoulders softly. You would recoil, her touch coming off as somehow sinister, but cannot muster any strength.",
+                                    "Speaks", "Hmm... Since you tried your best in your own way... I'll be a little nicer this once.",
+                                    "Loretta leans over gracefully, placing her upside down face right in front of yours, almost uncomfortably close. Then...",
+                                    "ChangeImageLayer", "Expression", "1", "CrimsonGaze",
+                                    "ChangeImageLayer", "GazeOverlay", "1", "Gaze",
+                                    "A flash of crimson...",
+                                    "ChangeImageLayer", "Expression", "1", "SmugSmile",
+                                    "ChangeImageLayer", "GazeOverlay", "1", "",
+                                    "And she becomes the most beautiful woman you have laid your eyes upon! Your cock grows painfully hard in mere seconds, throbbing and splattering precum on the floor in overwhelming sexual need.",
+                                    "Speaks", "A nice reaction... my little {i}thrall{/i}.♥",
+                                    "Your gorgeous priestess stands upright again, her enchanting visage disappearing from view. In its absence, your mind starts to feverishly picture her face, a pale imitation of her real splendor...",
+                                    "PlayBlackOut",
+                                    "You gasp as something covers your eyes, blocking your vision like a blindfold. It is white, soft and silky... And smells so much of Her... A husky whisper then enters your ear.",
+                                    "Speaks", "Huhu... I know you want to see me again... But I won't let you.♥",
+                                    "You feel her sitting down right behind you, her sinfully soft bosom pressing into your back. Her legs wrap around your waist, one seemingly bare, and your mind dimly realizes that the silky 'blindfold' on your face must be one of her stockings...",
+                                    "Speaks", "But I will let you enjoy... {i}this{/i}.♥",
+                                    "You whine and almost cum on the spot as you feel her touch on your cock, and when you realize it is her dainty soft feet that are caressing your cock, you almost ejaculate on the spot with an incoherent moan.",
+                                    "Speaks", "Huhu, that's right...♥ These are my {i}feet{/i}.♥",
+                                    "Speaks", "You came so much in my ass, but look at you... still so pitifully {i}hard{/i}.♥ What you really needed were my {i}feet{/i}.♥",
+                                    "Your only response is a helpless cry of pleasure as her feet start stroking your erection, skillfully pumping across your shaft at a steady, but teasingly slow pace.",
+                                    "Speaks", "That's a good cry, thrall...♥ Now let's hear your orgasmic moan next...♥ Spurt-spurt.♥",
+                                    "You oblige, never standing a chance against the assymetrical assault of her feet, and let loose...",
                                     "JumpToScene", "FeedingFootjob"
                                   ],
                         "picture": ""
@@ -167,11 +195,35 @@
                         "stance": "Feet Smothering",
                         "includes": ["Loretta"],
                         "theScene": [
-                                    "ChangeImageLayer", "Face", "1", "",
+                                    "DisplayCharacters", "1", "EndLoop",
                                     "ChangeImageLayer", "Expression", "1", "LewdGrin",
                                     "As you're spurting the last of your cum into Loretta's inhumanly tight pussy, your defeated moan is muffled by her feet. They keep assaulting your face, the dangerous smell they exude as arousing as ever, even with you being completely spent.",
                                     "Loretta grins and pushes you away with her feet, meeting no resistance from your limp body. You fall back, cock slipping out of her hungry pussy as you fall on your ass. Exhausted and spent, you try to catch your breath, your head still spinning from her smell.",
                                     "Loretta doesn't seem to plan on giving you any respite however, gracefully walking up to you again. Your cum drips to the ground from her thoroughly creampied pussy but you don't see that, unable to look away from her disdainful face as she sneers down on your prone form.",
+                                    "Speaks", "Huhu... what do I do with you now?",
+                                    "ChangeImageLayer", "Expression", "1", "SmugSmile",
+                                    "She struts up behind you, resting her hands on your shoulders softly. You would recoil, her touch coming off as somehow sinister, but cannot muster any strength.",
+                                    "Speaks", "Hmm... Since you tried your best in your own way... I'll be a little nicer this once.",
+                                    "Loretta leans over gracefully, placing her upside down face right in front of yours, almost uncomfortably close. Then...",
+                                    "ChangeImageLayer", "Expression", "1", "CrimsonGaze",
+                                    "ChangeImageLayer", "GazeOverlay", "1", "Gaze",
+                                    "A flash of crimson...",
+                                    "ChangeImageLayer", "Expression", "1", "SmugSmile",
+                                    "ChangeImageLayer", "GazeOverlay", "1", "",
+                                    "And she becomes the most beautiful woman you have laid your eyes upon! Your cock grows painfully hard in mere seconds, throbbing and splattering precum on the floor in overwhelming sexual need.",
+                                    "Speaks", "A nice reaction... my little {i}thrall{/i}.♥",
+                                    "Your gorgeous priestess stands upright again, her enchanting visage disappearing from view. In its absence, your mind starts to feverishly picture her face, a pale imitation of her real splendor...",
+                                    "PlayBlackOut",
+                                    "You gasp as something covers your eyes, blocking your vision like a blindfold. It is white, soft and silky... And smells so much of Her... A husky whisper then enters your ear.",
+                                    "Speaks", "Huhu... I know you want to see me again... But I won't let you.♥",
+                                    "You feel her sitting down right behind you, her sinfully soft bosom pressing into your back. Her legs wrap around your waist, one seemingly bare, and your mind dimly realizes that the silky 'blindfold' on your face must be one of her stockings...",
+                                    "Speaks", "But I will let you enjoy... {i}this{/i}.♥",
+                                    "You whine and almost cum on the spot as you feel her touch on your cock, and when you realize it is her dainty soft feet that are caressing your cock, you almost ejaculate on the spot with an incoherent moan.",
+                                    "Speaks", "Huhu, that's right...♥ These are my {i}feet{/i}.♥",
+                                    "Speaks", "You came so much in my pussy, but look at you... still so pitifully {i}hard{/i}.♥ What you really needed were my {i}feet{/i}.♥",
+                                    "Your only response is a helpless cry of pleasure as her feet start stroking your erection, skillfully pumping across your shaft at a steady, but teasingly slow pace.",
+                                    "Speaks", "That's a good cry, thrall...♥ Now let's hear your orgasmic moan next...♥ Spurt-spurt.♥",
+                                    "You oblige, never standing a chance against the assymetrical assault of her feet, and let loose...",
                                     "JumpToScene", "FeedingFootjob"
                                   ],
                         "picture": ""
@@ -182,11 +234,37 @@
                         "stance": "Sex",
                         "includes": ["Loretta"],
                         "theScene": [
-                                    "ChangeImageLayer", "Face", "1", "Flush",
+                                    "IfPlayerHasStance", "Amazon Position", "AmazonLoss",
+                                    "IfPlayerHasStance", "Foot Smothering", "SmotheringSexIntro",
+                                    "DisplayCharacters", "1", "EndLoop",
                                     "ChangeImageLayer", "Expression", "1", "EvilSmile",
                                     "Having spurted another load inside Loretta, you realize that you failed to defeat her vampire pussy even in a fair fight. You fall forward helplessly, diving facefirst into her soft tits. She smiles dangerously, putting her soft hands on your shoulders.",
                                     "Suddenly she sits up and pushes you away, making you fall on your ass, cock still spurting in defeat as it slips out of her creampied pussy. It keeps drooling cum on the ground weakly as you pant heavily, trying to catch your breath.",
                                     "Loretta doesn't seem to plan on giving you any respite however, gracefully walking up to you again. Your cum drips to the ground from her thoroughly creampied pussy but you don't see that, unable to look away from her disdainful face as she sneers down on your prone form.",
+                                    "Speaks", "Huhu... what do I do with you now?",
+                                    "ChangeImageLayer", "Expression", "1", "SmugSmile",
+                                    "She struts up behind you, resting her hands on your shoulders softly. You would recoil, her touch coming off as somehow sinister, but cannot muster any strength.",
+                                    "Speaks", "Hmm... Since you tried your best in your own way... I'll be a little nicer this once.",
+                                    "Loretta leans over gracefully, placing her upside down face right in front of yours, almost uncomfortably close. Then...",
+                                    "ChangeImageLayer", "Expression", "1", "CrimsonGaze",
+                                    "ChangeImageLayer", "GazeOverlay", "1", "Gaze",
+                                    "A flash of crimson...",
+                                    "ChangeImageLayer", "Expression", "1", "SmugSmile",
+                                    "ChangeImageLayer", "GazeOverlay", "1", "",
+                                    "And she becomes the most beautiful woman you have laid your eyes upon! Your cock grows painfully hard in mere seconds, throbbing and splattering precum on the floor in overwhelming sexual need.",
+                                    "Speaks", "A nice reaction... my little {i}thrall{/i}.♥",
+                                    "Your gorgeous priestess stands upright again, her enchanting visage disappearing from view. In its absence, your mind starts to feverishly picture her face, a pale imitation of her real splendor...",
+                                    "PlayBlackOut",
+                                    "You gasp as something covers your eyes, blocking your vision like a blindfold. It is white, soft and silky... And smells so much of Her... A husky whisper then enters your ear.",
+                                    "Speaks", "Huhu... I know you want to see me again... But I won't let you.♥",
+                                    "You feel her sitting down right behind you, her sinfully soft bosom pressing into your back. Her legs wrap around your waist, one seemingly bare, and your mind dimly realizes that the silky 'blindfold' on your face must be one of her stockings...",
+                                    "Speaks", "But I will let you enjoy... {i}this{/i}.♥",
+                                    "You whine and almost cum on the spot as you feel her touch on your cock, and when you realize it is her dainty soft feet that are caressing your cock, you almost ejaculate on the spot with an incoherent moan.",
+                                    "Speaks", "Huhu, that's right...♥ These are my {i}feet{/i}.♥",
+                                    "Speaks", "You came so much in my pussy, but look at you... still so pitifully {i}hard{/i}.♥ What you really needed were my {i}feet{/i}.♥",
+                                    "Your only response is a helpless cry of pleasure as her feet start stroking your erection, skillfully pumping across your shaft at a steady, but teasingly slow pace.",
+                                    "Speaks", "That's a good cry, thrall...♥ Now let's hear your orgasmic moan next...♥ Spurt-spurt.♥",
+                                    "You oblige, never standing a chance against the assymetrical assault of her feet, and let loose...",
                                     "JumpToScene", "FeedingFootjob"
                                   ],
                         "picture": ""
@@ -197,6 +275,7 @@
                         "stance": "",
                         "includes": ["Loretta"],
                         "theScene": [
+                                    "DisplayCharacters", "1", "EndLoop",
                                     "NoStanceIntro, this loss scene shouldn't trigger, report to Kaa with game's message history if you see this. Jumping to default footjob scene...",
                                     "JumpToScene", "FeedingFootjob"
                                   ],
@@ -343,6 +422,14 @@
                         },
                         {
                           "lineTrigger": "HitWith",
+                          "move": "Pussy Worship",
+                          "theText": [
+                                      "|f|ChangeImageLayer|/|Face|/|Flush|n||f|ChangeImageLayer|/|Expression|/|SmugSmile|n|'Nnh...♥ That's right, lick!♥'",
+                                      "|f|ChangeImageLayer|/|Face|/|Flush|n||f|ChangeImageLayer|/|Expression|/|SmugSmile|n|'Nnnhaa...♥ Huhu...♥ So earnest.♥'",
+                                      "|f|ChangeImageLayer|/|Face|/|\n|n||f|ChangeImageLayer|/|Expression|/|Embarrassed|n|'Hnnh...♥ Y-you're quite good at this...♥'"]
+                        },
+                        {
+                          "lineTrigger": "HitWith",
                           "move": "Penetrate",
                           "theText": [ "|f|CallCombatEventAndScene|/|LorettaCombatEvents|/|PenetrationCounter|n|" ]
                         },
@@ -422,6 +509,14 @@
                                       "|f|ChangeImageLayer|/|Face|/|\n|n||f|ChangeImageLayer|/|Expression|/|EmbarrassedAngry|n|'I should sew your mouth shut...'"]
                         },
                         {
+                          "lineTrigger": "HitWith",
+                          "move": ["Kiss Feet", "Lick Soles", "Sniff Feet", "Suck Toes"],
+                          "theText": [
+                                      "|f|ChangeImageLayer|/|Face|/|Flush|n||f|ChangeImageLayer|/|Expression|/|SmugSmile|n|'Huhu...♥ You seem really taken to them.",
+                                      "|f|ChangeImageLayer|/|Face|/|Flush|n||f|ChangeImageLayer|/|Expression|/|SmugSmile|n|'Oh nooo~ at this rate you will surely defeat me, 'Hero'. Huhuhu...♥'",
+                                      "|f|ChangeImageLayer|/|Face|/|Flush|n||f|ChangeImageLayer|/|Expression|/|SmugSmile|n|'Huhu, did you already forget about the fight? Or was this your goal all along?♥'"]
+                        },
+                        {
                             "lineTrigger": "HitWith",
                             "move": "Ear Tease",
                             "theText": [
@@ -493,7 +588,7 @@
                         },
                         {
                             "lineTrigger": "UsesMove",
-                            "move": "Disinterested Anal",
+                            "move": "Lethargic Anal",
                             "theText": [
                                         "|f|ChangeImageLayer|/|Face|/|\n|n||f|ChangeImageLayer|/|Expression|/|Boredom|n|'How long until you're spurting pitifully...?'",
                                         "|f|ChangeImageLayer|/|Face|/|\n|n||f|ChangeImageLayer|/|Expression|/|Boredom|n|'Tired of humping me yet?'",
@@ -561,7 +656,7 @@
                         {
                             "lineTrigger": "LowHealth",
                             "move": "",
-                            "theText": [ "|f|ChangeImageLayer|/|Face|/|Flush|n||f|ChangeImageLayer|/|Expression|/|Base|n|She takes a step back. 'Kuh... You're quite skilled.'"]
+                            "theText": [ "|f|ChangeImageLayer|/|Face|/|Flush|n||f|ChangeImageLayer|/|Expression|/|Base|n|She finally seems taken aback. 'Kuh... You're quite skilled.'"]
                         },
                         {
                             "lineTrigger": "PlayerLowHealth",
@@ -589,7 +684,7 @@
                             "theText": [
                                         "|f|ChangeImageLayer|/|Face|/|Flush|n||f|ChangeImageLayer|/|Expression|/|SmugGrin|n|Lost in a daze, worshipping Loretta's bare feet, you find yourself on the verge of a powerful orgasm, your cock throbbing wildly and leaking precum on the floor without end. You pant and heave for more of her foot smell, the fragrance much more important to you than clear air.|n|Loretta's feet squeeze down suddenly, trapping your nose between her carefully pedicured toes! As her overbearing aroma wipes out your thoughts, a mind-blowing orgasm rocks your body, a massive load shooting out of your engorged manhood and splattering against Loretta's pale ass.",
                                         "|f|ChangeImageLayer|/|Face|/|\n|n||f|ChangeImageLayer|/|Expression|/|LewdGrin|n|'I want to see you cum, footboy.♥' You erupt on her command, your body already being on the verge of an orgasm for a while as you submitted beneath her perfect feet. Loretta coos affectionately as your hot seed rains all over her pale backside, softly caressing your face with her feet.",
-                                        "|f|ChangeImageLayer|/|Face|/|Flush|n||f|ChangeImageLayer|/|Expression|/|SmugGrin|n|'Now... open wide.♥' Your mouth unhinges open as if having a mind of its own, instantly rewarded with a mouthful of Loretta's wonderful foot. Moaning uncontrollably, you shake your hips and unload into the air, raining your sticky seed all over the floor, sucking on her delectable toes all the while."]
+                                        "|f|ChangeImageLayer|/|Face|/|Flush|n||f|ChangeImageLayer|/|Expression|/|SmugGrin|n|'Now... open wide.♥' Your mouth swings open as if having a mind of its own, instantly rewarded with a mouthful of Loretta's wonderful foot. Moaning uncontrollably, you shake your hips and unload into the air, raining your sticky seed all over the floor, sucking on her delectable toes all the while."]
                         },
                         {
                             "lineTrigger": "OnPlayerOrgasm",
@@ -612,8 +707,8 @@
                             "move": "Face Sit",
                             "theText": [
                                         "|f|ChangeImageLayer|/|Face|/|Flush|n||f|ChangeImageLayer|/|Expression|/|SmugGrin|n|'Sniff! Inhale deeper and cum.' Her soft pussy dominating your face and the unbearably arousing smell are too much, leaving you helplessly ejaculating into the air with no other stimualtion, your hot sticky cum falling fruitlessly on the cavern floor.",
-                                        "|f|ChangeImageLayer|/|Face|/|\n|n||f|ChangeImageLayer|/|Expression|/|LewdGrin|n|Tied up in this embarrassing position, with a faceful of vampire pussy in front of you, you feel an incredible orgasm approaching. 'Huhu... Your sorry thing is leaking on its own... So lonely, I almost want to tease it.' The teasing suggestion of possible pleasure makes you let loose on the spot, splattering the cold cavern floor with your seed, your head spinning from her all-permeating aroma.",
-                                        "|f|ChangeImageLayer|/|Face|/|\n|n||f|ChangeImageLayer|/|Expression|/|LewdGrin|n|'Deep breaths, 'Hero'. Huhuhu...' She presses her soft ass into your face, muffling your weak moans with her panties. Your drooling cock already throbs powerfully on the verge of orgasm, but is denied stimulation as Loretta insistently grinds her crotch into your face...|n|But soon enough you realize that her amazing smell really is all you need to cum. With a helpless moan your cock launches thick ropes of white seed into the air, splattering the cold cavern floor fruitlessly with the proof of your defeat."]
+                                        "|f|ChangeImageLayer|/|Face|/|\n|n||f|ChangeImageLayer|/|Expression|/|LewdGrin|n|Trapped in this embarrassing position, with a faceful of vampire pussy in front of you, you feel an incredible orgasm approaching. 'Huhu... Your sorry thing is leaking on its own... So lonely, I almost want to tease it.' The teasing suggestion of possible pleasure makes you let loose on the spot, splattering the cold cavern floor with your seed, your head spinning from her all-permeating aroma.",
+                                        "|f|ChangeImageLayer|/|Face|/|\n|n||f|ChangeImageLayer|/|Expression|/|LewdGrin|n|'Deep breaths, 'Hero'. Huhuhu...' She presses her soft ass into your face, muffling your weak moans with her panties. Your drooling cock already throbs powerfully on the verge of orgasm, but is denied stimulation as Loretta insistently grinds her crotch into your face...|n|But soon enough you realize that her amazing smell really is all you need to cum. With a helpless moan you explode with thick ropes of white seed into the air, splattering the cold cavern floor fruitlessly with the proof of your defeat."]
                         },
                         {
                             "lineTrigger": "OnPlayerOrgasm",
@@ -902,11 +997,11 @@
                       ],
   "victoryScenes": [
             {
-                "NameOfScene": "",
+                "NameOfScene": "SkillCleanup",
                 "move": "",
                 "stance": "",
                 "includes": [ ""],
-                "theScene": [ ""
+                "theScene": [   "JumpToEventThenScene", "LorettaLossEvents", "SkillFix"
                           ],
                 "picture": ""
             }
@@ -1351,6 +1446,24 @@
           {
             "Name":"Adjust",
             "File": "../Mods/Pale Priestess/Images/Loretta_Hair_Overlay2.png",
+            "setXalign": "0.0",
+            "setYalign": "0.0"
+          }
+      ]
+    },
+    {
+      "Name":"GazeOverlay",
+      "StartOn": "0",
+      "AlwaysOn": "0",
+      "IsScene": "0",
+      "TheBody": "0",
+      "Overlay": "No",
+      "setXalign": "0.0",
+      "setYalign": "0.0",
+      "Images":[
+          {
+            "Name":"Gaze",
+            "File": "../Mods/Pale Priestess/Images/Loretta_Gaze_Overlay.png",
             "setXalign": "0.0",
             "setYalign": "0.0"
           }
