@@ -17,7 +17,7 @@
     "removesStance": "None",
     "requiresStatusEffect": "Paralysis",
     "requiresStatusPotency": "0",
-    "unusableIfStatusEffect": ["Drowsy", "Sleep", "Restrain", "Charm"],
+    "unusableIfStatusEffect": ["Paralyzed", "Drowsy", "Sleep", "Restrain", "Charm"],
     "power": "50",
     "minRange": "90",
     "maxRange": "120",

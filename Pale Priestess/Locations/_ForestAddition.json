@@ -1,0 +1,25 @@
+{
+    "name": "Mystic Forest",
+    "exploreTitle": "Addition",
+    "Monsters": ["Loretta"],
+    "MonsterGroups": [
+                  {
+                      "Group": ["Loretta"]
+                  }
+
+                ],
+    "Events": [""],
+    "Quests": [""],
+    "Adventures": [""],
+    "Treasure": [
+                {
+                    "Common": [""]
+                },
+                {
+                    "Uncommon": [""]
+                },
+                {
+                    "Rare": [""]
+                }
+              ]
+}

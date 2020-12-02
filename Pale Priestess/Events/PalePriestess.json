@@ -934,7 +934,7 @@
                         "ChangeImageLayer", "Expression", "1", "DangerousSmile",
                         "Speaks", "But I'll hold back until our next {i}quality time{/i}. Don't make me wait.♥",
                         "ChangeImageLayer", "Expression", "1", "Happy",
-                        "And thank you.♥",
+                        "Speaks", "And thank you.♥",
                         "SetChoice", "11", "BitingOn",
                         "KAANOTE: This option actually doesn't do anything for now, sorry! I thought I'd find places to add biting in her current scenes, but I didn't. If this kind of thing really interests you, check out the other path, there's lots of biting there.",
                         "JumpToScene", "Chat."

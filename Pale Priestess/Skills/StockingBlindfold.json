@@ -12,7 +12,7 @@
     "fetishTags": [ ""],
     "startsStance": [""],
     "requiresStance": "Any",
-    "unusableIfStance": [ "Footjob"],
+    "unusableIfStance": [ "Any"],
     "requiresTargetStance": [ "Any"],
     "unusableIfTarget": [ ""],
     "removesStance": ["None"],
