@@ -18,7 +18,7 @@
     "removesStance": ["None"],
     "requiresStatusEffect": "Charm",
     "requiresStatusPotency": "0",
-    "unusableIfStatusEffect": [ "None"],
+    "unusableIfStatusEffect": [ "Sleep"],
       "requiresStatusEffectSelf": "None",
       "requiresStatusPotencySelf": "0",
       "unusableIfStatusEffectSelf": [ "None"],

@@ -17,7 +17,7 @@
     "removesStance": "None",
     "requiresStatusEffect": "None",
     "requiresStatusPotency": "0",
-    "unusableIfStatusEffect": [ "Charm"],
+    "unusableIfStatusEffect": ["Sleep", "Charm"],
     "power": "50",
     "minRange": "90",
     "maxRange": "110",
