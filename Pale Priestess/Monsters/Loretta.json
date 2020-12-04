@@ -25,19 +25,19 @@
             "Suffocating Foot Sex",
             "Lethargic Anal",
 
-            "Ensorcelled Gaze",
+            "Ensorcelled Gaze","Ensorcelled Gaze",
               "Stocking Blindfold",
               "Reach-around Footjob",
               "Insidious Whispers", "Insidious Whispers",
 
-            "Vampire's Night Terrors", "Vampire's Night Terrors",
+            "Vampire's Night Terrors","Vampire's Night Terrors",
               "Dream of Vampire Pussy","Dream of Vampire Pussy","Dream of Vampire Pussy","Dream of Vampire Pussy",
                 "Nightmare Riding",
               "Dream of Priestess Panties","Dream of Priestess Panties","Dream of Priestess Panties","Dream of Priestess Panties",
                 "Nightmare Suffocation",
 
-            "Priestess Needle",
-              "Stiffening Caress",
+            "Priestess Needle","Priestess Needle",
+              "Stiffening Caress","Stiffening Caress","Stiffening Caress",
               "Silky Handjob"
 
 
@@ -1109,6 +1109,12 @@
           {
             "Name":"BaseBottomless",
             "File": "../Mods/Pale Priestess/Images/Loretta_Base_NoPantiesNoStockings.png",
+            "setXalign": "0.0",
+            "setYalign": "0.0"
+          },
+          {
+            "Name":"BaseNopan",
+            "File": "../Mods/Pale Priestess/Images/Loretta_Base_Nopan.png",
             "setXalign": "0.0",
             "setYalign": "0.0"
           },

@@ -27,7 +27,7 @@
     "statusEffect": "Sleep",
     "statusChance": "999",
     "statusDuration": "25",
-    "statusPotency": "15",
+    "statusPotency": "25",
     "statusResistedBy": "Willpower",
     "statusText": "",
     "descrip": "",

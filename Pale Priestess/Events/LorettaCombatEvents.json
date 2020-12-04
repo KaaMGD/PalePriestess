@@ -394,7 +394,6 @@
                 "Even though she's not fighting back and unabashedly lets you thrust freely into her asshole, you fail to make it count and feel your own orgasm building. With a weak cry, you thrust forward needily, your heavy balls slapping against her ass, and unleash a massive load of hot seed into her colon. |n|'Mhm, figures...'",
                 "Your balls slapping powerfully against Loretta's soft ass, you thrust frantically into her tight asshole, on the verge of orgasm. She is completely unfazed, and you let out a frustrated groan as you finally spurt inside, hilting your cock to the base as you unload deep inside the resilient undead priestess, filling her to the brim with hot cum. |n|'Had your fun yet?'",
               "EndLoop",
-              "IfPlayerSpiritGone", "DoNothing",
               "ChangeImageLayer", "Face", "Shade",
               "ChangeImageLayer", "Expression", "DangerousGlint",
               "Speaks", "Hmm...",
@@ -691,6 +690,7 @@
           {
             "NameOfScene": "InsomniaClear",
             "theScene": [
+              "IfPlayerHasStance", "Blindfold", "DoNothing",
               "EndBlackOut"
             ]
           },
@@ -763,7 +763,18 @@
               "ApplyStance", "Footjob",
               "HitPlayerWith", "Foot Stroke",
               "Her feet grip your throbbing erection, one clad in soft fabric, the other bare. You shudder and inhale sharply, your body feeling more sensitive now that you've been robbed of sight. Her dextrous feet pump your length slowly, the simple motion weakening you considerably.{DamageToPlayer}",
-              "Speaks", "I will use my feet to stroke out all of your dirty juice... Until you give yourself to {i}me{/i}."
+              "Speaks", "I will use my feet to stroke out all of your dirty juice... Until you give yourself to {i}me{/i}.",
+              "IfPlayerOrgasm", "FootjobEarlyNut"
+            ]
+          },
+          {
+            "NameOfScene": "FootjobEarlyNut",
+            "theScene": [
+              "Gripped tightly by your Mistress's soft feet, your cock is already on the verge of cumming and throbs like crazy. You pant and heave for breath, the foot-scented stocking wrapped around your face denying you clear air and making you dizzy.",
+              "PlayerOrgasm", "1",
+              "With a muffled moan you let loose helplessly, launching several thick ropes of sticky cum into the air, no doubt splattering Loretta's slowly stroking feet with your prematurely released seed...",
+              "Speaks", "Huhu... We've only just begun, good you see that you're so... {i}eager{/i}.",
+              "IfPlayerSpiritGone", "Defeat"
             ]
           },
           {
@@ -776,14 +787,15 @@
               "ChangeImageLayer", "Base", "Base",
               "ChangeImageLayer", "Expression", "SmugGrin",
               "Turning back to the grinning vampire, who already seems to have replaced the stocking, you manage to calm your throbbing cock and repose yourself for the fight.",
-              "Speaks", "I'm surprised you escaped... Not content with being a mere thrall, mm?"
+              "Speaks", "I'm surprised you escaped... Not content with being a mere thrall, mm?",
+              "SetChoice", "1", ""
             ]
           },
           {
             "NameOfScene": "EndBlindfold",
             "theScene": [
               "EndBlackOut",
-              "IfPlayerDoesntHaveStance", "Footjob", "DoNothing",
+              "IfPlayerDoesntHaveStance", "Footjob", "EndFootjob",
               "Momentarily, you manage to pull off the stocking from your eyes, catching a glimpse of surroundings...",
               "ChangeImageLayer", "Expression", "SmugGrin",
               "ApplyStance", "Blindfold",
@@ -859,12 +871,12 @@
           {
             "NameOfScene": "SleepFinisherSex",
             "theScene": [
+              "ChangeImageLayer", "Base", "BaseBottomless",
+              "ChangeImageLayer", "Expression", "SmugGrin",
               "EndBlackOut",
               "EndVisualEffect",
               "ClearStances",
               "You whine needily as your sticky load launches into the air as you're torn out from your sleep! Slowly opening your eyes, still feeling groggy and confused, you also note something wrapped snugly around you...",
-              "ChangeImageLayer", "Base", "BaseBottomless",
-              "ChangeImageLayer", "Expression", "SmugGrin",
               "Speaks", "Seen any nice dreams?",
               "ApplyStatusEffect", "LorettaRestrains",
               "Loretta looms over you smugly, not touching you, and you are not sure what caused the intense orgasm. As your mind comes down from orgasmic high to chase away the last of the drowsiness, you finally realize that you were quite thoroughly tied up... and more!",
@@ -876,10 +888,10 @@
               "ApplyStance", "Sex",
               "In one smooth motion Loretta drops her hips, plunging the entirety of your engorged erection into her cool and inhumanly tight slit!",
               "SetChoice", "2", "Barefoot",
-              "RemoveSkillFromMonster", "Vampire's Night Terrors",
-              "RemoveSkillFromMonster", "Ensorcelled Gaze",
+              "RemoveSkillFromMonster", "Vampire's Night Terrors","RemoveSkillFromMonster", "Vampire's Night Terrors",
+              "RemoveSkillFromMonster", "Ensorcelled Gaze","RemoveSkillFromMonster", "Ensorcelled Gaze",
               "RemoveSkillFromMonster", "Suffocating Foot Sex",
-              "GiveSkillToMonster", "Barefoot Invitation",
+              "GiveSkillToMonster", "Barefoot Invitation","GiveSkillToMonster", "Barefoot Invitation",
               "GiveSkillToMonster", "Smothering Encouragement",
               "GiveSkillToMonster", "Barefoot Sex",
               "IfPlayerSpiritGone", "Defeat"
@@ -1038,7 +1050,9 @@
                 "|f|ChangeImageLayer|/|Face|/|Blush|n||f|ChangeImageLayer|/|Expression|/|Pained|n|'N-no, no no no way! Hyaan!♥'",
                 "|f|ChangeImageLayer|/|Face|/|Blush|n||f|ChangeImageLayer|/|Expression|/|Pained|n|'H-how could I... To this... Hyaahn!♥'",
               "EndLoop",
-              "DefeatMonster"
+              "DefeatMonster",
+              "ClearFightForVictory",
+              "EndCombat"
             ]
           },
           {

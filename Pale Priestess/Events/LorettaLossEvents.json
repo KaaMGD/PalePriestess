@@ -117,8 +117,7 @@
                       "ChangeImageLayer", "Expression", "1", "CrimsonGaze",
                       "ChangeImageLayer", "GazeOverlay", "1", "Gaze",
                       "Speaks", "You will come visit me again... And tell no one else of me...",
-                      "ChangeSensitivity", "Pain", "3",
-                      "ChangeSensitivity", "Sex", "3",
+                      "ChangeSensitivity", "Sex", "5",
                       "CallSceneThenReturn", "SkillFix",
                       "GameOver"
                     ]
@@ -183,6 +182,7 @@
                       "Speaks", "You will come visit me again... And tell no one else of me...",
                       "ChangeSensitivity", "Pain", "5",
                       "ChangeSensitivity", "Sex", "3",
+                      "ChangeFetish", "Monstrous", "5",
                       "CallSceneThenReturn", "SkillFix",
                       "GameOver"
                     ]
@@ -226,7 +226,7 @@
                       "ChangeImageLayer", "Expression", "1", "AngerSubdued",
                       "Speaks", "Oh do be quiet, or I'll just leave you here.",
                       "ChangeImageLayer", "Expression", "1", "Boredom",
-                      "ChangeImageLayer", "Base", "1", "BaseBottomless",
+                      "ChangeImageLayer", "Base", "1", "BaseNopan",
                       "You promptly shut up, your fuzzy and confused mind mildly terrified at the idea of being removed from the wonderfully-smelling vampiress. In silent awe, you watch as Loretta pulls off her lacy panties before sitting on your face again, presenting her bare pussy to your already lapping tongue.",
                       "The direct smell of her bare pussy is different. More intense, erotic... intoxicating. You huff needily, eager for more of the wondorous fragrance... As her wonderful juices finally grace your tongue, your lust flares up, cock almost leaking more seed on the spot.",
                       "Speaks", "I don't want this to take too long, so here, help yourself.",
@@ -343,6 +343,7 @@
                       "Speaks", "You will come visit me again... And tell no one else of me...",
                       "ChangeSensitivity", "Pain", "7",
                       "ChangeSensitivity", "Sex", "5",
+                      "ChangeFetish", "Monstrous", "5",
                       "ChangeFetish", "Feet", "10",
                       "CallSceneThenReturn", "SkillFix",
                       "GameOver"
