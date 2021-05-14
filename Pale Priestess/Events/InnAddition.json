@@ -1,6 +1,6 @@
 {
     "name": "Enter the Bar.",
-    "CardType": "Addition",
+    "Addition": "Yes",
     "CardLimit": "0",
     "Description": "",
     "requires": [ ""],

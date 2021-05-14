@@ -1,6 +1,6 @@
 {
     "name": "Multi Thrust",
-    "skillType": "Addition",
+    "Addition": "Yes",
     "fetishTags": [],
     "startsStance": "",
     "unusableIfStance": [],

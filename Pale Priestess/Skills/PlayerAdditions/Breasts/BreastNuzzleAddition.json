@@ -1,6 +1,6 @@
 {
     "name": "Breast Nuzzle",
-    "skillType": "Addition",
+    "Addition": "Yes",
     "fetishTags": [],
     "startsStance": "",
     "unusableIfStance": ["Foot Worship"],

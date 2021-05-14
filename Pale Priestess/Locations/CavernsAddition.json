@@ -1,6 +1,6 @@
 {
     "name": "Caverns",
-    "exploreTitle": "Addition",
+    "Addition": "Yes",
     "Monsters": [],
     "MonsterGroups": [ ],
     "Events": ["Sanguine Priestess"],

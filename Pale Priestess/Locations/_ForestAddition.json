@@ -1,6 +1,6 @@
 {
     "name": "Mystic Forest",
-    "exploreTitle": "Addition",
+    "Addition": "Yes",
     "Monsters": ["Loretta"],
     "MonsterGroups": [
                   {
