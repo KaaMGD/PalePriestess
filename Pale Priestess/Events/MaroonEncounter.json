@@ -543,7 +543,7 @@
                     {
                       "NameOfScene": "JudgingYou",
                       "theScene": [
-                        "ProgressEqualsOrGreater", "0", "PositiveFinale",
+                        "IfProgressEqualsOrGreater", "0", "PositiveFinale",
                         "JumpToScene", "NegativeFinale"
                       ]
                     },
