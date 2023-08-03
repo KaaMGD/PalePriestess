@@ -1,14 +1,20 @@
 {
     "name": "Pale Priestess",
     "description": "Adds a new quest, {b}A Maroon Encounter...{/b}, featuring a mysterious priestess named Loretta with original art. Features two separate paths which are dictated by your choices during the quest.",
-    "testedFor": 25.2,
+    "testedFor": {"major": 25, "minor": 4, "patch": 1},
     "version": 1.65,
     "tags" : [
         "+1 Character",
         "Two Story Paths",
         "Original Art"
     ],
-    "credits": "{b}Music{/b}\nChill Factor by {a=https://www.purple-planet.com/}Purple Planet Music{/a}\nPossession by {a=https://www.purple-planet.com/}Purple Planet Music{/a}\n{b}Testers{/b}\nValentin Cognito",
+    "credits": [
+    "{b}Music{/b}",
+    "Chill Factor by {a=https://www.purple-planet.com/}Purple Planet Music{/a}",
+    "Possession by {a=https://www.purple-planet.com/}Purple Planet Music{/a}",
+    "{b}Testers{/b}",
+    "Valentin Cognito"
+    ],
     "authors": [
         "Kaa"
     ],
