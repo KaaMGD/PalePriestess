@@ -34,7 +34,7 @@
                                       "Speaks", "Well... This was a fun expedition.",
                                       "Her tone is different, her voice unusually cold and... strained.",
                                       "ChangeImageLayer", "Expression", "1", "DangerousGlint",
-                                      "Speaks", "But we are done here, {ThePlayerName}.",
+                                      "Speaks", "But we are done here, [ThePlayerName].",
                                       "Speaks", "To the end, you were so... adorably oblivious.",
                                       "ChangeImageLayer", "Expression", "1", "CrimsonGaze",
                                       "Speaks", "And at the same time...|n|Rather unpleasant.",

@@ -1,8 +1,8 @@
 {
     "name": "Pale Priestess",
     "description": "Adds a new quest, {b}A Maroon Encounter...{/b}, featuring a mysterious priestess named Loretta with original art. Features two separate paths which are dictated by your choices during the quest.",
-    "testedFor": {"major": 25, "minor": 4, "patch": 1},
-    "version": 1.65,
+    "testedFor": {"major": 25, "minor": 6, "patch": 0},
+    "version": 1.69,
     "tags" : [
         "+1 Character",
         "Two Story Paths",
