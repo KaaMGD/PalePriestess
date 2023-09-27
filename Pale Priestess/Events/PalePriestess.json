@@ -201,7 +201,7 @@
                       "theScene": [
                         "ChangeImageLayer", "Face", "1", "Blush",
                         "ChangeImageLayer", "Expression", "1", "Languid",
-                        "Speaks", "Mmm... {ThePlayerName}...",
+                        "Speaks", "Mmm... [ThePlayerName]...",
                         "ChangeImageLayer", "Expression", "1", "ShySmile",
                         "Speaks", "I have... some reservations about flirting in public...",
                         "ChangeImageLayer", "Expression", "1", "Languid",
@@ -416,7 +416,7 @@
                         "ChangeImageLayer", "Expression", "1", "Resolute",
                         "When you sit across from her, she frowns, her features growing unexpectedly tense.",
                         "ChangeBGM", "music/Emotional/Dance dance.mp3",
-                        "Speaks", "{ThePlayerName}... You're here.",
+                        "Speaks", "[ThePlayerName]... You're here.",
                         "Sensing that something is amiss, you tense up as well. Loretta doesn't look her usual languid and relaxed self.",
                         "PlayerSpeaks", "... Is something wrong?",
                         "ChangeImageLayer", "Expression", "1", "Sad",
@@ -476,7 +476,7 @@
                         "ChangeBG", "forestNight.png",
                         "The silence is awkward, but quickly enough, the two of you arrive in the forest. The priestess keeps walking silently, deeper and deeper into the forest. Just as you worry that you will start running into elf traps soon, Loretta finally stops and turns to face you.",
                         "ChangeImageLayer", "Expression", "1", "EyesClosed",
-                        "Speaks", "{ThePlayerName}... There is something you need to know.",
+                        "Speaks", "[ThePlayerName]... There is something you need to know.",
                         "Menu",
                           "'That you love me?'",
                           "'That you like having sex outdoors?'",
@@ -691,7 +691,7 @@
                         "Deciding to spend some time with your vampire friend, you make your way towards her table. Loretta looks a little bored, regarding her wine glass with an absent gaze.",
                         "ChangeImageLayer", "Expression", "1", "LanguidFang",
                         "She smiles broadly as you sit across from her. Paying attention, you notice you can see her fangs... And you realize that it makes her smile all the more sincere.",
-                        "Speaks", "{ThePlayerName}... Thank you. And good to see you again.",
+                        "Speaks", "[ThePlayerName]... Thank you. And good to see you again.",
                         "SetChoice", "6", "RepeatLoop",
                         "JumpToScene", "FullMainHub"
                       ]
@@ -705,7 +705,7 @@
                         "ChangeImageLayer", "Expression", "1", "Kissy",
                         "She smiles softly as you sit across from her, leaning over the table for a quick peck.",
                         "ChangeImageLayer", "Expression", "1", "LanguidFang",
-                        "Speaks", "{ThePlayerName}.",
+                        "Speaks", "[ThePlayerName].",
                         "JumpToScene", "FullMainHub"
                       ]
                     },
