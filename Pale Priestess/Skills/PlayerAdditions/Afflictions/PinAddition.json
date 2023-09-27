@@ -10,9 +10,9 @@
     "unusableIfPerk": [],
     "unusableIfPerkSelf": [],
 
-    "restraintStruggle": " struggles against 's grip...",
-    "restraintStruggleCharmed": " weakly struggles against 's grip...",
-    "restraintEscaped": "|f|CallCombatEventAndScene|/|PlayerEndOfCombat|/|EndPin|n| manages get free of 's pin!",
-    "restraintEscapedFail": "But  can't get free of 's tight hold!",
+    "restraintStruggle": "{TargetName} struggles against {AttackerName}'s grip...",
+    "restraintStruggleCharmed": "{TargetName} weakly struggles against {AttackerName}'s grip...",
+    "restraintEscaped": "|f|CallCombatEventAndScene|/|PlayerEndOfCombat|/|EndPin|n|{TargetName} manages get free of {AttackerName}'s pin!",
+    "restraintEscapedFail": "But {TargetName} can't get free of {AttackerName}'s tight hold!",
     "restraintOnLoss": "|f|CallCombatEventAndScene|/|PlayerEndOfCombat|/|EndPin|n|"
 }
