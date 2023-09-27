@@ -33,7 +33,7 @@
     "descrip": "Decreases how much arousal you take!",
     "outcome": "",
     "miss": "",
-    "statusOutcome": "{AttackerName} channels a holy spell, creating a shimmering shield of protective energy to lower her sensitivity!",
+    "statusOutcome": " channels a holy spell, creating a shimmering shield of protective energy to lower her sensitivity!",
     "statusMiss": "",
     "restraintStruggle": "",
     "restraintStruggleCharmed": "",

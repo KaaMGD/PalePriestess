@@ -34,8 +34,8 @@
     "miss": "",
     "statusOutcome": " ",
     "statusMiss": " ",
-    "restraintStruggle": "{TargetName} desperately struggles against {AttackerName}'s white stockings wrapped all around {TargetHisOrHer} limbs...",
+    "restraintStruggle": " desperately struggles against 's white stockings wrapped all around  limbs...",
     "restraintStruggleCharmed": "This is a restraint struggle with charm line, it shouldn't be possible to get both charmed and restrained, so report this to Kaa with a screenshot of game's message history, ideally.",
     "restraintEscaped": "|f|CallCombatEventAndScene|/|LorettaCombatEvents|/|RestraintBreak|n|",
-    "restraintEscapedFail": "But {TargetName} can't get free of {AttackerName}'s stretchy white stockings!"
+    "restraintEscapedFail": "But  can't get free of 's stretchy white stockings!"
 }

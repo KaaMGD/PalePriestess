@@ -34,8 +34,8 @@
               "ApplyStance", "Foot Smothering",
               "SetPostName", " - Foot Smother", "FocusedSpeaksSkill",
               "SwapLineIf", "Choice",
-                "2", "", "As your cock slips inside her cool and tight womanly folds, Loretta flashes her fangs in a predatory smile. Laying on her back, she lifts her long legs into the air, and presses both of her stocking-clad feet in your face! An insidious, bittersweet fragrance starts permeating your senses...{DamageToPlayer}",
-                "2", "Barefoot", "As your cock slips inside her cool and tight womanly folds, Loretta flashes her fangs in a predatory smile. Laying on her back, she lifts her long legs into the air, and presses both of her bare feet in your face! An insidious, bittersweet fragrance starts permeating your senses...{DamageToPlayer}",
+                "2", "", "As your cock slips inside her cool and tight womanly folds, Loretta flashes her fangs in a predatory smile. Laying on her back, she lifts her long legs into the air, and presses both of her stocking-clad feet in your face! An insidious, bittersweet fragrance starts permeating your senses...",
+                "2", "Barefoot", "As your cock slips inside her cool and tight womanly folds, Loretta flashes her fangs in a predatory smile. Laying on her back, she lifts her long legs into the air, and presses both of her bare feet in your face! An insidious, bittersweet fragrance starts permeating your senses...",
               "EndLoop",
               "SetPostName", "",
               "Speaks", "For your added pleasure... Huhuhu...",
@@ -110,7 +110,7 @@
               "HitPlayerWith", "Foot Smother",
               "CallSceneThenReturn", "RandomFootStatus",
               "SetPostName", " - Foot Smother", "FocusedSpeaksSkill",
-              "She presses her feet into your face harder, catching your nose between her big and index toes. You can't help but take a long, needy breath...{DamageToPlayer}",
+              "She presses her feet into your face harder, catching your nose between her big and index toes. You can't help but take a long, needy breath...",
               "SetPostName", "",
               "Grabbing her feet with both of your hands needily, you run your tongue over her perfect, slightly damp soles. Your cock can only throb helplessly inside her tight pussy as you focus on her divine feet instead..."
             ]
@@ -125,7 +125,7 @@
               "HitPlayerWith", "Foot Smother",
               "CallSceneThenReturn", "RandomFootStatus",
               "SetPostName", " - Foot Smother", "FocusedSpeaksSkill",
-              "She presses her feet into your face harder, catching your nose between her big and index toes. You can't help but take a long, needy breath...{DamageToPlayer}",
+              "She presses her feet into your face harder, catching your nose between her big and index toes. You can't help but take a long, needy breath...",
               "SetPostName", "",
               "Grabbing her feet with both of your hands needily, you run your tongue over her perfect, slightly damp soles. Your cock can only throb helplessly inside her tight pussy as you focus on her divine feet instead..."
             ]
@@ -144,7 +144,7 @@
               "HitPlayerWith", "Foot Smother",
               "CallSceneThenReturn", "RandomFootStatus",
               "SetPostName", " - Foot Smother", "FocusedSpeaksSkill",
-              "Each time you thrust your hips forward, Loretta pushes her soft feet into your face... {DamageToPlayer}",
+              "Each time you thrust your hips forward, Loretta pushes her soft feet into your face... ",
               "SetPostName", "",
               "FocusedSpeaks",
               "SwapLineIf", "Random",
@@ -173,7 +173,7 @@
               "HitPlayerWith", "Foot Smother",
               "CallSceneThenReturn", "RandomFootStatus",
               "SetPostName", " - Foot Smother", "FocusedSpeaksSkill",
-              "With each powerful thrust of your hips, Loretta pushes back with her soft feet in your face... {DamageToPlayer}",
+              "With each powerful thrust of your hips, Loretta pushes back with her soft feet in your face... ",
               "SetPostName", "",
               "FocusedSpeaks",
               "SwapLineIf", "Random",
@@ -191,7 +191,7 @@
               "HitPlayerWith", "Foot Smother",
               "CallSceneThenReturn", "RandomFootStatus",
               "SetPostName", " - Foot Smother", "FocusedSpeaksSkill",
-              "With each lovey-dovey thrust of your hips, Loretta pushes back with her soft feet in your face... {DamageToPlayer}",
+              "With each lovey-dovey thrust of your hips, Loretta pushes back with her soft feet in your face... ",
               "SetPostName", "",
               "FocusedSpeaks",
               "SwapLineIf", "Random",
@@ -427,7 +427,7 @@
               "HitPlayerWith", "Blood-chilling Glare",
               "ApplyStatusEffect", "Blood-chilling Glare",
               "SetPostName", " - Blood-chilling Glare", "FocusedSpeaksSkill",
-              "Her normally pale eyes flash a horrifying red, the magical glow leaving you paralyzed on the spot! {DamageToPlayer}",
+              "Her normally pale eyes flash a horrifying red, the magical glow leaving you paralyzed on the spot! ",
               "SetPostName", "",
               "ChangeImageLayer", "Expression", "Anger",
               "ChangeArousalQuietly", "100",
@@ -538,7 +538,7 @@
             "NameOfScene": "...at her lips.",
             "theScene": [
               "HitPlayerWith", "Lips Sight",
-              "Escaping the spell, you look down to Loretta's sensual lips and your heart flutters in your chest from the sight. You watch in awe as her horrifying fangs softly bite at her lips, the contrast of yielding flesh and animalistic sharpness so oddly appealing...{DamageToPlayer}",
+              "Escaping the spell, you look down to Loretta's sensual lips and your heart flutters in your chest from the sight. You watch in awe as her horrifying fangs softly bite at her lips, the contrast of yielding flesh and animalistic sharpness so oddly appealing...",
               "StatCheck",
               "ChangeStatCheckDifficulty", "IfFetishLevelEqualOrGreater", "Oral", "25", "2",
               "ChangeStatCheckDifficulty", "IfFetishLevelEqualOrGreater", "Oral", "50", "4",
@@ -565,12 +565,12 @@
             "NameOfScene": "FailLips",
             "theScene": [
               "HitPlayerWith", "Lips Sight",
-              "Her luscious lips look so soft and you're slowly losing yourself in them... Her pearly white fangs look so right, biting down powerfully on her perfect lips, nearly drawing blood... You start to wonder how it would feel, getting bitten like that...?{DamageToPlayer}",
+              "Her luscious lips look so soft and you're slowly losing yourself in them... Her pearly white fangs look so right, biting down powerfully on her perfect lips, nearly drawing blood... You start to wonder how it would feel, getting bitten like that...?",
               "You snap out of the delusion momentarily, but in the end you can't, can't look away from her!",
               "HitPlayerWith", "Vampiric Enthrallment",
               "ApplyStatusEffect", "Vampiric Enthrallment",
               "SetPostName", " - Vampiric Enthrallment", "FocusedSpeaksSkill",
-              "As if giving up, your eyes steal a glance at the crimson abyss emanating from her gaze... And you don't look away again.{DamageToPlayer}",
+              "As if giving up, your eyes steal a glance at the crimson abyss emanating from her gaze... And you don't look away again.",
               "SetPostName", "",
               "JumpToScene", "GazeWrapup"
             ]
@@ -579,7 +579,7 @@
             "NameOfScene": "...at her breasts.",
             "theScene": [
               "HitPlayerWith", "Breasts Sight",
-              "Escaping the spell, your gaze falls to Loretta's heavy bosom, the tight cleavage a natural magnet for the eyes. Loretta stands still, doing nothing to emphasize her chest, but it is still difficult to look away for good...{DamageToPlayer}",
+              "Escaping the spell, your gaze falls to Loretta's heavy bosom, the tight cleavage a natural magnet for the eyes. Loretta stands still, doing nothing to emphasize her chest, but it is still difficult to look away for good...",
               "StatCheck",
               "ChangeStatCheckDifficulty", "IfFetishLevelEqualOrGreater", "Breasts", "25", "4",
               "ChangeStatCheckDifficulty", "IfFetishLevelEqualOrGreater", "Breasts", "50", "6",
@@ -592,12 +592,12 @@
             "NameOfScene": "FailTits",
             "theScene": [
               "HitPlayerWith", "Breasts Sight",
-              "Her heavy tits look so soft and inviting and you're slowly losing yourself in the depths of her pale cleavage... Her porcelain skin is {i}perfect{/i}, not a single blemish in sight... Maybe if you put your face in there, you could escape the scary glare...?{DamageToPlayer}",
+              "Her heavy tits look so soft and inviting and you're slowly losing yourself in the depths of her pale cleavage... Her porcelain skin is {i}perfect{/i}, not a single blemish in sight... Maybe if you put your face in there, you could escape the scary glare...?",
               "You snap out of the delusion momentarily, but in the end you can't, can't look away from her!",
               "HitPlayerWith", "Vampiric Enthrallment",
               "ApplyStatusEffect", "Vampiric Enthrallment",
               "SetPostName", " - Vampiric Enthrallment", "FocusedSpeaksSkill",
-              "As if giving up, your eyes steal a glance at the crimson abyss emanating from her gaze... And you don't look away again.{DamageToPlayer}",
+              "As if giving up, your eyes steal a glance at the crimson abyss emanating from her gaze... And you don't look away again.",
               "SetPostName", "",
               "JumpToScene", "GazeWrapup"
             ]
@@ -606,7 +606,7 @@
             "NameOfScene": "...at her legs.",
             "theScene": [
               "HitPlayerWith", "Legs Sight",
-              "Escaping the spell, your gaze travels all the way to Loretta's stocking-clad legs, the plump creamy flesh of her thigh pleasing to the eye. Loretta stands still, doing nothing to flaunt her long legs, but it is still difficult to look away for good...{DamageToPlayer}",
+              "Escaping the spell, your gaze travels all the way to Loretta's stocking-clad legs, the plump creamy flesh of her thigh pleasing to the eye. Loretta stands still, doing nothing to flaunt her long legs, but it is still difficult to look away for good...",
               "StatCheck",
               "ChangeStatCheckDifficulty", "IfFetishLevelEqualOrGreater", "Legs", "25", "4",
               "ChangeStatCheckDifficulty", "IfFetishLevelEqualOrGreater", "Legs", "50", "6",
@@ -619,12 +619,12 @@
             "NameOfScene": "FailLegs",
             "theScene": [
               "HitPlayerWith", "Legs Sight",
-              "Her thighs look so soft and inviting that you find yourself losing focus, just watching and watching her long legs... Her porcelain skin is {i}perfect{/i}, not a single blemish in sight... Maybe if you stuffed your face between her thighs, you could escape the scary glare...?{DamageToPlayer}",
+              "Her thighs look so soft and inviting that you find yourself losing focus, just watching and watching her long legs... Her porcelain skin is {i}perfect{/i}, not a single blemish in sight... Maybe if you stuffed your face between her thighs, you could escape the scary glare...?",
               "You snap out of the delusion momentarily, but in the end you can't, can't look away from her!",
               "HitPlayerWith", "Vampiric Enthrallment",
               "ApplyStatusEffect", "Vampiric Enthrallment",
               "SetPostName", " - Vampiric Enthrallment", "FocusedSpeaksSkill",
-              "As if giving up, your eyes steal a glance at the crimson abyss emanating from her gaze... And you don't look away again.{DamageToPlayer}",
+              "As if giving up, your eyes steal a glance at the crimson abyss emanating from her gaze... And you don't look away again.",
               "SetPostName", "",
               "JumpToScene", "GazeWrapup"
             ]
@@ -633,7 +633,7 @@
             "NameOfScene": "...at her feet.",
             "theScene": [
               "HitPlayerWith", "Feet Sight",
-              "Escaping the spell, your gaze travels all the way down to Loretta's stocking-clad feet, their elegant shape also intensely erotic, as it is complemented by her high heels. Loretta shifts her feet subtly, the simplest of movement capable of captivating you, making it incredibly difficult to look away...{DamageToPlayer}",
+              "Escaping the spell, your gaze travels all the way down to Loretta's stocking-clad feet, their elegant shape also intensely erotic, as it is complemented by her high heels. Loretta shifts her feet subtly, the simplest of movement capable of captivating you, making it incredibly difficult to look away...",
               "StatCheck",
               "ChangeStatCheckDifficulty", "IfFetishLevelEqualOrGreater", "Feet", "25", "4",
               "ChangeStatCheckDifficulty", "IfFetishLevelEqualOrGreater", "Feet", "50", "8",
@@ -646,12 +646,12 @@
             "NameOfScene": "FailFeetEyes",
             "theScene": [
               "HitPlayerWith", "Feet Sight",
-              "Her feet look so graceful and sensual that you find yourself completely drawn in and enchanted... Her elegant toes are {i}perfect{/i}, you cannot even imagine overcoming their immaculate excellence... Maybe if you prostrated yourself at her divine feet, you could escape the scary glare...?{DamageToPlayer}",
+              "Her feet look so graceful and sensual that you find yourself completely drawn in and enchanted... Her elegant toes are {i}perfect{/i}, you cannot even imagine overcoming their immaculate excellence... Maybe if you prostrated yourself at her divine feet, you could escape the scary glare...?",
               "You snap out of the delusion momentarily, but in the end you can't, can't look away from her!",
               "HitPlayerWith", "Vampiric Enthrallment",
               "ApplyStatusEffect", "Vampiric Enthrallment",
               "SetPostName", " - Vampiric Enthrallment", "FocusedSpeaksSkill",
-              "As if giving up, your eyes steal a glance at the crimson abyss emanating from her gaze... And you don't look away again.{DamageToPlayer}",
+              "As if giving up, your eyes steal a glance at the crimson abyss emanating from her gaze... And you don't look away again.",
               "SetPostName", "",
               "JumpToScene", "GazeWrapup"
             ]
@@ -660,31 +660,31 @@
             "NameOfScene": "...back to her eyes...",
             "theScene": [
               "HitPlayerWith", "Vampiric Enthrallment",
-              "Never escaping the spell, you greedily take in her magic, never even trying to look away. The crimson abyss in her cursed eyes encompasses everything, replacing your entire world as your body starts shaking in helpless pleasure, giving yourself entirety to Her control. In the end, you realize you could never escape her enchanting visage...{DamageToPlayer}",
+              "Never escaping the spell, you greedily take in her magic, never even trying to look away. The crimson abyss in her cursed eyes encompasses everything, replacing your entire world as your body starts shaking in helpless pleasure, giving yourself entirety to Her control. In the end, you realize you could never escape her enchanting visage...",
               "HitPlayerWith", "Vampiric Enthrallment",
               "ApplyStatusEffect", "Vampiric Enthrallment",
               "SetPostName", " - Vampiric Enthrallment", "FocusedSpeaksSkill",
-              "Her wondrous eyes flash once more, instantly wiping away all of your thoughts... A single command rings in your empty mind - to never look away again.{DamageToPlayer}",
+              "Her wondrous eyes flash once more, instantly wiping away all of your thoughts... A single command rings in your empty mind - to never look away again.",
               "SetPostName", "",
               "ChangeImageLayer", "Face", "Flush",
               "ChangeImageLayer", "GazeOverlay", "",
               "ChangeImageLayer", "Expression", "SmugGrin",
               "Speaks", "Good, good... My little {i}thrall{/i}.",
               "HitPlayerWith", "Seduce",
-              "The word sends shivers of needy pleasure through your strangely sensitive body! Merely being referred to as a 'thrall' by Her brings your body unbearable pleasure...{DamageToPlayer}"
+              "The word sends shivers of needy pleasure through your strangely sensitive body! Merely being referred to as a 'thrall' by Her brings your body unbearable pleasure..."
             ]
           },
           {
             "NameOfScene": "GazeWrapup",
             "theScene": [
               "HitPlayerWith", "Vampiric Enthrallment",
-              "The crimson abyss in her cursed eyes encompasses everything, replacing your entire world as your body start shaking in helpless pleasure, giving yourself entirety to Her control. In the end, you realize you could never escape the enchanting visage of your Mistress...{DamageToPlayer}",
+              "The crimson abyss in her cursed eyes encompasses everything, replacing your entire world as your body start shaking in helpless pleasure, giving yourself entirety to Her control. In the end, you realize you could never escape the enchanting visage of your Mistress...",
               "ChangeImageLayer", "Face", "Flush",
               "ChangeImageLayer", "GazeOverlay", "",
               "ChangeImageLayer", "Expression", "SmugGrin",
               "Speaks", "Good, good... My little {i}thrall{/i}.",
               "HitPlayerWith", "Seduce",
-              "The word sends shivers of needy pleasure through your strangely sensitive body! Merely being referred to as a 'thrall' by Her brings your body overwhelming pleasure...{DamageToPlayer}"
+              "The word sends shivers of needy pleasure through your strangely sensitive body! Merely being referred to as a 'thrall' by Her brings your body overwhelming pleasure..."
             ]
           },
           {
@@ -753,16 +753,16 @@
               "ApplyStance", "Blindfold",
               "HitPlayerWith", "Seduce",
               "SetPostName", " - Stocking Blindfold", "FocusedSpeaksSkill",
-              "She takes a single step in your direction, already slipping behind your dazed self the very next moment. You are not sure how that happened, but that's the least of your concerns as her stocking is wrapped around your eyes! Following the overbearing fragrance of her foot sweat creeping into your nostrils, a smoldering hot whisper invades your vulnerable ear...{DamageToPlayer}",
+              "She takes a single step in your direction, already slipping behind your dazed self the very next moment. You are not sure how that happened, but that's the least of your concerns as her stocking is wrapped around your eyes! Following the overbearing fragrance of her foot sweat creeping into your nostrils, a smoldering hot whisper invades your vulnerable ear...",
               "SetPostName", "",
               "Speaks", "Thralls get to enjoy... special privileges.",
               "HitPlayerWith", "Seduce",
-              "Your heart aches as you can no longer see your vampiric mistress, but the soft touch of her hands on your chest brings comfort. Embracing you from behind, the taller woman keeps whispering seductively in your ear...{DamageToPlayer}",
+              "Your heart aches as you can no longer see your vampiric mistress, but the soft touch of her hands on your chest brings comfort. Embracing you from behind, the taller woman keeps whispering seductively in your ear...",
               "Speaks", "Carefully now... sit down.",
               "You obey. A thrall couldn't go against her wishes even if he wanted to... As you slump down to the stone floor, you feel her long legs wrap around your waist, the fallen priestess possessively latching onto you from behind.",
               "ApplyStance", "Footjob",
               "HitPlayerWith", "Foot Stroke",
-              "Her feet grip your throbbing erection, one clad in soft fabric, the other bare. You shudder and inhale sharply, your body feeling more sensitive now that you've been robbed of sight. Her dextrous feet pump your length slowly, the simple motion weakening you considerably.{DamageToPlayer}",
+              "Her feet grip your throbbing erection, one clad in soft fabric, the other bare. You shudder and inhale sharply, your body feeling more sensitive now that you've been robbed of sight. Her dextrous feet pump your length slowly, the simple motion weakening you considerably.",
               "Speaks", "I will use my feet to stroke out all of your dirty juice... Until you give yourself to {i}me{/i}.",
               "IfPlayerOrgasm", "FootjobEarlyNut"
             ]
@@ -934,7 +934,7 @@
               "ChangeImageLayer", "Shoes", "",
               "HitPlayerWith", "Feet Sight",
               "SetPostName", " - Barefoot Invitation", "FocusedSpeaksSkill",
-              "Loretta sits on the floor gracefully, slipping her feet from her shoes and raising them into the air, wiggling her toes at you playfully. Her bare pussy is plainly visible as well, glistening in the dim light, barely covered by her tiny robe...{DamageToPlayer}",
+              "Loretta sits on the floor gracefully, slipping her feet from her shoes and raising them into the air, wiggling her toes at you playfully. Her bare pussy is plainly visible as well, glistening in the dim light, barely covered by her tiny robe...",
               "Speaks", "Kneel. And you may kiss them...",
               "SetPostName", "",
               "Your cock throbs powerfully from the sight, unbidden but intense fantasies of worshipping her perfect feet come flooding into your mind...",
@@ -965,7 +965,7 @@
               "ApplyStance", "Foot Worship",
               "HitPlayerWith", "Foot Smother",
               "PlayVisualEffect2", "ScreenPulse", "pinkHaze.png",
-              "The haughty priestess presses her damp soles into your face with a coo, rewarding your obedience. Like a man possessed, you rub your face against her feet, completely lost in their fragrance, the texture, the soft pressure as she playfully pushes them into your face... And the taste... the taste...!{DamageToPlayer}",
+              "The haughty priestess presses her damp soles into your face with a coo, rewarding your obedience. Like a man possessed, you rub your face against her feet, completely lost in their fragrance, the texture, the soft pressure as she playfully pushes them into your face... And the taste... the taste...!",
               "Speaks", "Huhu...♥ huhuhu...♥ Control yourself, you foot-addicted brute...♥",
               "GiveSkillQuietly", "Kiss Feet",
               "GiveSkillQuietly", "Lick Soles",
